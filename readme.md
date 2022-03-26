@@ -105,6 +105,7 @@ Continuous {
 }
 
 System Thinking
+
 Design Thinking
 
 ***
