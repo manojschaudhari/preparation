@@ -110,7 +110,7 @@ Design Thinking
 
 ***
 
-https://dzone.com/refcardz/getting-started-domain-driven
-# Lean Product Development Principles and Practices
-https://www.npd-solutions.com/lpdpractices.html
+DDD - https://dzone.com/refcardz/getting-started-domain-driven
+
+Lean Product Development Principles and Practices - https://www.npd-solutions.com/lpdpractices.html
 
