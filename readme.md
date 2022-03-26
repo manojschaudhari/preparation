@@ -59,23 +59,36 @@ Design {
 Lean Principles and Practices {
     
     Define Value to the Customer {
-    
+        Voice of the Customer
+        Quality Function Deployment 
+        Lean Design
+        Platforms and Design Re-Use
+        Rapidly Explore Alternatives
     }
     
     Identify the Value Stream and Reduce Waste {
-    
+        Streamline the Development Process
+        5S Workplace
+        Standardized Work
+        Integration of Design Tools
     }
     
     Make the Value Creating Steps Flow {
-    
+        Pipeline Management
+        Flow Process and Pull Scheduling
+        Reduce Batch Sizes
+        Synchronize Activities
+        Defer Commitment
     }
     
     Empower the Team {
-    
+        Cross-Functional Team
+        Workforce Empowerment
+        Right Resources
     }
     
     Learn and Improve {
-        __Amplify Learning__ by capturing knowledge, organizing knowledge and information, and making it readily available to others to avoid costly and time-consuming re-learning. Create knowledge bases, design guidelines, cost tables, performance curves, etc. Capture lessons learned. Undertake a like product and process review to identify issues and learning early in a project.
+        Amplify Learning
     }
     
 }
