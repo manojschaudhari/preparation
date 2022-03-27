@@ -1,3 +1,5 @@
+
+
 ***
 
 Java {
@@ -9,23 +11,53 @@ Java {
 
 Database {
           
-    SQL {
-        Referential integrity
+    SQL (Oracle/Postgres) {
+        Setup {
+            Database
+            Schema
+            User
+        }
+        Constraints / Referential integrity
         Index {
             Clustered
             Non-CLustered
         }
+        Procedure/Package
+        Cursors
+        Collections
+        Exception
+        Trigger
+        View
+        DBLink
+        Alias/Synonym
         Partition
         Sharding
         Replication
         Scheduler
-    }
-  
-    Oracle {
-    
-    }
-
-    Postgres {
+        Vaccum
+        Analytical/Windows Functions
+        Data Import/Export {
+            SQLLoader
+            COPY
+        }
+        Types of storage
+        Query Optimzers 
+        Query Hint
+        Transactions {
+            Pragma
+        }
+        Tables And Columns {
+            columnar
+            Temp Tables
+            External Tables
+            hstore
+            graph 
+            json
+            jsonb 
+            xml
+            ltree
+            array
+        }
 
     }
   
@@ -110,6 +142,18 @@ Design Thinking
 
 ***
 
+Concepts {
+
+    concurrency vs parallelism
+    distributed vs replication
+    https://www.mimecast.com/blog/data-in-transit-vs-motion-vs-rest/
+    data mart/lake/warehouse
+
+}
+
+
+***
+
 DDD - https://dzone.com/refcardz/getting-started-domain-driven
 
 Lean Product Development Principles and Practices - https://www.npd-solutions.com/lpdpractices.html
@@ -130,5 +174,10 @@ https://theamiableapi.com/2012/01/16/java-api-design-checklist/
 
 https://www.freecodecamp.org/news/systems-design-for-interviews/
 
+https://docs.digitalocean.com/products/databases/postgresql/resources/supported-extensions/
+
+https://www.stratascratch.com/blog/sql-interview-questions-you-must-prepare-the-ultimate-guide/
+
+https://kb.objectrocket.com/postgresql/types-of-indexes-in-postgresql-769
 
 
