@@ -114,3 +114,14 @@ DDD - https://dzone.com/refcardz/getting-started-domain-driven
 
 Lean Product Development Principles and Practices - https://www.npd-solutions.com/lpdpractices.html
 
+https://javarevisited.blogspot.com/
+http://javaquicknotes.com/
+https://www.java-success.com/
+https://career.guru99.com/
+http://plsql-tutorial.com/
+
+
+
+
+https://markfaction.wordpress.com/2012/07/15/stack-based-vs-register-based-virtual-machine-architecture-and-the-dalvik-vm/
+
