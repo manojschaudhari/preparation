@@ -128,3 +128,7 @@ https://markfaction.wordpress.com/2012/07/15/stack-based-vs-register-based-virtu
 
 https://theamiableapi.com/2012/01/16/java-api-design-checklist/
 
+https://www.freecodecamp.org/news/systems-design-for-interviews/
+
+
+
