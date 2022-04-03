@@ -2,6 +2,17 @@ Jenkinsfile sample
 https://www.fosstechnix.com/build-java-project-using-maven-in-jenkins-pipeline/
 https://devopspilot.com/content/jenkins/tutorials/pipeline/03-jenkinsfile-to-build-maven-project
 
+pipeline {
+    agent any
+    stages {
+        stage('Example') {
+            steps {
+                sh 'mvn compile'
+            }
+        }
+    }
+}
+
 
 https://dzone.com/articles/mocking-rabbitmq-for-integration-tests
 https://novotnyr.github.io/scrolls/qpid-as-mocking-amqp-broker-for-integration-tests/
