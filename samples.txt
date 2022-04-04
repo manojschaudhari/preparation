@@ -16,3 +16,4 @@ pipeline {
 
 https://dzone.com/articles/mocking-rabbitmq-for-integration-tests
 https://novotnyr.github.io/scrolls/qpid-as-mocking-amqp-broker-for-integration-tests/
+http://meetup2tech.blogspot.com/2014/09/easy-start-to-apache-qpid-with-java-jms.html
