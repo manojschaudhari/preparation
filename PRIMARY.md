@@ -100,9 +100,9 @@
 - **CLASS DESIGN KEYWORDS** ✿ Constructor ✿ Default Constructor ✿ Parameterized Constructor ✿ Copy Constructor ✿ Destructor / Finalizer ✿ Static Method ✿ Static Variable ✿ Instance Method ✿ Instance Variable ✿ Nested Class ✿ Inner Class ✿ Anonymous Class
 - **ADVANCED OOP CONCEPTS** ✿ Delegation ✿ Message Passing ✿ Object Cloning ✿ Deep Copy ✿ Shallow Copy ✿ Reflection ✿ Meta-programming ✿ Dynamic Typing vs Static Typing
 - **DESIGN PRINCIPLES (OOP HEAVY)** ✿ SOLID Principles     ✿ Single Responsibility Principle (SRP)     ✿ Open/Closed Principle (OCP)     ✿ Liskov Substitution Principle (LSP)     ✿ Interface Segregation Principle (ISP)     ✿ Dependency Inversion Principle (DIP) ✿ DRY (Don’t Repeat Yourself) ✿ KISS (Keep It Simple, Stupid) ✿ YAGNI (You Aren’t Gonna Need It)
-- **Creational DESIGN PATTERNS (OOP-BASED) ✿ Singleton ✿ Factory Method ✿ Abstract Factory ✿ Builder ✿ Prototype
-- **Structural DESIGN PATTERNS (OOP-BASED) ✿ Adapter ✿ Bridge ✿ Composite ✿ Decorator ✿ Facade ✿ Flyweight ✿ Proxy
-- **Behavioral DESIGN PATTERNS (OOP-BASED) ✿ Observer ✿ Strategy ✿ Command ✿ Chain of Responsibility ✿ State ✿ Template Method ✿ Mediator ✿ Memento ✿ Visitor ✿ Interpreter
+- **Creational DESIGN PATTERNS (OOP-BASED)** ✿ Singleton ✿ Factory Method ✿ Abstract Factory ✿ Builder ✿ Prototype
+- **Structural DESIGN PATTERNS (OOP-BASED)** ✿ Adapter ✿ Bridge ✿ Composite ✿ Decorator ✿ Facade ✿ Flyweight ✿ Proxy
+- **Behavioral DESIGN PATTERNS (OOP-BASED)** ✿ Observer ✿ Strategy ✿ Command ✿ Chain of Responsibility ✿ State ✿ Template Method ✿ Mediator ✿ Memento ✿ Visitor ✿ Interpreter
 - **OBJECT LIFECYCLE** ✿ Instantiation ✿ Initialization ✿ Garbage Collection ✿ Finalization
 - **MEMORY & EXECUTION** ✿ Stack vs Heap ✿ Object Reference ✿ Pass by Value / Reference ✿ Memory Allocation ✿ Object Pool
 - **TESTING & QUALITY** ✿ Unit Testing ✿ Mocking ✿ Stubbing ✿ Test Doubles ✿ Dependency Injection ✿ Inversion of Control (IoC)
