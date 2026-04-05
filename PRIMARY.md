@@ -406,7 +406,7 @@
 
 
 
-# RANDOM PATTERNS
+## RANDOM PATTERNS
 
 ####  Abstract Document
 - **Definition**: A structural design pattern that allows handling of non-typed properties in a flexible way, using a key-value store and dynamic accessors.
