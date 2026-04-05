@@ -62,7 +62,7 @@
 - **INTERVIEW POWER KEYWORDS** ✿ Immutability ✿ Thread Safety ✿ Idempotency ✿ Backpressure ✿ Lazy Initialization ✿ Double-Checked Locking ✿ CAP Theorem ✿ Consistency Models 
 - **ADVANCED / STAFF+** ✿ Reactive Programming ✿ Project Reactor / RxJava ✿ Virtual Threads ✿ Structured Concurrency ✿ Distributed Systems Design ✿ Domain-Driven Design (DDD) ✿ Event Sourcing ✿ CQRS 
 
-# JAVA VERSION
+## JAVA VERSION
 - **JAVA 5 (2004)** — *Generics & Concurrency Revolution* ✿ Generics ✿ Type Safety ✿ Enhanced for-loop ✿ Autoboxing / Unboxing ✿ Varargs ✿ Enums ✿ Annotations ✿ Static Import ✿ Concurrency Utilities (`java.util.concurrent`) ✿ Executor Framework 
 - **JAVA 6 (2006)** ✿ Scripting API ✿ Compiler API ✿ JDBC 4.0 ✿ Pluggable Annotations ✿ Performance Improvements ✿ Monitoring & Management APIs 
 - **JAVA 7 (2011)** ✿ Try-with-resources ✿ Multi-catch ✿ Diamond Operator ✿ Strings in switch ✿ NIO.2 (FileSystem API) ✿ ForkJoin Framework ✿ Binary Literals ✿ Underscores in numbers 
@@ -89,46 +89,46 @@
 - **INTERVIEW POWER KEYWORDS** ✿ Java 8 → Functional Paradigm Shift ✿ Java 9 → Modularization ✿ Java 17 → Enterprise Stability (LTS) ✿ Java 21 → Concurrency Revolution ✿ Loom vs Traditional Threads ✿ Records vs POJOs ✿ Sealed Classes vs Inheritance 
 - **STAFF+ LEVEL THEMES** ✿ Evolution of Java Language Design ✿ Performance vs Safety Trade-offs ✿ JVM Optimization Trends ✿ Cloud-native Java ✿ Reactive vs Virtual Threads ✿ Native Interoperability 
 
-# OBJECT ORIENTED
-###  CORE OOP CONCEPTS ✿ Object ✿ Class ✿ Instance ✿ Method ✿ Attribute / Property / Field ✿ State ✿ Behavior ✿ Identity
-###  FOUR PILLARS OF OOP ✿ Encapsulation ✿ Abstraction ✿ Inheritance ✿ Polymorphism
-###  ENCAPSULATION RELATED ✿ Data Hiding ✿ Access Modifiers     ✿ Public     ✿ Private     ✿ Protected     ✿ Default / Package-private ✿ Getter / Setter ✿ Immutable Object ✿ Read-only Object
-###  ABSTRACTION RELATED ✿ Abstract Class ✿ Interface ✿ Contract ✿ API Design ✿ Loose Coupling ✿ Separation of Concerns (SoC)
-###  INHERITANCE RELATED ✿ Superclass / Base Class / Parent Class ✿ Subclass / Derived Class / Child Class ✿ IS-A Relationship ✿ Method Overriding ✿ Code Reusability ✿ Hierarchical Inheritance ✿ Multilevel Inheritance ✿ Multiple Inheritance (via interfaces) ✿ Hybrid Inheritance
-###  POLYMORPHISM RELATED ✿ Method Overloading (Compile-time) ✿ Method Overriding (Runtime) ✿ Dynamic Dispatch ✿ Static Binding ✿ Dynamic Binding ✿ Late Binding ✿ Early Binding
-###  OBJECT RELATIONSHIPS ✿ Association ✿ Aggregation ✿ Composition ✿ Dependency ✿ HAS-A Relationship ✿ Uses-A Relationship
-###  CLASS DESIGN KEYWORDS ✿ Constructor ✿ Default Constructor ✿ Parameterized Constructor ✿ Copy Constructor ✿ Destructor / Finalizer ✿ Static Method ✿ Static Variable ✿ Instance Method ✿ Instance Variable ✿ Nested Class ✿ Inner Class ✿ Anonymous Class
-###  ADVANCED OOP CONCEPTS ✿ Delegation ✿ Message Passing ✿ Object Cloning ✿ Deep Copy ✿ Shallow Copy ✿ Reflection ✿ Meta-programming ✿ Dynamic Typing vs Static Typing
-###  DESIGN PRINCIPLES (OOP HEAVY) ✿ SOLID Principles     ✿ Single Responsibility Principle (SRP)     ✿ Open/Closed Principle (OCP)     ✿ Liskov Substitution Principle (LSP)     ✿ Interface Segregation Principle (ISP)     ✿ Dependency Inversion Principle (DIP) ✿ DRY (Don’t Repeat Yourself) ✿ KISS (Keep It Simple, Stupid) ✿ YAGNI (You Aren’t Gonna Need It)
-###  Creational DESIGN PATTERNS (OOP-BASED) ✿ Singleton ✿ Factory Method ✿ Abstract Factory ✿ Builder ✿ Prototype
-###  Structural DESIGN PATTERNS (OOP-BASED) ✿ Adapter ✿ Bridge ✿ Composite ✿ Decorator ✿ Facade ✿ Flyweight ✿ Proxy
-###  Behavioral DESIGN PATTERNS (OOP-BASED) ✿ Observer ✿ Strategy ✿ Command ✿ Chain of Responsibility ✿ State ✿ Template Method ✿ Mediator ✿ Memento ✿ Visitor ✿ Interpreter
-###  OBJECT LIFECYCLE ✿ Instantiation ✿ Initialization ✿ Garbage Collection ✿ Finalization
-###  MEMORY & EXECUTION ✿ Stack vs Heap ✿ Object Reference ✿ Pass by Value / Reference ✿ Memory Allocation ✿ Object Pool
-###  TESTING & QUALITY ✿ Unit Testing ✿ Mocking ✿ Stubbing ✿ Test Doubles ✿ Dependency Injection ✿ Inversion of Control (IoC)
-###  FRAMEWORK/ARCHITECTURE CONTEXT ✿ Domain Model ✿ Entity ✿ Value Object ✿ DTO (Data Transfer Object) ✿ DAO (Data Access Object) ✿ Repository Pattern ✿ Service Layer ✿ MVC / MVVM
-###  CONCURRENCY IN OOP ✿ Thread Safety ✿ Synchronization ✿ Immutable Objects ✿ Locks ✿ Race Condition
-###  UML & MODELING ✿ Class Diagram ✿ Object Diagram ✿ Sequence Diagram ✿ Activity Diagram ✿ State Diagram ✿ Use Case Diagram
-###  ANTI-PATTERNS (OOP MISUSE) ✿ God Object ✿ Spaghetti Code ✿ Tight Coupling ✿ Anemic Domain Model ✿ Over-engineering
-###  LANGUAGE-SPECIFIC (JAVA-FRIENDLY) ✿ this keyword ✿ super keyword ✿ final keyword ✿ static keyword ✿ transient ✿ volatile ✿ synchronized ✿ instanceof
-###  BONUS (INTERVIEW GOLD) ✿ Favor Composition over Inheritance ✿ Program to an Interface ✿ Law of Demeter ✿ High Cohesion ✿ Low Coupling Here’s your ✿✿extended OOP keyword master list✿✿ with a ✿✿dedicated Static Analysis section✿✿—tailored for ✿✿Staff+/Architect-level interviews✿✿.
-###  STATIC ANALYSIS (OOP + CODE QUALITY)
-###  CORE STATIC ANALYSIS CONCEPTS ✿ Static Analysis ✿ Code Analysis ✿ Compile-time Analysis ✿ Source Code Inspection ✿ Linting ✿ Code Quality Analysis ✿ Semantic Analysis ✿ Syntax Analysis ✿ Abstract Syntax Tree (AST) ✿ Control Flow Graph (CFG) ✿ Data Flow Analysis
-###  STATIC ANALYSIS TYPES ✿ Syntactic Analysis ✿ Semantic Analysis ✿ Control Flow Analysis ✿ Data Flow Analysis ✿ Taint Analysis ✿ Symbolic Execution ✿ Type Checking ✿ Nullability Analysis ✿ Escape Analysis ✿ Alias Analysis
-###  BUG & DEFECT DETECTION ✿ Null Pointer Dereference ✿ Memory Leak Detection ✿ Dead Code Detection ✿ Unreachable Code ✿ Infinite Loop Detection ✿ Resource Leak ✿ Race Condition Detection ✿ Concurrency Issues ✿ Buffer Overflow ✿ Integer Overflow
-###  SECURITY ANALYSIS (SAST) ✿ Static Application Security Testing (SAST) ✿ Vulnerability Scanning ✿ OWASP Top 10 ✿ SQL Injection Detection ✿ Cross-Site Scripting (XSS) ✿ Command Injection ✿ Path Traversal ✿ Hardcoded Credentials Detection ✿ Cryptographic Misuse
-###  CODE QUALITY METRICS ✿ Cyclomatic Complexity ✿ Cognitive Complexity ✿ Code Smells ✿ Maintainability Index ✿ Code Coverage (Static + Hybrid) ✿ Duplication / Clone Detection ✿ Coupling Metrics ✿ Cohesion Metrics ✿ Depth of Inheritance Tree (DIT) ✿ Lack of Cohesion in Methods (LCOM)
-###  OOP-SPECIFIC STATIC CHECKS ✿ Violations of SOLID Principles ✿ Tight Coupling Detection ✿ God Class Detection ✿ Large Class / Blob ✿ Long Method ✿ Feature Envy ✿ Inappropriate Intimacy ✿ Shotgun Surgery ✿ Refused Bequest ✿ Cyclic Dependencies ✿ Improper Inheritance Hierarchies ✿ Interface Pollution ✿ Overuse of Static Methods
-###  DESIGN & ARCHITECTURE ANALYSIS ✿ Layer Violation Detection ✿ Dependency Graph Analysis ✿ Package Cycles ✿ Architecture Compliance ✿ Hexagonal Architecture Violations ✿ Clean Architecture Violations ✿ Microservice Boundary Violations
-###  DATA FLOW & TAINT ANALYSIS ✿ Source → Sink Tracking ✿ Sensitive Data Flow ✿ Taint Propagation ✿ Input Validation Gaps ✿ Output Encoding Issues
-###  PERFORMANCE ANALYSIS (STATIC) ✿ Inefficient Algorithms ✿ N+1 Query Detection ✿ Excessive Object Creation ✿ Boxing / Unboxing Overhead ✿ Reflection Overuse ✿ Synchronization Overhead
-###  STATIC ANALYSIS TOOLS (JAVA ECOSYSTEM) ✿ SonarQube ✿ SpotBugs (FindBugs successor) ✿ PMD ✿ Checkstyle ✿ Error Prone ✿ Semgrep ✿ CodeQL
-###  STATIC vs DYNAMIC ANALYSIS ✿ Static Analysis (without execution) ✿ Dynamic Analysis (runtime behavior) ✿ Hybrid Analysis
-###  DEVOPS & CI/CD INTEGRATION ✿ Shift Left Testing ✿ Quality Gates ✿ Pull Request Analysis ✿ Pre-commit Hooks ✿ Continuous Inspection ✿ Code Review Automation
-###  RULES & STANDARDS ✿ Coding Standards ✿ Secure Coding Guidelines ✿ MISRA (for embedded) ✿ CERT Guidelines ✿ Custom Rule Engines
-###  ADVANCED / RESEARCH LEVEL ✿ Abstract Interpretation ✿ Program Slicing ✿ Formal Verification ✿ Model Checking ✿ SAT/SMT Solvers ✿ Interprocedural Analysis ✿ Intraprocedural Analysis
-###  INTERVIEW POWER BOOST (HOW TO POSITION) When asked in interviews, connect ✿✿OOP + Static Analysis✿✿ like this: ✿ Static analysis ensures ✿✿OOP design integrity✿✿ ✿ Detects violations of ✿✿SOLID / design patterns✿✿ ✿ Prevents ✿✿runtime failures at compile-time✿✿ ✿ Enforces ✿✿architecture boundaries✿✿ ✿ Improves ✿✿maintainability + scalability✿✿
-###  Want next level upgrade? I can extend this into: ✿ 🔥 “OOP + Static Analysis + Observability” unified architecture ✿ 📊 SonarQube rule mapping to SOLID ✿ 🏗️ CI/CD pipeline with quality gates (Jenkins + GitHub Actions) ✿ 📘 Staff+ interview Q&A with real-world scenarios Just tell me 👍
+## OBJECT ORIENTED
+- **CORE OOP CONCEPTS** ✿ Object ✿ Class ✿ Instance ✿ Method ✿ Attribute / Property / Field ✿ State ✿ Behavior ✿ Identity
+- **FOUR PILLARS OF OOP** ✿ Encapsulation ✿ Abstraction ✿ Inheritance ✿ Polymorphism
+- **ENCAPSULATION RELATED** ✿ Data Hiding ✿ Access Modifiers     ✿ Public     ✿ Private     ✿ Protected     ✿ Default / Package-private ✿ Getter / Setter ✿ Immutable Object ✿ Read-only Object
+- **ABSTRACTION RELATED** ✿ Abstract Class ✿ Interface ✿ Contract ✿ API Design ✿ Loose Coupling ✿ Separation of Concerns (SoC)
+- **INHERITANCE RELATED** ✿ Superclass / Base Class / Parent Class ✿ Subclass / Derived Class / Child Class ✿ IS-A Relationship ✿ Method Overriding ✿ Code Reusability ✿ Hierarchical Inheritance ✿ Multilevel Inheritance ✿ Multiple Inheritance (via interfaces) ✿ Hybrid Inheritance
+- **POLYMORPHISM RELATED** ✿ Method Overloading (Compile-time) ✿ Method Overriding (Runtime) ✿ Dynamic Dispatch ✿ Static Binding ✿ Dynamic Binding ✿ Late Binding ✿ Early Binding
+- **OBJECT RELATIONSHIPS** ✿ Association ✿ Aggregation ✿ Composition ✿ Dependency ✿ HAS-A Relationship ✿ Uses-A Relationship
+- **CLASS DESIGN KEYWORDS** ✿ Constructor ✿ Default Constructor ✿ Parameterized Constructor ✿ Copy Constructor ✿ Destructor / Finalizer ✿ Static Method ✿ Static Variable ✿ Instance Method ✿ Instance Variable ✿ Nested Class ✿ Inner Class ✿ Anonymous Class
+- **ADVANCED OOP CONCEPTS** ✿ Delegation ✿ Message Passing ✿ Object Cloning ✿ Deep Copy ✿ Shallow Copy ✿ Reflection ✿ Meta-programming ✿ Dynamic Typing vs Static Typing
+- **DESIGN PRINCIPLES (OOP HEAVY)** ✿ SOLID Principles     ✿ Single Responsibility Principle (SRP)     ✿ Open/Closed Principle (OCP)     ✿ Liskov Substitution Principle (LSP)     ✿ Interface Segregation Principle (ISP)     ✿ Dependency Inversion Principle (DIP) ✿ DRY (Don’t Repeat Yourself) ✿ KISS (Keep It Simple, Stupid) ✿ YAGNI (You Aren’t Gonna Need It)
+- **Creational DESIGN PATTERNS (OOP-BASED) ✿ Singleton ✿ Factory Method ✿ Abstract Factory ✿ Builder ✿ Prototype
+- **Structural DESIGN PATTERNS (OOP-BASED) ✿ Adapter ✿ Bridge ✿ Composite ✿ Decorator ✿ Facade ✿ Flyweight ✿ Proxy
+- **Behavioral DESIGN PATTERNS (OOP-BASED) ✿ Observer ✿ Strategy ✿ Command ✿ Chain of Responsibility ✿ State ✿ Template Method ✿ Mediator ✿ Memento ✿ Visitor ✿ Interpreter
+- **OBJECT LIFECYCLE** ✿ Instantiation ✿ Initialization ✿ Garbage Collection ✿ Finalization
+- **MEMORY & EXECUTION** ✿ Stack vs Heap ✿ Object Reference ✿ Pass by Value / Reference ✿ Memory Allocation ✿ Object Pool
+- **TESTING & QUALITY** ✿ Unit Testing ✿ Mocking ✿ Stubbing ✿ Test Doubles ✿ Dependency Injection ✿ Inversion of Control (IoC)
+- **FRAMEWORK/ARCHITECTURE CONTEXT** ✿ Domain Model ✿ Entity ✿ Value Object ✿ DTO (Data Transfer Object) ✿ DAO (Data Access Object) ✿ Repository Pattern ✿ Service Layer ✿ MVC / MVVM
+- **CONCURRENCY IN OOP** ✿ Thread Safety ✿ Synchronization ✿ Immutable Objects ✿ Locks ✿ Race Condition
+- **UML & MODELING** ✿ Class Diagram ✿ Object Diagram ✿ Sequence Diagram ✿ Activity Diagram ✿ State Diagram ✿ Use Case Diagram
+- **ANTI-PATTERNS (OOP MISUSE)** ✿ God Object ✿ Spaghetti Code ✿ Tight Coupling ✿ Anemic Domain Model ✿ Over-engineering
+- **LANGUAGE-SPECIFIC (JAVA-FRIENDLY)** ✿ this keyword ✿ super keyword ✿ final keyword ✿ static keyword ✿ transient ✿ volatile ✿ synchronized ✿ instanceof
+- **BONUS (INTERVIEW GOLD)** ✿ Favor Composition over Inheritance ✿ Program to an Interface ✿ Law of Demeter ✿ High Cohesion ✿ Low Coupling Here’s your ✿✿extended OOP keyword master list✿✿ with a ✿✿dedicated Static Analysis section✿✿—tailored for ✿✿Staff+/Architect-level interviews✿✿.
+- **STATIC ANALYSIS (OOP + CODE QUALITY)**
+- **CORE STATIC ANALYSIS CONCEPTS** ✿ Static Analysis ✿ Code Analysis ✿ Compile-time Analysis ✿ Source Code Inspection ✿ Linting ✿ Code Quality Analysis ✿ Semantic Analysis ✿ Syntax Analysis ✿ Abstract Syntax Tree (AST) ✿ Control Flow Graph (CFG) ✿ Data Flow Analysis
+- **STATIC ANALYSIS TYPES** ✿ Syntactic Analysis ✿ Semantic Analysis ✿ Control Flow Analysis ✿ Data Flow Analysis ✿ Taint Analysis ✿ Symbolic Execution ✿ Type Checking ✿ Nullability Analysis ✿ Escape Analysis ✿ Alias Analysis
+- **BUG & DEFECT DETECTION** ✿ Null Pointer Dereference ✿ Memory Leak Detection ✿ Dead Code Detection ✿ Unreachable Code ✿ Infinite Loop Detection ✿ Resource Leak ✿ Race Condition Detection ✿ Concurrency Issues ✿ Buffer Overflow ✿ Integer Overflow
+- **SECURITY ANALYSIS (SAST)** ✿ Static Application Security Testing (SAST) ✿ Vulnerability Scanning ✿ OWASP Top 10 ✿ SQL Injection Detection ✿ Cross-Site Scripting (XSS) ✿ Command Injection ✿ Path Traversal ✿ Hardcoded Credentials Detection ✿ Cryptographic Misuse
+- **CODE QUALITY METRICS** ✿ Cyclomatic Complexity ✿ Cognitive Complexity ✿ Code Smells ✿ Maintainability Index ✿ Code Coverage (Static + Hybrid) ✿ Duplication / Clone Detection ✿ Coupling Metrics ✿ Cohesion Metrics ✿ Depth of Inheritance Tree (DIT) ✿ Lack of Cohesion in Methods (LCOM)
+- **OOP-SPECIFIC STATIC CHECKS** ✿ Violations of SOLID Principles ✿ Tight Coupling Detection ✿ God Class Detection ✿ Large Class / Blob ✿ Long Method ✿ Feature Envy ✿ Inappropriate Intimacy ✿ Shotgun Surgery ✿ Refused Bequest ✿ Cyclic Dependencies ✿ Improper Inheritance Hierarchies ✿ Interface Pollution ✿ Overuse of Static Methods
+- **DESIGN & ARCHITECTURE ANALYSIS** ✿ Layer Violation Detection ✿ Dependency Graph Analysis ✿ Package Cycles ✿ Architecture Compliance ✿ Hexagonal Architecture Violations ✿ Clean Architecture Violations ✿ Microservice Boundary Violations
+- **DATA FLOW & TAINT ANALYSIS** ✿ Source → Sink Tracking ✿ Sensitive Data Flow ✿ Taint Propagation ✿ Input Validation Gaps ✿ Output Encoding Issues
+- **PERFORMANCE ANALYSIS (STATIC)** ✿ Inefficient Algorithms ✿ N+1 Query Detection ✿ Excessive Object Creation ✿ Boxing / Unboxing Overhead ✿ Reflection Overuse ✿ Synchronization Overhead
+- **STATIC ANALYSIS TOOLS (JAVA ECOSYSTEM)** ✿ SonarQube ✿ SpotBugs (FindBugs successor) ✿ PMD ✿ Checkstyle ✿ Error Prone ✿ Semgrep ✿ CodeQL
+- **STATIC vs DYNAMIC ANALYSIS** ✿ Static Analysis (without execution) ✿ Dynamic Analysis (runtime behavior) ✿ Hybrid Analysis
+- **DEVOPS & CI/CD INTEGRATION** ✿ Shift Left Testing ✿ Quality Gates ✿ Pull Request Analysis ✿ Pre-commit Hooks ✿ Continuous Inspection ✿ Code Review Automation
+- **RULES & STANDARDS** ✿ Coding Standards ✿ Secure Coding Guidelines ✿ MISRA (for embedded) ✿ CERT Guidelines ✿ Custom Rule Engines
+- **ADVANCED / RESEARCH LEVEL** ✿ Abstract Interpretation ✿ Program Slicing ✿ Formal Verification ✿ Model Checking ✿ SAT/SMT Solvers ✿ Interprocedural Analysis ✿ Intraprocedural Analysis
+- **INTERVIEW POWER BOOST (HOW TO POSITION)** When asked in interviews, connect ✿✿OOP + Static Analysis✿✿ like this: ✿ Static analysis ensures ✿✿OOP design integrity✿✿ ✿ Detects violations of ✿✿SOLID / design patterns✿✿ ✿ Prevents ✿✿runtime failures at compile-time✿✿ ✿ Enforces ✿✿architecture boundaries✿✿ ✿ Improves ✿✿maintainability + scalability✿✿
+
 
 # DATA STRUCTURES
 ###  CORE DATA STRUCTURE CONCEPTS ✿ Data Structure ✿ Abstract Data Type (ADT) ✿ Linear vs Non-linear ✿ Static vs Dynamic ✿ Homogeneous / Heterogeneous ✿ Memory Layout ✿ Time Complexity ✿ Space Complexity ✿ Big-O / Big-Theta / Big-Omega ✿ Amortized Analysis
