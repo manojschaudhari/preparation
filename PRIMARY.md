@@ -23,7 +23,7 @@
 - GOVERNANCE & ENTERPRISE PATTERNS
 
 ## JAVA
-- **CORE JAVA BASICS** ✿ Java ✿ JDK / JRE / JVM ✿ Bytecode ✿ Platform Independence ✿ Write Once Run Anywhere (WORA) ✿ Class / Object / Method ✿ Main Method (`public static void main`) ✿ Package / Import ✿ Classpath / Modulepath ✿ Java Compilation Pipeline 
+- <ins>**CORE JAVA BASICS**</ins> ✿ Java ✿ JDK / JRE / JVM ✿ Bytecode ✿ Platform Independence ✿ Write Once Run Anywhere (WORA) ✿ Class / Object / Method ✿ Main Method (`public static void main`) ✿ Package / Import ✿ Classpath / Modulepath ✿ Java Compilation Pipeline 
 - **DATA TYPES & VARIABLES** ✿ Primitive Types ✿ Wrapper Classes ✿ Autoboxing / Unboxing ✿ Type Casting ✿ Variables (Local / Instance / Static) ✿ Constants (`final`) ✿ Default Values ✿ Type Inference (`var`) ✿ Value-based classes 
 - **CONTROL FLOW** ✿ if / else ✿ switch (enhanced switch expressions) ✿ for / enhanced for ✿ while / do-while ✿ break / continue ✿ return / yield 
 - **OBJECT-ORIENTED PROGRAMMING (OOP)** ✿ Encapsulation / Abstraction ✿ Inheritance ✿ Polymorphism ✿ Method Overloading / Overriding ✿ Dynamic Dispatch ✿ Access Modifiers ✿ `this` / `super` ✿ Composition vs Inheritance ✿ SOLID Principles 
