@@ -112,7 +112,6 @@
 - **ANTI-PATTERNS (OOP MISUSE)** ✿ God Object ✿ Spaghetti Code ✿ Tight Coupling ✿ Anemic Domain Model ✿ Over-engineering
 - **LANGUAGE-SPECIFIC (JAVA-FRIENDLY)** ✿ this keyword ✿ super keyword ✿ final keyword ✿ static keyword ✿ transient ✿ volatile ✿ synchronized ✿ instanceof
 - **BONUS (INTERVIEW GOLD)** ✿ Favor Composition over Inheritance ✿ Program to an Interface ✿ Law of Demeter ✿ High Cohesion ✿ Low Coupling Here’s your ✿✿extended OOP keyword master list✿✿ with a ✿✿dedicated Static Analysis section✿✿—tailored for ✿✿Staff+/Architect-level interviews✿✿.
-- **STATIC ANALYSIS (OOP + CODE QUALITY)**
 - **CORE STATIC ANALYSIS CONCEPTS** ✿ Static Analysis ✿ Code Analysis ✿ Compile-time Analysis ✿ Source Code Inspection ✿ Linting ✿ Code Quality Analysis ✿ Semantic Analysis ✿ Syntax Analysis ✿ Abstract Syntax Tree (AST) ✿ Control Flow Graph (CFG) ✿ Data Flow Analysis
 - **STATIC ANALYSIS TYPES** ✿ Syntactic Analysis ✿ Semantic Analysis ✿ Control Flow Analysis ✿ Data Flow Analysis ✿ Taint Analysis ✿ Symbolic Execution ✿ Type Checking ✿ Nullability Analysis ✿ Escape Analysis ✿ Alias Analysis
 - **BUG & DEFECT DETECTION** ✿ Null Pointer Dereference ✿ Memory Leak Detection ✿ Dead Code Detection ✿ Unreachable Code ✿ Infinite Loop Detection ✿ Resource Leak ✿ Race Condition Detection ✿ Concurrency Issues ✿ Buffer Overflow ✿ Integer Overflow
