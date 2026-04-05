@@ -149,215 +149,215 @@
 - **ADVANCED / STAFF+ LEVEL** ✿ Data Structure Selection Strategy ✿ Hybrid Data Structures ✿ Cache-aware / Cache-oblivious DS ✿ Parallel Data Structures ✿ External Memory DS ✿ Columnar Storage Structures ✿ Log-Structured Merge (LSM Tree) ✿ Vector Index (for AI/ML)
 
 ## PRINCIPLES
-###  CORE ENGINEERING PRINCIPLES** ✿ Separation of Concerns (SoC) ✿ Modularity ✿ Abstraction ✿ Encapsulation ✿ Information Hiding ✿ Single Responsibility ✿ Composition over Inheritance ✿ Program to an Interface ✿ Least Knowledge (Law of Demeter) ✿ Principle of Least Astonishment (POLA)
-###  SOLID PRINCIPLES** ✿ Single Responsibility Principle (SRP) ✿ Open/Closed Principle (OCP) ✿ Liskov Substitution Principle (LSP) ✿ Interface Segregation Principle (ISP) ✿ Dependency Inversion Principle (DIP)
-###  CLEAN CODE PRINCIPLES** ✿ DRY (Don’t Repeat Yourself) ✿ KISS (Keep It Simple, Stupid) ✿ YAGNI (You Aren’t Gonna Need It) ✿ Boy Scout Rule ✿ Self-Documenting Code ✿ Meaningful Naming ✿ Small Functions ✿ Avoid Premature Optimization
-###  ARCHITECTURAL PRINCIPLES** ✿ High Cohesion ✿ Low Coupling ✿ Loose Coupling ✿ Explicit Dependencies ✿ Dependency Injection ✿ Inversion of Control (IoC) ✿ Layered Architecture Principle ✿ Clean Architecture Principles ✿ Hexagonal Architecture Principles ✿ Ports & Adapters ✿ Stable Dependencies Principle (SDP) ✿ Stable Abstractions Principle (SAP) ✿ Acyclic Dependencies Principle (ADP)
-###  SYSTEM DESIGN PRINCIPLES** ✿ Scalability First Design ✿ Availability over Consistency (trade-off) ✿ Fault Isolation ✿ Graceful Degradation ✿ Backpressure Handling ✿ Idempotency ✿ Statelessness ✿ Horizontal Scalability ✿ Data Locality ✿ Eventual Consistency
-###  SECURITY PRINCIPLES** ✿ Principle of Least Privilege (PoLP) ✿ Defense in Depth ✿ Fail Secure ✿ Zero Trust ✿ Secure by Design ✿ Secure by Default ✿ Encryption Everywhere ✿ Input Validation ✿ Output Encoding
-###  DISTRIBUTED SYSTEM PRINCIPLES** ✿ CAP Theorem Awareness ✿ PACELC Trade-off ✿ Consensus over Coordination ✿ Immutable Data Preference ✿ Event-Driven Thinking ✿ Asynchronous First ✿ Retry with Backoff ✿ Circuit Breaker Principle ✿ Bulkhead Isolation
-###  DATA & DATABASE PRINCIPLES** ✿ ACID Principles ✿ BASE Principles ✿ Schema Evolution ✿ Data Integrity ✿ Data Consistency Models ✿ Normalization vs Denormalization Trade-off ✿ Write Optimization vs Read Optimization ✿ Data Partitioning Principle
-###  PERFORMANCE PRINCIPLES** ✿ Minimize Latency ✿ Maximize Throughput ✿ Caching First ✿ Lazy Loading ✿ Batching ✿ Parallelism ✿ Asynchronous Processing ✿ Avoid Blocking
-###  OBSERVABILITY PRINCIPLES** ✿ You Can’t Fix What You Can’t See ✿ Instrument First ✿ Logs, Metrics, Traces Correlation ✿ High Cardinality Awareness ✿ Alert on Symptoms, Not Causes ✿ SLO-driven Monitoring
-###  DEVOPS & DELIVERY PRINCIPLES** ✿ Shift Left ✿ Continuous Integration ✿ Continuous Delivery / Deployment ✿ Infrastructure as Code ✿ Immutable Infrastructure ✿ Automation First ✿ Reproducibility ✿ Small Batch Releases
-###  TESTING PRINCIPLES** ✿ Test Pyramid ✿ Fast Feedback ✿ Deterministic Tests ✿ Isolation in Tests ✿ Mocking vs Real Integration Balance ✿ Contract Testing First
-###  OBJECT-ORIENTED DESIGN PRINCIPLES** ✿ Favor Composition over Inheritance ✿ Encapsulate What Varies ✿ Open for Extension, Closed for Modification ✿ Depend on Abstractions ✿ Tell, Don’t Ask ✿ Hollywood Principle (“Don’t call us, we’ll call you”)
-###  DESIGN PATTERN PRINCIPLES** ✿ Encapsulate Behavior ✿ Separate Construction from Representation ✿ Delegate Responsibility ✿ Promote Reusability ✿ Decouple Sender and Receiver
-###  DOMAIN-DRIVEN DESIGN (DDD) PRINCIPLES** ✿ Ubiquitous Language ✿ Bounded Context ✿ Aggregate Root Consistency ✿ Domain Events ✿ Explicit Context Mapping ✿ Anti-Corruption Layer
-###  CLOUD & SCALABILITY PRINCIPLES** ✿ Design for Failure ✿ Elasticity ✿ Pay-as-you-go ✿ Multi-region Redundancy ✿ Decouple Compute & Storage ✿ Auto-scaling First
-###  ANTI-PRINCIPLES (WHAT TO AVOID)** ✿ Over-engineering ✿ Premature Optimization ✿ Tight Coupling ✿ Big Ball of Mud ✿ Golden Hammer ✿ Reinventing the Wheel
-###  LEADERSHIP & ENGINEERING PRINCIPLES (STAFF+)** ✿ Think in Systems ✿ Optimize for Outcomes, Not Output ✿ Bias for Action ✿ Ownership ✿ Long-term Thinking ✿ Trade-off Transparency ✿ Simplicity at Scale ✿ Build for Operability ✿ Measure What Matters
-###  INTERVIEW POWER KEYWORDS** ✿ Trade-offs ✿ Constraints-driven design ✿ Evolutionary Architecture ✿ Backward Compatibility ✿ Incremental Delivery ✿ Cost vs Performance Balance ✿ Risk Mitigation
+- **CORE ENGINEERING PRINCIPLES** ✿ Separation of Concerns (SoC) ✿ Modularity ✿ Abstraction ✿ Encapsulation ✿ Information Hiding ✿ Single Responsibility ✿ Composition over Inheritance ✿ Program to an Interface ✿ Least Knowledge (Law of Demeter) ✿ Principle of Least Astonishment (POLA)
+- **SOLID PRINCIPLES** ✿ Single Responsibility Principle (SRP) ✿ Open/Closed Principle (OCP) ✿ Liskov Substitution Principle (LSP) ✿ Interface Segregation Principle (ISP) ✿ Dependency Inversion Principle (DIP)
+- **CLEAN CODE PRINCIPLES** ✿ DRY (Don’t Repeat Yourself) ✿ KISS (Keep It Simple, Stupid) ✿ YAGNI (You Aren’t Gonna Need It) ✿ Boy Scout Rule ✿ Self-Documenting Code ✿ Meaningful Naming ✿ Small Functions ✿ Avoid Premature Optimization
+- **ARCHITECTURAL PRINCIPLES** ✿ High Cohesion ✿ Low Coupling ✿ Loose Coupling ✿ Explicit Dependencies ✿ Dependency Injection ✿ Inversion of Control (IoC) ✿ Layered Architecture Principle ✿ Clean Architecture Principles ✿ Hexagonal Architecture Principles ✿ Ports & Adapters ✿ Stable Dependencies Principle (SDP) ✿ Stable Abstractions Principle (SAP) ✿ Acyclic Dependencies Principle (ADP)
+- **SYSTEM DESIGN PRINCIPLES** ✿ Scalability First Design ✿ Availability over Consistency (trade-off) ✿ Fault Isolation ✿ Graceful Degradation ✿ Backpressure Handling ✿ Idempotency ✿ Statelessness ✿ Horizontal Scalability ✿ Data Locality ✿ Eventual Consistency
+- **SECURITY PRINCIPLES** ✿ Principle of Least Privilege (PoLP) ✿ Defense in Depth ✿ Fail Secure ✿ Zero Trust ✿ Secure by Design ✿ Secure by Default ✿ Encryption Everywhere ✿ Input Validation ✿ Output Encoding
+- **DISTRIBUTED SYSTEM PRINCIPLES** ✿ CAP Theorem Awareness ✿ PACELC Trade-off ✿ Consensus over Coordination ✿ Immutable Data Preference ✿ Event-Driven Thinking ✿ Asynchronous First ✿ Retry with Backoff ✿ Circuit Breaker Principle ✿ Bulkhead Isolation
+- **DATA & DATABASE PRINCIPLES** ✿ ACID Principles ✿ BASE Principles ✿ Schema Evolution ✿ Data Integrity ✿ Data Consistency Models ✿ Normalization vs Denormalization Trade-off ✿ Write Optimization vs Read Optimization ✿ Data Partitioning Principle
+- **PERFORMANCE PRINCIPLES** ✿ Minimize Latency ✿ Maximize Throughput ✿ Caching First ✿ Lazy Loading ✿ Batching ✿ Parallelism ✿ Asynchronous Processing ✿ Avoid Blocking
+- **OBSERVABILITY PRINCIPLES** ✿ You Can’t Fix What You Can’t See ✿ Instrument First ✿ Logs, Metrics, Traces Correlation ✿ High Cardinality Awareness ✿ Alert on Symptoms, Not Causes ✿ SLO-driven Monitoring
+- **DEVOPS & DELIVERY PRINCIPLES** ✿ Shift Left ✿ Continuous Integration ✿ Continuous Delivery / Deployment ✿ Infrastructure as Code ✿ Immutable Infrastructure ✿ Automation First ✿ Reproducibility ✿ Small Batch Releases
+- **TESTING PRINCIPLES** ✿ Test Pyramid ✿ Fast Feedback ✿ Deterministic Tests ✿ Isolation in Tests ✿ Mocking vs Real Integration Balance ✿ Contract Testing First
+- **OBJECT-ORIENTED DESIGN PRINCIPLES** ✿ Favor Composition over Inheritance ✿ Encapsulate What Varies ✿ Open for Extension, Closed for Modification ✿ Depend on Abstractions ✿ Tell, Don’t Ask ✿ Hollywood Principle (“Don’t call us, we’ll call you”)
+- **DESIGN PATTERN PRINCIPLES** ✿ Encapsulate Behavior ✿ Separate Construction from Representation ✿ Delegate Responsibility ✿ Promote Reusability ✿ Decouple Sender and Receiver
+- **DOMAIN-DRIVEN DESIGN (DDD) PRINCIPLES** ✿ Ubiquitous Language ✿ Bounded Context ✿ Aggregate Root Consistency ✿ Domain Events ✿ Explicit Context Mapping ✿ Anti-Corruption Layer
+- **CLOUD & SCALABILITY PRINCIPLES** ✿ Design for Failure ✿ Elasticity ✿ Pay-as-you-go ✿ Multi-region Redundancy ✿ Decouple Compute & Storage ✿ Auto-scaling First
+- **ANTI-PRINCIPLES (WHAT TO AVOID)** ✿ Over-engineering ✿ Premature Optimization ✿ Tight Coupling ✿ Big Ball of Mud ✿ Golden Hammer ✿ Reinventing the Wheel
+- **LEADERSHIP & ENGINEERING PRINCIPLES (STAFF+)** ✿ Think in Systems ✿ Optimize for Outcomes, Not Output ✿ Bias for Action ✿ Ownership ✿ Long-term Thinking ✿ Trade-off Transparency ✿ Simplicity at Scale ✿ Build for Operability ✿ Measure What Matters
+- **INTERVIEW POWER KEYWORDS** ✿ Trade-offs ✿ Constraints-driven design ✿ Evolutionary Architecture ✿ Backward Compatibility ✿ Incremental Delivery ✿ Cost vs Performance Balance ✿ Risk Mitigation
 
 # PATTERNS
-###  CORE DESIGN PATTERN CONCEPTS** ✿ Design Pattern ✿ Reusable Solution ✿ Template Solution ✿ Best Practice ✿ Intent ✿ Context ✿ Problem–Solution Mapping ✿ Pattern Language ✿ Pattern Composition
-###  CREATIONAL PATTERNS (OBJECT CREATION)** ✿ Singleton ✿ Factory Method ✿ Abstract Factory ✿ Builder ✿ Prototype ✿ Object Pool ✿ Lazy Initialization ✿ Dependency Injection ✿ Service Locator
-###  STRUCTURAL PATTERNS (OBJECT STRUCTURE)** ✿ Adapter ✿ Bridge ✿ Composite ✿ Decorator ✿ Facade ✿ Flyweight ✿ Proxy ✿ Wrapper ✿ Marker
-###  BEHAVIORAL PATTERNS (OBJECT INTERACTION)** ✿ Observer ✿ Strategy ✿ Command ✿ Chain of Responsibility ✿ State ✿ Template Method ✿ Mediator ✿ Memento ✿ Visitor ✿ Interpreter ✿ Iterator
-###  ENTERPRISE INTEGRATION PATTERNS (EIP)** ✿ Message Channel ✿ Message Router ✿ Message Translator ✿ Message Filter ✿ Content-Based Router ✿ Message Broker ✿ Message Bus ✿ Publish-Subscribe ✿ Point-to-Point Channel ✿ Dead Letter Channel ✿ Aggregator ✿ Splitter ✿ Resequencer ✿ Claim Check ✿ Correlation Identifier ✿ Idempotent Receiver
-###  MICROSERVICES PATTERNS** ✿ API Gateway ✿ Backend for Frontend (BFF) ✿ Service Discovery ✿ Circuit Breaker ✿ Bulkhead ✿ Saga Pattern ✿ Database per Service ✿ Shared Database (anti-pattern) ✿ Event Sourcing ✿ CQRS ✿ Strangler Fig Pattern ✿ Sidecar Pattern ✿ Ambassador Pattern
-###  DISTRIBUTED SYSTEM PATTERNS** ✿ Leader Election ✿ Consensus (Paxos, Raft) ✿ Distributed Locking ✿ Quorum ✿ Gossip Protocol ✿ Sharding ✿ Replication ✿ Consistent Hashing ✿ Two-Phase Commit (2PC) ✿ Three-Phase Commit (3PC)
-###  DATA MANAGEMENT PATTERNS** ✿ Repository Pattern ✿ DAO (Data Access Object) ✿ Unit of Work ✿ Active Record ✿ Data Mapper ✿ Identity Map ✿ Lazy Loading ✿ Eager Loading ✿ Database Sharding ✿ Materialized View ✿ Event-Carried State Transfer
-###  CACHING PATTERNS** ✿ Cache Aside (Lazy Loading) ✿ Read Through ✿ Write Through ✿ Write Behind (Write Back) ✿ Refresh Ahead ✿ Near Cache ✿ Distributed Cache
-###  SECURITY PATTERNS** ✿ OAuth2 Pattern ✿ JWT Authentication ✿ API Key Pattern ✿ Role-Based Access Control (RBAC) ✿ Attribute-Based Access Control (ABAC) ✿ Zero Trust Architecture ✿ Token Bucket (Rate Limiting) ✿ Leaky Bucket
-###  CONCURRENCY PATTERNS** ✿ Thread Pool ✿ Producer-Consumer ✿ Reader-Writer Lock ✿ Future / Promise ✿ Fork-Join ✿ Actor Model ✿ Immutability Pattern ✿ Double-Checked Locking ✿ Thread-Local Storage
-###  EVENT-DRIVEN PATTERNS** ✿ Event Notification ✿ Event-Carried State Transfer ✿ Event Sourcing ✿ Event Replay ✿ Event Stream Processing ✿ Pub/Sub ✿ Event Bus
-###  CLOUD & INFRASTRUCTURE PATTERNS** ✿ Auto Scaling ✿ Blue-Green Deployment ✿ Canary Deployment ✿ Rolling Deployment ✿ Immutable Infrastructure ✿ Infrastructure as Code ✿ Sidecar Container ✿ Service Mesh ✿ Multi-Region Deployment
-###  RESILIENCE PATTERNS** ✿ Retry ✿ Exponential Backoff ✿ Circuit Breaker ✿ Bulkhead Isolation ✿ Timeout ✿ Fallback ✿ Fail Fast ✿ Graceful Degradation ✿ Health Check
-###  TESTING PATTERNS** ✿ Test Pyramid ✿ Test Double ✿ Mock / Stub / Spy ✿ Fixture Pattern ✿ Page Object Pattern ✿ Contract Testing Pattern
-###  UI / FRONTEND PATTERNS** ✿ MVC (Model-View-Controller) ✿ MVP (Model-View-Presenter) ✿ MVVM (Model-View-ViewModel) ✿ Flux ✿ Redux Pattern ✿ Component-Based Architecture
-###  DOMAIN-DRIVEN DESIGN (DDD) PATTERNS** ✿ Entity ✿ Value Object ✿ Aggregate ✿ Aggregate Root ✿ Repository ✿ Factory ✿ Domain Service ✿ Domain Event ✿ Anti-Corruption Layer ✿ Bounded Context
-###  ARCHITECTURAL PATTERNS** ✿ Layered Architecture ✿ Hexagonal Architecture ✿ Clean Architecture ✿ Onion Architecture ✿ Microkernel (Plugin Architecture) ✿ Event-Driven Architecture ✿ Pipe and Filter ✿ Blackboard Pattern
-###  ANALYTICS & DATA PIPELINE PATTERNS** ✿ ETL / ELT ✿ Lambda Architecture ✿ Kappa Architecture ✿ Data Lake Pattern ✿ Stream Processing ✿ Batch Processing
-###  ANTI-PATTERNS** ✿ God Object ✿ Big Ball of Mud ✿ Spaghetti Code ✿ Golden Hammer ✿ Lava Flow ✿ Distributed Monolith ✿ Chatty Services ✿ Tight Coupling
-###  ADVANCED / STAFF+ PATTERNS** ✿ Cell-Based Architecture ✿ Shard-per-Tenant ✿ Multi-Tenant Isolation ✿ Control Plane / Data Plane Separation ✿ Backpressure Pattern ✿ Rate Limiting Pattern ✿ Load Shedding ✿ Hedged Requests ✿ Request Collapsing ✿ Tail Latency Reduction
-###  INTERVIEW POWER KEYWORDS** ✿ Pattern Trade-offs ✿ Pattern Composition ✿ Pattern vs Anti-pattern ✿ Context-Driven Pattern Selection ✿ Evolutionary Architecture ✿ Scalability Patterns ✿ Reliability Patterns
+- **CORE DESIGN PATTERN CONCEPTS** ✿ Design Pattern ✿ Reusable Solution ✿ Template Solution ✿ Best Practice ✿ Intent ✿ Context ✿ Problem–Solution Mapping ✿ Pattern Language ✿ Pattern Composition
+- **CREATIONAL PATTERNS (OBJECT CREATION)** ✿ Singleton ✿ Factory Method ✿ Abstract Factory ✿ Builder ✿ Prototype ✿ Object Pool ✿ Lazy Initialization ✿ Dependency Injection ✿ Service Locator
+- **STRUCTURAL PATTERNS (OBJECT STRUCTURE)** ✿ Adapter ✿ Bridge ✿ Composite ✿ Decorator ✿ Facade ✿ Flyweight ✿ Proxy ✿ Wrapper ✿ Marker
+- **BEHAVIORAL PATTERNS (OBJECT INTERACTION)** ✿ Observer ✿ Strategy ✿ Command ✿ Chain of Responsibility ✿ State ✿ Template Method ✿ Mediator ✿ Memento ✿ Visitor ✿ Interpreter ✿ Iterator
+- **ENTERPRISE INTEGRATION PATTERNS (EIP)** ✿ Message Channel ✿ Message Router ✿ Message Translator ✿ Message Filter ✿ Content-Based Router ✿ Message Broker ✿ Message Bus ✿ Publish-Subscribe ✿ Point-to-Point Channel ✿ Dead Letter Channel ✿ Aggregator ✿ Splitter ✿ Resequencer ✿ Claim Check ✿ Correlation Identifier ✿ Idempotent Receiver
+- **MICROSERVICES PATTERNS** ✿ API Gateway ✿ Backend for Frontend (BFF) ✿ Service Discovery ✿ Circuit Breaker ✿ Bulkhead ✿ Saga Pattern ✿ Database per Service ✿ Shared Database (anti-pattern) ✿ Event Sourcing ✿ CQRS ✿ Strangler Fig Pattern ✿ Sidecar Pattern ✿ Ambassador Pattern
+- **DISTRIBUTED SYSTEM PATTERNS** ✿ Leader Election ✿ Consensus (Paxos, Raft) ✿ Distributed Locking ✿ Quorum ✿ Gossip Protocol ✿ Sharding ✿ Replication ✿ Consistent Hashing ✿ Two-Phase Commit (2PC) ✿ Three-Phase Commit (3PC)
+- **DATA MANAGEMENT PATTERNS** ✿ Repository Pattern ✿ DAO (Data Access Object) ✿ Unit of Work ✿ Active Record ✿ Data Mapper ✿ Identity Map ✿ Lazy Loading ✿ Eager Loading ✿ Database Sharding ✿ Materialized View ✿ Event-Carried State Transfer
+- **CACHING PATTERNS** ✿ Cache Aside (Lazy Loading) ✿ Read Through ✿ Write Through ✿ Write Behind (Write Back) ✿ Refresh Ahead ✿ Near Cache ✿ Distributed Cache
+- **SECURITY PATTERNS** ✿ OAuth2 Pattern ✿ JWT Authentication ✿ API Key Pattern ✿ Role-Based Access Control (RBAC) ✿ Attribute-Based Access Control (ABAC) ✿ Zero Trust Architecture ✿ Token Bucket (Rate Limiting) ✿ Leaky Bucket
+- **CONCURRENCY PATTERNS** ✿ Thread Pool ✿ Producer-Consumer ✿ Reader-Writer Lock ✿ Future / Promise ✿ Fork-Join ✿ Actor Model ✿ Immutability Pattern ✿ Double-Checked Locking ✿ Thread-Local Storage
+- **EVENT-DRIVEN PATTERNS** ✿ Event Notification ✿ Event-Carried State Transfer ✿ Event Sourcing ✿ Event Replay ✿ Event Stream Processing ✿ Pub/Sub ✿ Event Bus
+- **CLOUD & INFRASTRUCTURE PATTERNS** ✿ Auto Scaling ✿ Blue-Green Deployment ✿ Canary Deployment ✿ Rolling Deployment ✿ Immutable Infrastructure ✿ Infrastructure as Code ✿ Sidecar Container ✿ Service Mesh ✿ Multi-Region Deployment
+- **RESILIENCE PATTERNS** ✿ Retry ✿ Exponential Backoff ✿ Circuit Breaker ✿ Bulkhead Isolation ✿ Timeout ✿ Fallback ✿ Fail Fast ✿ Graceful Degradation ✿ Health Check
+- **TESTING PATTERNS** ✿ Test Pyramid ✿ Test Double ✿ Mock / Stub / Spy ✿ Fixture Pattern ✿ Page Object Pattern ✿ Contract Testing Pattern
+- **UI / FRONTEND PATTERNS** ✿ MVC (Model-View-Controller) ✿ MVP (Model-View-Presenter) ✿ MVVM (Model-View-ViewModel) ✿ Flux ✿ Redux Pattern ✿ Component-Based Architecture
+- **DOMAIN-DRIVEN DESIGN (DDD) PATTERNS** ✿ Entity ✿ Value Object ✿ Aggregate ✿ Aggregate Root ✿ Repository ✿ Factory ✿ Domain Service ✿ Domain Event ✿ Anti-Corruption Layer ✿ Bounded Context
+- **ARCHITECTURAL PATTERNS** ✿ Layered Architecture ✿ Hexagonal Architecture ✿ Clean Architecture ✿ Onion Architecture ✿ Microkernel (Plugin Architecture) ✿ Event-Driven Architecture ✿ Pipe and Filter ✿ Blackboard Pattern
+- **ANALYTICS & DATA PIPELINE PATTERNS** ✿ ETL / ELT ✿ Lambda Architecture ✿ Kappa Architecture ✿ Data Lake Pattern ✿ Stream Processing ✿ Batch Processing
+- **ANTI-PATTERNS** ✿ God Object ✿ Big Ball of Mud ✿ Spaghetti Code ✿ Golden Hammer ✿ Lava Flow ✿ Distributed Monolith ✿ Chatty Services ✿ Tight Coupling
+- **ADVANCED / STAFF+ PATTERNS** ✿ Cell-Based Architecture ✿ Shard-per-Tenant ✿ Multi-Tenant Isolation ✿ Control Plane / Data Plane Separation ✿ Backpressure Pattern ✿ Rate Limiting Pattern ✿ Load Shedding ✿ Hedged Requests ✿ Request Collapsing ✿ Tail Latency Reduction
+- **INTERVIEW POWER KEYWORDS** ✿ Pattern Trade-offs ✿ Pattern Composition ✿ Pattern vs Anti-pattern ✿ Context-Driven Pattern Selection ✿ Evolutionary Architecture ✿ Scalability Patterns ✿ Reliability Patterns
 
 
 # SYSTEM DESIGN
-###  CORE SYSTEM DESIGN CONCEPTS** ✿ System Design ✿ Architecture ✿ High-Level Design (HLD) ✿ Low-Level Design (LLD) ✿ Requirements (Functional / Non-functional) ✿ Constraints ✿ Trade-offs ✿ Assumptions ✿ Use Cases ✿ User Stories
-###  NON-FUNCTIONAL REQUIREMENTS (NFRs)** ✿ Scalability ✿ Availability ✿ Reliability ✿ Durability ✿ Performance ✿ Latency ✿ Throughput ✿ Consistency ✿ Fault Tolerance ✿ Resilience ✿ Security ✿ Maintainability ✿ Extensibility ✿ Observability
-###  ARCHITECTURE STYLES** ✿ Monolith ✿ Modular Monolith ✿ Microservices ✿ Service-Oriented Architecture (SOA) ✿ Event-Driven Architecture ✿ Serverless Architecture ✿ Hexagonal Architecture (Ports & Adapters) ✿ Clean Architecture ✿ Layered Architecture ✿ CQRS (Command Query Responsibility Segregation) ✿ Event Sourcing
-###  SYSTEM COMPONENTS** ✿ API Gateway ✿ Load Balancer ✿ Reverse Proxy ✿ Web Server ✿ Application Server ✿ Database ✿ Cache ✿ Message Broker ✿ CDN (Content Delivery Network) ✿ Service Mesh ✿ Sidecar
-###  NETWORKING & COMMUNICATION** ✿ HTTP / HTTPS ✿ REST ✿ GraphQL ✿ gRPC ✿ WebSockets ✿ TCP / UDP ✿ DNS ✿ TLS / SSL ✿ Keep-Alive ✿ Idempotency
-###  DATA STORAGE ✿ Relational Database (RDBMS)** ✿ NoSQL Database     ✿ Key-Value     ✿ Document     ✿ Columnar     ✿ Graph ✿ Data Lake ✿ Data Warehouse ✿ OLTP vs OLAP ✿ ACID ✿ BASE
-###  DATABASE DESIGN** ✿ Schema Design ✿ Normalization / Denormalization ✿ Indexing ✿ Partitioning ✿ Sharding ✿ Replication (Master-Slave / Leader-Follower) ✿ Read Replicas ✿ Write Scaling ✿ Query Optimization
-###  CACHING** ✿ In-memory Cache ✿ Distributed Cache ✿ Cache Aside (Lazy Loading) ✿ Write Through ✿ Write Behind ✿ Read Through ✿ Cache Invalidation ✿ TTL (Time to Live) ✿ Eviction Policies (LRU, LFU)
-###  DATA CONSISTENCY** ✿ Strong Consistency ✿ Eventual Consistency ✿ Causal Consistency ✿ CAP Theorem ✿ PACELC Theorem ✿ Quorum ✿ Read/Write Consistency ✿ Conflict Resolution
-###  DISTRIBUTED SYSTEMS** ✿ Distributed System ✿ Consensus Algorithms     ✿ Paxos     ✿ Raft ✿ Leader Election ✿ Distributed Locking ✿ Clock Synchronization ✿ Vector Clocks ✿ Lamport Timestamps
-###  MESSAGING & STREAMING** ✿ Message Queue ✿ Event Streaming ✿ Pub/Sub ✿ Event Bus ✿ Topics / Partitions ✿ Consumer Groups ✿ Dead Letter Queue (DLQ) ✿ Backpressure ✿ Exactly-once / At-least-once / At-most-once
-###  SCALABILITY PATTERNS** ✿ Horizontal Scaling ✿ Vertical Scaling ✿ Auto Scaling ✿ Stateless Services ✿ Stateful Services ✿ Partitioning Strategies ✿ Load Distribution
-###  FAULT TOLERANCE & RESILIENCE** ✿ Retry ✿ Exponential Backoff ✿ Circuit Breaker ✿ Bulkhead ✿ Failover ✿ Graceful Degradation ✿ Health Checks ✿ Heartbeats
-###  SECURITY** ✿ Authentication ✿ Authorization ✿ OAuth2 / OpenID Connect ✿ JWT ✿ RBAC / ABAC ✿ Encryption (At Rest / In Transit) ✿ Secrets Management ✿ Rate Limiting ✿ API Security
-###  OBSERVABILITY** ✿ Logging ✿ Metrics ✿ Tracing ✿ Distributed Tracing ✿ Monitoring ✿ Alerting ✿ SLIs / SLOs / SLAs
-###  DEVOPS & INFRASTRUCTURE** ✿ CI/CD ✿ Infrastructure as Code (IaC) ✿ Containerization ✿ Orchestration ✿ Blue-Green Deployment ✿ Canary Deployment ✿ Rolling Deployment
-###  CLOUD & PLATFORM** ✿ IaaS / PaaS / SaaS ✿ Multi-cloud ✿ Hybrid Cloud ✿ Edge Computing ✿ Availability Zones ✿ Regions
-###  DESIGN PRINCIPLES** ✿ SOLID ✿ DRY ✿ KISS ✿ YAGNI ✿ Separation of Concerns ✿ High Cohesion ✿ Low Coupling ✿ Idempotency
-###  DESIGN PATTERNS (SYSTEM LEVEL)** ✿ Saga Pattern ✿ API Gateway Pattern ✿ Backend for Frontend (BFF) ✿ Strangler Fig Pattern ✿ Sidecar Pattern ✿ Leader-Follower Pattern ✿ Event-Carried State Transfer ✿ Request-Response ✿ Publish-Subscribe
-###  PERFORMANCE ENGINEERING** ✿ Latency Optimization ✿ Throughput Optimization ✿ Batching ✿ Compression ✿ Connection Pooling ✿ Async Processing
-###  TESTING STRATEGIES** ✿ Unit Testing ✿ Integration Testing ✿ Contract Testing ✿ End-to-End Testing ✿ Chaos Engineering ✿ Load Testing ✿ Stress Testing
-###  DATA PIPELINES & ANALYTICS** ✿ ETL / ELT ✿ Stream Processing ✿ Batch Processing ✿ Data Ingestion ✿ Data Transformation
-###  ANTI-PATTERNS** ✿ Single Point of Failure (SPOF) ✿ Tight Coupling ✿ Chatty Services ✿ Distributed Monolith ✿ Over-engineering ✿ Big Ball of Mud
-###  INTERVIEW KEYWORDS (MUST USE)** ✿ Bottleneck ✿ Trade-off Analysis ✿ Scale Estimation ✿ Capacity Planning ✿ Back-of-the-envelope Calculation ✿ Read/Write Ratio ✿ QPS (Queries Per Second) ✿ P99 Latency
-###  ADVANCED / STAFF+ LEVEL** ✿ Multi-tenancy ✿ Data Sovereignty ✿ Zero Downtime Deployment ✿ Global Distribution ✿ Geo-replication ✿ Active-Active / Active-Passive ✿ Service Level Objectives (SLO-driven design) ✿ Cost Optimization ✿ FinOps
+- **CORE SYSTEM DESIGN CONCEPTS** ✿ System Design ✿ Architecture ✿ High-Level Design (HLD) ✿ Low-Level Design (LLD) ✿ Requirements (Functional / Non-functional) ✿ Constraints ✿ Trade-offs ✿ Assumptions ✿ Use Cases ✿ User Stories
+- **NON-FUNCTIONAL REQUIREMENTS (NFRs)** ✿ Scalability ✿ Availability ✿ Reliability ✿ Durability ✿ Performance ✿ Latency ✿ Throughput ✿ Consistency ✿ Fault Tolerance ✿ Resilience ✿ Security ✿ Maintainability ✿ Extensibility ✿ Observability
+- **ARCHITECTURE STYLES** ✿ Monolith ✿ Modular Monolith ✿ Microservices ✿ Service-Oriented Architecture (SOA) ✿ Event-Driven Architecture ✿ Serverless Architecture ✿ Hexagonal Architecture (Ports & Adapters) ✿ Clean Architecture ✿ Layered Architecture ✿ CQRS (Command Query Responsibility Segregation) ✿ Event Sourcing
+- **SYSTEM COMPONENTS** ✿ API Gateway ✿ Load Balancer ✿ Reverse Proxy ✿ Web Server ✿ Application Server ✿ Database ✿ Cache ✿ Message Broker ✿ CDN (Content Delivery Network) ✿ Service Mesh ✿ Sidecar
+- **NETWORKING & COMMUNICATION** ✿ HTTP / HTTPS ✿ REST ✿ GraphQL ✿ gRPC ✿ WebSockets ✿ TCP / UDP ✿ DNS ✿ TLS / SSL ✿ Keep-Alive ✿ Idempotency
+- **DATA STORAGE ✿ Relational Database (RDBMS)** ✿ NoSQL Database     ✿ Key-Value     ✿ Document     ✿ Columnar     ✿ Graph ✿ Data Lake ✿ Data Warehouse ✿ OLTP vs OLAP ✿ ACID ✿ BASE
+- **DATABASE DESIGN** ✿ Schema Design ✿ Normalization / Denormalization ✿ Indexing ✿ Partitioning ✿ Sharding ✿ Replication (Master-Slave / Leader-Follower) ✿ Read Replicas ✿ Write Scaling ✿ Query Optimization
+- **CACHING** ✿ In-memory Cache ✿ Distributed Cache ✿ Cache Aside (Lazy Loading) ✿ Write Through ✿ Write Behind ✿ Read Through ✿ Cache Invalidation ✿ TTL (Time to Live) ✿ Eviction Policies (LRU, LFU)
+- **DATA CONSISTENCY** ✿ Strong Consistency ✿ Eventual Consistency ✿ Causal Consistency ✿ CAP Theorem ✿ PACELC Theorem ✿ Quorum ✿ Read/Write Consistency ✿ Conflict Resolution
+- **DISTRIBUTED SYSTEMS** ✿ Distributed System ✿ Consensus Algorithms     ✿ Paxos     ✿ Raft ✿ Leader Election ✿ Distributed Locking ✿ Clock Synchronization ✿ Vector Clocks ✿ Lamport Timestamps
+- **MESSAGING & STREAMING** ✿ Message Queue ✿ Event Streaming ✿ Pub/Sub ✿ Event Bus ✿ Topics / Partitions ✿ Consumer Groups ✿ Dead Letter Queue (DLQ) ✿ Backpressure ✿ Exactly-once / At-least-once / At-most-once
+- **SCALABILITY PATTERNS** ✿ Horizontal Scaling ✿ Vertical Scaling ✿ Auto Scaling ✿ Stateless Services ✿ Stateful Services ✿ Partitioning Strategies ✿ Load Distribution
+- **FAULT TOLERANCE & RESILIENCE** ✿ Retry ✿ Exponential Backoff ✿ Circuit Breaker ✿ Bulkhead ✿ Failover ✿ Graceful Degradation ✿ Health Checks ✿ Heartbeats
+- **SECURITY** ✿ Authentication ✿ Authorization ✿ OAuth2 / OpenID Connect ✿ JWT ✿ RBAC / ABAC ✿ Encryption (At Rest / In Transit) ✿ Secrets Management ✿ Rate Limiting ✿ API Security
+- **OBSERVABILITY** ✿ Logging ✿ Metrics ✿ Tracing ✿ Distributed Tracing ✿ Monitoring ✿ Alerting ✿ SLIs / SLOs / SLAs
+- **DEVOPS & INFRASTRUCTURE** ✿ CI/CD ✿ Infrastructure as Code (IaC) ✿ Containerization ✿ Orchestration ✿ Blue-Green Deployment ✿ Canary Deployment ✿ Rolling Deployment
+- **CLOUD & PLATFORM** ✿ IaaS / PaaS / SaaS ✿ Multi-cloud ✿ Hybrid Cloud ✿ Edge Computing ✿ Availability Zones ✿ Regions
+- **DESIGN PRINCIPLES** ✿ SOLID ✿ DRY ✿ KISS ✿ YAGNI ✿ Separation of Concerns ✿ High Cohesion ✿ Low Coupling ✿ Idempotency
+- **DESIGN PATTERNS (SYSTEM LEVEL)** ✿ Saga Pattern ✿ API Gateway Pattern ✿ Backend for Frontend (BFF) ✿ Strangler Fig Pattern ✿ Sidecar Pattern ✿ Leader-Follower Pattern ✿ Event-Carried State Transfer ✿ Request-Response ✿ Publish-Subscribe
+- **PERFORMANCE ENGINEERING** ✿ Latency Optimization ✿ Throughput Optimization ✿ Batching ✿ Compression ✿ Connection Pooling ✿ Async Processing
+- **TESTING STRATEGIES** ✿ Unit Testing ✿ Integration Testing ✿ Contract Testing ✿ End-to-End Testing ✿ Chaos Engineering ✿ Load Testing ✿ Stress Testing
+- **DATA PIPELINES & ANALYTICS** ✿ ETL / ELT ✿ Stream Processing ✿ Batch Processing ✿ Data Ingestion ✿ Data Transformation
+- **ANTI-PATTERNS** ✿ Single Point of Failure (SPOF) ✿ Tight Coupling ✿ Chatty Services ✿ Distributed Monolith ✿ Over-engineering ✿ Big Ball of Mud
+- **INTERVIEW KEYWORDS (MUST USE)** ✿ Bottleneck ✿ Trade-off Analysis ✿ Scale Estimation ✿ Capacity Planning ✿ Back-of-the-envelope Calculation ✿ Read/Write Ratio ✿ QPS (Queries Per Second) ✿ P99 Latency
+- **ADVANCED / STAFF+ LEVEL** ✿ Multi-tenancy ✿ Data Sovereignty ✿ Zero Downtime Deployment ✿ Global Distribution ✿ Geo-replication ✿ Active-Active / Active-Passive ✿ Service Level Objectives (SLO-driven design) ✿ Cost Optimization ✿ FinOps
 
 # DOMAIN-DRIVEN DESIGN
-###  CORE DDD CONCEPTS** ✿ Domain-Driven Design (DDD) ✿ Domain ✿ Subdomain ✿ Core Domain ✿ Supporting Domain ✿ Generic Domain ✿ Business Capability ✿ Domain Model ✿ Model-Driven Design ✿ Domain Knowledge 
-###  UBIQUITOUS LANGUAGE** ✿ Ubiquitous Language ✿ Domain Vocabulary ✿ Shared Language ✿ Business Glossary ✿ Contextual Meaning ✿ Language Alignment 
-###  STRATEGIC DESIGN** ✿ Bounded Context ✿ Context Boundary ✿ Context Map ✿ Context Mapping ✿ Subdomain Mapping ✿ Domain Partitioning ✿ Organizational Alignment 
-###  CONTEXT MAPPING PATTERNS** ✿ Partnership ✿ Shared Kernel ✿ Customer-Supplier ✿ Conformist ✿ Anti-Corruption Layer (ACL) ✿ Open Host Service ✿ Published Language ✿ Separate Ways 
-###  TACTICAL DESIGN (BUILDING BLOCKS)** ✿ Entity ✿ Value Object ✿ Aggregate ✿ Aggregate Root ✿ Repository ✿ Factory ✿ Domain Service ✿ Application Service ✿ Domain Event 
-###  ENTITY** ✿ Identity ✿ Lifecycle ✿ Mutable State ✿ Equality by Identity 
-###  VALUE OBJECT** ✿ Immutable ✿ Equality by Value ✿ No Identity ✿ Self-validation 
-###  AGGREGATE** ✿ Consistency Boundary ✿ Transaction Boundary ✿ Aggregate Root ✿ Invariants ✿ Aggregate Design Rules 
-###  REPOSITORY** ✿ Persistence Abstraction ✿ Collection-like Interface ✿ Query Methods ✿ Data Access Layer 
-###  FACTORY** ✿ Object Creation Logic ✿ Complex Initialization ✿ Aggregate Creation 
-###  SERVICES** ✿ Domain Service ✿ Application Service ✿ Infrastructure Service ✿ Stateless Service 
-###  DOMAIN EVENTS** ✿ Event Notification ✿ Event Publishing ✿ Event Handling ✿ Event-Driven Design ✿ Eventual Consistency 
-###  ARCHITECTURE PATTERNS (DDD)** ✿ Layered Architecture ✿ Hexagonal Architecture (Ports & Adapters) ✿ Clean Architecture ✿ Onion Architecture ✿ CQRS (Command Query Responsibility Segregation) ✿ Event Sourcing 
-###  CQRS** ✿ Command Model ✿ Query Model ✿ Read Model ✿ Write Model ✿ Separation of Concerns 
-###  EVENT SOURCING** ✿ Event Store ✿ Event Replay ✿ Event Versioning ✿ Snapshotting ✿ Immutable Log 
-###  INTEGRATION PATTERNS** ✿ Anti-Corruption Layer (ACL) ✿ Adapter ✿ Translator ✿ API Gateway ✿ Message Broker Integration 
-###  DOMAIN MODELING TECHNIQUES** ✿ Event Storming ✿ Domain Storytelling ✿ Use Case Modeling ✿ Aggregation Design ✿ Invariant Modeling 
-###  MICROSERVICES + DDD** ✿ Bounded Context = Microservice ✿ Service per Domain ✿ Domain Isolation ✿ Data Ownership ✿ Decentralized Data 
-###  CONSISTENCY & TRANSACTIONS** ✿ Strong Consistency ✿ Eventual Consistency ✿ Saga Pattern   ✿ Orchestration   ✿ Choreography ✿ Distributed Transactions 
-###  INFRASTRUCTURE LAYER** ✿ Persistence (DB) ✿ Messaging (Kafka, RabbitMQ) ✿ External APIs ✿ Caching 
-###  DESIGN PRINCIPLES (DDD)** ✿ High Cohesion ✿ Low Coupling ✿ Separation of Concerns ✿ Explicit Boundaries ✿ Model Integrity 
-###  ANTI-PATTERNS** ✿ Anemic Domain Model ✿ God Object ✿ Big Ball of Mud ✿ Shared Database Across Contexts ✿ Tight Coupling Between Contexts 
-###  INTERVIEW POWER KEYWORDS** ✿ “Bounded Context defines clear ownership” ✿ “Aggregate ensures consistency boundary” ✿ “ACL protects domain from external models” ✿ “CQRS separates read and write concerns” ✿ “Event Sourcing enables audit + replay” 
-###  ADVANCED / STAFF+ LEVEL** ✿ Domain Evolution ✿ Context Refactoring ✿ Multi-team Domain Ownership ✿ Domain Governance ✿ Event-driven Microservices ✿ Domain Platform Engineering ✿ Strategic vs Tactical Trade-offs 
-###  RELATED TOOLS / IMPLEMENTATION** ✿ Spring Boot ✿ Axon Framework ✿ Apache Kafka ✿ EventStoreDB 
+- **CORE DDD CONCEPTS** ✿ Domain-Driven Design (DDD) ✿ Domain ✿ Subdomain ✿ Core Domain ✿ Supporting Domain ✿ Generic Domain ✿ Business Capability ✿ Domain Model ✿ Model-Driven Design ✿ Domain Knowledge 
+- **UBIQUITOUS LANGUAGE** ✿ Ubiquitous Language ✿ Domain Vocabulary ✿ Shared Language ✿ Business Glossary ✿ Contextual Meaning ✿ Language Alignment 
+- **STRATEGIC DESIGN** ✿ Bounded Context ✿ Context Boundary ✿ Context Map ✿ Context Mapping ✿ Subdomain Mapping ✿ Domain Partitioning ✿ Organizational Alignment 
+- **CONTEXT MAPPING PATTERNS** ✿ Partnership ✿ Shared Kernel ✿ Customer-Supplier ✿ Conformist ✿ Anti-Corruption Layer (ACL) ✿ Open Host Service ✿ Published Language ✿ Separate Ways 
+- **TACTICAL DESIGN (BUILDING BLOCKS)** ✿ Entity ✿ Value Object ✿ Aggregate ✿ Aggregate Root ✿ Repository ✿ Factory ✿ Domain Service ✿ Application Service ✿ Domain Event 
+- **ENTITY** ✿ Identity ✿ Lifecycle ✿ Mutable State ✿ Equality by Identity 
+- **VALUE OBJECT** ✿ Immutable ✿ Equality by Value ✿ No Identity ✿ Self-validation 
+- **AGGREGATE** ✿ Consistency Boundary ✿ Transaction Boundary ✿ Aggregate Root ✿ Invariants ✿ Aggregate Design Rules 
+- **REPOSITORY** ✿ Persistence Abstraction ✿ Collection-like Interface ✿ Query Methods ✿ Data Access Layer 
+- **FACTORY** ✿ Object Creation Logic ✿ Complex Initialization ✿ Aggregate Creation 
+- **SERVICES** ✿ Domain Service ✿ Application Service ✿ Infrastructure Service ✿ Stateless Service 
+- **DOMAIN EVENTS** ✿ Event Notification ✿ Event Publishing ✿ Event Handling ✿ Event-Driven Design ✿ Eventual Consistency 
+- **ARCHITECTURE PATTERNS (DDD)** ✿ Layered Architecture ✿ Hexagonal Architecture (Ports & Adapters) ✿ Clean Architecture ✿ Onion Architecture ✿ CQRS (Command Query Responsibility Segregation) ✿ Event Sourcing 
+- **CQRS** ✿ Command Model ✿ Query Model ✿ Read Model ✿ Write Model ✿ Separation of Concerns 
+- **EVENT SOURCING** ✿ Event Store ✿ Event Replay ✿ Event Versioning ✿ Snapshotting ✿ Immutable Log 
+- **INTEGRATION PATTERNS** ✿ Anti-Corruption Layer (ACL) ✿ Adapter ✿ Translator ✿ API Gateway ✿ Message Broker Integration 
+- **DOMAIN MODELING TECHNIQUES** ✿ Event Storming ✿ Domain Storytelling ✿ Use Case Modeling ✿ Aggregation Design ✿ Invariant Modeling 
+- **MICROSERVICES + DDD** ✿ Bounded Context = Microservice ✿ Service per Domain ✿ Domain Isolation ✿ Data Ownership ✿ Decentralized Data 
+- **CONSISTENCY & TRANSACTIONS** ✿ Strong Consistency ✿ Eventual Consistency ✿ Saga Pattern   ✿ Orchestration   ✿ Choreography ✿ Distributed Transactions 
+- **INFRASTRUCTURE LAYER** ✿ Persistence (DB) ✿ Messaging (Kafka, RabbitMQ) ✿ External APIs ✿ Caching 
+- **DESIGN PRINCIPLES (DDD)** ✿ High Cohesion ✿ Low Coupling ✿ Separation of Concerns ✿ Explicit Boundaries ✿ Model Integrity 
+- **ANTI-PATTERNS** ✿ Anemic Domain Model ✿ God Object ✿ Big Ball of Mud ✿ Shared Database Across Contexts ✿ Tight Coupling Between Contexts 
+- **INTERVIEW POWER KEYWORDS** ✿ “Bounded Context defines clear ownership” ✿ “Aggregate ensures consistency boundary” ✿ “ACL protects domain from external models” ✿ “CQRS separates read and write concerns” ✿ “Event Sourcing enables audit + replay” 
+- **ADVANCED / STAFF+ LEVEL** ✿ Domain Evolution ✿ Context Refactoring ✿ Multi-team Domain Ownership ✿ Domain Governance ✿ Event-driven Microservices ✿ Domain Platform Engineering ✿ Strategic vs Tactical Trade-offs 
+- **RELATED TOOLS / IMPLEMENTATION** ✿ Spring Boot ✿ Axon Framework ✿ Apache Kafka ✿ EventStoreDB 
 
 # MICROSERVICES
-###  CORE MICROSERVICES CONCEPTS** ✿ Microservices Architecture ✿ Service-Oriented Architecture (SOA) ✿ Service Decomposition ✿ Bounded Context (DDD) ✿ Independent Deployability ✿ Loose Coupling ✿ High Cohesion ✿ Decentralization ✿ Autonomy 
-###  SERVICE DESIGN** ✿ Service Granularity ✿ Single Responsibility ✿ Stateless Services ✿ Stateful Services ✿ API-first Design ✿ Contract-first Design ✿ Backward Compatibility ✿ Versioning 
-###  API & COMMUNICATION** ✿ REST ✿ GraphQL ✿ gRPC ✿ WebSockets ✿ HTTP / HTTPS ✿ Idempotency ✿ Request-Response ✿ Async Communication 
-###  MESSAGING & EVENT-DRIVEN** ✿ Event-Driven Architecture ✿ Pub/Sub ✿ Message Queue ✿ Event Bus ✿ Event Stream ✿ Producer / Consumer ✿ Eventual Consistency ✿✿Tools✿✿ ✿ Apache Kafka ✿ RabbitMQ 
-###  SERVICE DISCOVERY** ✿ Service Registry ✿ Client-side Discovery ✿ Server-side Discovery ✿ Dynamic Routing ✿✿Tools✿✿ ✿ Netflix Eureka ✿ Consul 
-###  API GATEWAY** ✿ API Gateway Pattern ✿ Routing ✿ Rate Limiting ✿ Authentication / Authorization ✿ Aggregation 
-###  SECURITY** ✿ Authentication ✿ Authorization ✿ OAuth2 ✿ OpenID Connect ✿ JWT ✿ mTLS ✿ Zero Trust 
-###  DATA MANAGEMENT** ✿ Database per Service ✿ Polyglot Persistence ✿ Shared Database (anti-pattern) ✿ Data Ownership ✿ Data Consistency ✿ Data Replication 
-###  DISTRIBUTED TRANSACTIONS** ✿ Saga Pattern   ✿ Orchestration   ✿ Choreography ✿ Two-Phase Commit (2PC) ✿ Compensation Transactions 
-###  RESILIENCE & FAULT TOLERANCE** ✿ Circuit Breaker ✿ Retry ✿ Timeout ✿ Bulkhead ✿ Fallback ✿ Graceful Degradation 
-###  CONFIGURATION MANAGEMENT** ✿ Externalized Configuration ✿ Config Server ✿ Dynamic Config ✿ Feature Flags 
-###  OBSERVABILITY** ✿ Logging ✿ Metrics ✿ Distributed Tracing ✿ Correlation ID ✿ Monitoring ✿ Alerting 
-###  DEVOPS & DEPLOYMENT** ✿ CI/CD ✿ Containerization ✿ Orchestration ✿ Infrastructure as Code ✿ Blue-Green Deployment ✿ Canary Deployment ✿✿Tools✿✿ ✿ Docker ✿ Kubernetes 
-###  CLOUD-NATIVE** ✿ Cloud-native Architecture ✿ Scalability ✿ Auto-scaling ✿ Multi-region Deployment ✿ Serverless 
-###  SERVICE MESH** ✿ Service Mesh ✿ Sidecar Pattern ✿ Traffic Management ✿ Observability ✿✿Tools✿✿ ✿ Istio ✿ Linkerd 
-###  DESIGN PATTERNS** ✿ API Gateway Pattern ✿ Backend for Frontend (BFF) ✿ Strangler Fig Pattern ✿ Sidecar Pattern ✿ Ambassador Pattern ✿ Aggregator Pattern 
-###  TESTING** ✿ Unit Testing ✿ Integration Testing ✿ Contract Testing ✿ End-to-End Testing ✿ Chaos Testing 
-###  PERFORMANCE** ✿ Load Balancing ✿ Caching ✿ Connection Pooling ✿ Async Processing ✿ Backpressure 
-###  EVENT PATTERNS** ✿ Event Sourcing ✿ CQRS ✿ Event Replay ✿ Event Versioning 
-###  GOVERNANCE** ✿ API Governance ✿ Service Ownership ✿ Documentation ✿ Version Control 
-###  ANTI-PATTERNS** ✿ Distributed Monolith ✿ Chatty Services ✿ Tight Coupling ✿ Shared Database ✿ Over-fragmentation 
-###  INTERVIEW POWER KEYWORDS** ✿ “Database per service ensures loose coupling” ✿ “Saga handles distributed transactions” ✿ “API Gateway centralizes cross-cutting concerns” ✿ “Event-driven architecture improves scalability” ✿ “Service mesh handles cross-service communication” 
-###  ADVANCED / STAFF+ LEVEL** ✿ Multi-cluster Microservices ✿ Global Traffic Management ✿ Cell-based Architecture ✿ Platform Engineering ✿ Internal Developer Platform (IDP) ✿ Multi-tenancy ✿ Cost Optimization 
+- **CORE MICROSERVICES CONCEPTS** ✿ Microservices Architecture ✿ Service-Oriented Architecture (SOA) ✿ Service Decomposition ✿ Bounded Context (DDD) ✿ Independent Deployability ✿ Loose Coupling ✿ High Cohesion ✿ Decentralization ✿ Autonomy 
+- **SERVICE DESIGN** ✿ Service Granularity ✿ Single Responsibility ✿ Stateless Services ✿ Stateful Services ✿ API-first Design ✿ Contract-first Design ✿ Backward Compatibility ✿ Versioning 
+- **API & COMMUNICATION** ✿ REST ✿ GraphQL ✿ gRPC ✿ WebSockets ✿ HTTP / HTTPS ✿ Idempotency ✿ Request-Response ✿ Async Communication 
+- **MESSAGING & EVENT-DRIVEN** ✿ Event-Driven Architecture ✿ Pub/Sub ✿ Message Queue ✿ Event Bus ✿ Event Stream ✿ Producer / Consumer ✿ Eventual Consistency ✿✿Tools✿✿ ✿ Apache Kafka ✿ RabbitMQ 
+- **SERVICE DISCOVERY** ✿ Service Registry ✿ Client-side Discovery ✿ Server-side Discovery ✿ Dynamic Routing ✿✿Tools✿✿ ✿ Netflix Eureka ✿ Consul 
+- **API GATEWAY** ✿ API Gateway Pattern ✿ Routing ✿ Rate Limiting ✿ Authentication / Authorization ✿ Aggregation 
+- **SECURITY** ✿ Authentication ✿ Authorization ✿ OAuth2 ✿ OpenID Connect ✿ JWT ✿ mTLS ✿ Zero Trust 
+- **DATA MANAGEMENT** ✿ Database per Service ✿ Polyglot Persistence ✿ Shared Database (anti-pattern) ✿ Data Ownership ✿ Data Consistency ✿ Data Replication 
+- **DISTRIBUTED TRANSACTIONS** ✿ Saga Pattern   ✿ Orchestration   ✿ Choreography ✿ Two-Phase Commit (2PC) ✿ Compensation Transactions 
+- **RESILIENCE & FAULT TOLERANCE** ✿ Circuit Breaker ✿ Retry ✿ Timeout ✿ Bulkhead ✿ Fallback ✿ Graceful Degradation 
+- **CONFIGURATION MANAGEMENT** ✿ Externalized Configuration ✿ Config Server ✿ Dynamic Config ✿ Feature Flags 
+- **OBSERVABILITY** ✿ Logging ✿ Metrics ✿ Distributed Tracing ✿ Correlation ID ✿ Monitoring ✿ Alerting 
+- **DEVOPS & DEPLOYMENT** ✿ CI/CD ✿ Containerization ✿ Orchestration ✿ Infrastructure as Code ✿ Blue-Green Deployment ✿ Canary Deployment ✿✿Tools✿✿ ✿ Docker ✿ Kubernetes 
+- **CLOUD-NATIVE** ✿ Cloud-native Architecture ✿ Scalability ✿ Auto-scaling ✿ Multi-region Deployment ✿ Serverless 
+- **SERVICE MESH** ✿ Service Mesh ✿ Sidecar Pattern ✿ Traffic Management ✿ Observability ✿✿Tools✿✿ ✿ Istio ✿ Linkerd 
+- **DESIGN PATTERNS** ✿ API Gateway Pattern ✿ Backend for Frontend (BFF) ✿ Strangler Fig Pattern ✿ Sidecar Pattern ✿ Ambassador Pattern ✿ Aggregator Pattern 
+- **TESTING** ✿ Unit Testing ✿ Integration Testing ✿ Contract Testing ✿ End-to-End Testing ✿ Chaos Testing 
+- **PERFORMANCE** ✿ Load Balancing ✿ Caching ✿ Connection Pooling ✿ Async Processing ✿ Backpressure 
+- **EVENT PATTERNS** ✿ Event Sourcing ✿ CQRS ✿ Event Replay ✿ Event Versioning 
+- **GOVERNANCE** ✿ API Governance ✿ Service Ownership ✿ Documentation ✿ Version Control 
+- **ANTI-PATTERNS** ✿ Distributed Monolith ✿ Chatty Services ✿ Tight Coupling ✿ Shared Database ✿ Over-fragmentation 
+- **INTERVIEW POWER KEYWORDS** ✿ “Database per service ensures loose coupling” ✿ “Saga handles distributed transactions” ✿ “API Gateway centralizes cross-cutting concerns” ✿ “Event-driven architecture improves scalability” ✿ “Service mesh handles cross-service communication” 
+- **ADVANCED / STAFF+ LEVEL** ✿ Multi-cluster Microservices ✿ Global Traffic Management ✿ Cell-based Architecture ✿ Platform Engineering ✿ Internal Developer Platform (IDP) ✿ Multi-tenancy ✿ Cost Optimization 
 
 
 # SPRING
-###  CORE SPRING FRAMEWORK** ✿ Spring Framework ✿ Inversion of Control (IoC) ✿ Dependency Injection (DI) ✿ ApplicationContext ✿ BeanFactory ✿ Bean Definition ✿ Bean Lifecycle ✿ Bean Scopes (singleton, prototype, request, session) ✿ Environment / Profiles ✿ Property Sources 
-###  SPRING BOOT CORE** ✿ Spring Boot ✿ Auto-Configuration ✿ Starter Dependencies ✿ SpringApplication ✿ Embedded Server (Tomcat, Jetty, Netty) ✿ application.properties / application.yml ✿ Externalized Configuration ✿ Profiles ✿ Banner / Startup 
-###  BEAN & CONTEXT MANAGEMENT** ✿ `@Component`, `@Service`, `@Repository`, `@Controller` ✿ `@Configuration`, `@Bean` ✿ `@Autowired` / Constructor Injection ✿ `@Qualifier` ✿ `@Primary` ✿ Lazy Initialization ✿ BeanPostProcessor ✿ FactoryBean ✿ Circular Dependency ✿ Context Hierarchy 
-###  SPRING WEB (MVC)** ✿ Spring MVC ✿ DispatcherServlet ✿ Handler Mapping ✿ Controller / RestController ✿ Request Mapping (`@GetMapping`, etc.) ✿ Path Variables / Request Params ✿ Model / ModelAndView ✿ View Resolver ✿ Exception Handling (`@ControllerAdvice`) ✿ Validation (`@Valid`) 
-###  SPRING WEBFLUX (REACTIVE)** ✿ Spring WebFlux ✿ Reactive Programming ✿ Mono / Flux ✿ Non-blocking I/O ✿ Netty Runtime ✿ Functional Endpoints ✿ Backpressure 
-###  DATA ACCESS** ✿ Spring Data ✿ Repository Pattern ✿ CRUD Repository ✿ JpaRepository ✿ Paging / Sorting ✿ Query Methods ✿ Custom Queries ✿ Projections ✿ Auditing 
-###  ORM & DATABASE** ✿ Hibernate ✿ JPA (Java Persistence API) ✿ Entity Mapping (`@Entity`) ✿ Relationships (OneToOne, OneToMany, ManyToMany) ✿ Lazy / Eager Fetching ✿ Dirty Checking ✿ N+1 Problem ✿ Transaction Management (`@Transactional`) 
-###  SECURITY** ✿ Spring Security ✿ Authentication ✿ Authorization ✿ Security Filter Chain ✿ SecurityContext ✿ OAuth2 / OpenID Connect ✿ JWT ✿ CSRF / CORS ✿ Method Security (`@PreAuthorize`) 
-###  MICROSERVICES (SPRING CLOUD)** ✿ Spring Cloud ✿ Service Discovery (Eureka / Consul) ✿ Config Server ✿ API Gateway ✿ Load Balancer ✿ Circuit Breaker (Resilience4j) ✿ Feign Client ✿ Distributed Configuration ✿ Tracing (Sleuth / Micrometer) 
-###  MESSAGING & EVENTING** ✿ Spring for Apache Kafka ✿ Spring AMQP ✿ Spring Integration ✿ Message Listener ✿ Producer / Consumer ✿ Event-driven Architecture ✿ DLQ 
-###  OBSERVABILITY** ✿ Spring Boot Actuator ✿ Health Checks ✿ Metrics ✿ Micrometer ✿ Logging (SLF4J / Logback) ✿ Distributed Tracing (OpenTelemetry) ✿ Alerting 
-###  CONFIGURATION** ✿ `@Value` ✿ `@ConfigurationProperties` ✿ Profiles ✿ YAML vs Properties ✿ External Config (Vault, Config Server) 
-###  AOP (ASPECT-ORIENTED PROGRAMMING)** ✿ Aspect ✿ Advice (Before / After / Around) ✿ Join Point ✿ Pointcut ✿ Proxy-based AOP ✿ Cross-cutting Concerns 
-###  TESTING** ✿ Spring Test ✿ `@SpringBootTest` ✿ `@WebMvcTest` ✿ `@DataJpaTest` ✿ MockMvc ✿ TestRestTemplate ✿ Embedded DB (H2) ✿ Test Slices 
-###  SPRING BOOT ADVANCED** ✿ Auto-Configuration Internals ✿ Conditional Beans (`@Conditional`) ✿ Custom Starter ✿ Custom Auto-Configuration ✿ Spring Factories / AutoConfiguration.imports ✿ Boot Lifecycle Events 
-###  API DESIGN** ✿ REST API ✿ HATEOAS ✿ Versioning ✿ OpenAPI / Swagger ✿ Validation ✿ Error Handling 
-###  CLOUD & DEPLOYMENT** ✿ Docker ✿ Kubernetes ✿ Spring Boot Fat JAR ✿ Cloud Native Buildpacks ✿ Horizontal Scaling ✿ External Config 
-###  PERFORMANCE & TUNING** ✿ Thread Pool Tuning ✿ Connection Pool (HikariCP) ✿ Caching (`@Cacheable`) ✿ Redis Integration ✿ Lazy Initialization ✿ JVM Tuning 
-###  RESILIENCE** ✿ Retry (`@Retryable`) ✿ Circuit Breaker ✿ Rate Limiting ✿ Timeout ✿ Fallback ✿ Bulkhead 
-###  TRANSACTIONS** ✿ Declarative Transactions ✿ Programmatic Transactions ✿ Propagation ✿ Isolation Levels ✿ Rollback Rules 
-###  BUILD & DEPENDENCY MANAGEMENT** ✿ Maven ✿ Gradle ✿ Dependency Management ✿ BOM (Bill of Materials) 
-###  DESIGN PRINCIPLES (SPRING CONTEXT)** ✿ Convention over Configuration ✿ Dependency Injection ✿ Loose Coupling ✿ Testability ✿ Modularity 
-###  COMMON PITFALLS** ✿ Circular Dependencies ✿ Blocking Calls in Reactive ✿ N+1 Queries ✿ Misconfigured Transactions ✿ Overuse of Annotations ✿ Tight Coupling 
-###  INTERVIEW POWER KEYWORDS** ✿ Auto-configuration magic ✿ Starter abstraction ✿ Embedded vs External server ✿ Reactive vs Blocking ✿ Stateless microservices ✿ Externalized configuration 
-###  ADVANCED / STAFF+ LEVEL** ✿ Multi-module Spring Boot ✿ Domain-Driven Design (DDD) ✿ Event-driven Microservices ✿ Saga Pattern (Orchestration / Choreography) ✿ Observability-first Architecture ✿ Platform Engineering with Spring ✿ Internal Developer Platform (IDP) 
+- **CORE SPRING FRAMEWORK** ✿ Spring Framework ✿ Inversion of Control (IoC) ✿ Dependency Injection (DI) ✿ ApplicationContext ✿ BeanFactory ✿ Bean Definition ✿ Bean Lifecycle ✿ Bean Scopes (singleton, prototype, request, session) ✿ Environment / Profiles ✿ Property Sources 
+- **SPRING BOOT CORE** ✿ Spring Boot ✿ Auto-Configuration ✿ Starter Dependencies ✿ SpringApplication ✿ Embedded Server (Tomcat, Jetty, Netty) ✿ application.properties / application.yml ✿ Externalized Configuration ✿ Profiles ✿ Banner / Startup 
+- **BEAN & CONTEXT MANAGEMENT** ✿ `@Component`, `@Service`, `@Repository`, `@Controller` ✿ `@Configuration`, `@Bean` ✿ `@Autowired` / Constructor Injection ✿ `@Qualifier` ✿ `@Primary` ✿ Lazy Initialization ✿ BeanPostProcessor ✿ FactoryBean ✿ Circular Dependency ✿ Context Hierarchy 
+- **SPRING WEB (MVC)** ✿ Spring MVC ✿ DispatcherServlet ✿ Handler Mapping ✿ Controller / RestController ✿ Request Mapping (`@GetMapping`, etc.) ✿ Path Variables / Request Params ✿ Model / ModelAndView ✿ View Resolver ✿ Exception Handling (`@ControllerAdvice`) ✿ Validation (`@Valid`) 
+- **SPRING WEBFLUX (REACTIVE)** ✿ Spring WebFlux ✿ Reactive Programming ✿ Mono / Flux ✿ Non-blocking I/O ✿ Netty Runtime ✿ Functional Endpoints ✿ Backpressure 
+- **DATA ACCESS** ✿ Spring Data ✿ Repository Pattern ✿ CRUD Repository ✿ JpaRepository ✿ Paging / Sorting ✿ Query Methods ✿ Custom Queries ✿ Projections ✿ Auditing 
+- **ORM & DATABASE** ✿ Hibernate ✿ JPA (Java Persistence API) ✿ Entity Mapping (`@Entity`) ✿ Relationships (OneToOne, OneToMany, ManyToMany) ✿ Lazy / Eager Fetching ✿ Dirty Checking ✿ N+1 Problem ✿ Transaction Management (`@Transactional`) 
+- **SECURITY** ✿ Spring Security ✿ Authentication ✿ Authorization ✿ Security Filter Chain ✿ SecurityContext ✿ OAuth2 / OpenID Connect ✿ JWT ✿ CSRF / CORS ✿ Method Security (`@PreAuthorize`) 
+- **MICROSERVICES (SPRING CLOUD)** ✿ Spring Cloud ✿ Service Discovery (Eureka / Consul) ✿ Config Server ✿ API Gateway ✿ Load Balancer ✿ Circuit Breaker (Resilience4j) ✿ Feign Client ✿ Distributed Configuration ✿ Tracing (Sleuth / Micrometer) 
+- **MESSAGING & EVENTING** ✿ Spring for Apache Kafka ✿ Spring AMQP ✿ Spring Integration ✿ Message Listener ✿ Producer / Consumer ✿ Event-driven Architecture ✿ DLQ 
+- **OBSERVABILITY** ✿ Spring Boot Actuator ✿ Health Checks ✿ Metrics ✿ Micrometer ✿ Logging (SLF4J / Logback) ✿ Distributed Tracing (OpenTelemetry) ✿ Alerting 
+- **CONFIGURATION** ✿ `@Value` ✿ `@ConfigurationProperties` ✿ Profiles ✿ YAML vs Properties ✿ External Config (Vault, Config Server) 
+- **AOP (ASPECT-ORIENTED PROGRAMMING)** ✿ Aspect ✿ Advice (Before / After / Around) ✿ Join Point ✿ Pointcut ✿ Proxy-based AOP ✿ Cross-cutting Concerns 
+- **TESTING** ✿ Spring Test ✿ `@SpringBootTest` ✿ `@WebMvcTest` ✿ `@DataJpaTest` ✿ MockMvc ✿ TestRestTemplate ✿ Embedded DB (H2) ✿ Test Slices 
+- **SPRING BOOT ADVANCED** ✿ Auto-Configuration Internals ✿ Conditional Beans (`@Conditional`) ✿ Custom Starter ✿ Custom Auto-Configuration ✿ Spring Factories / AutoConfiguration.imports ✿ Boot Lifecycle Events 
+- **API DESIGN** ✿ REST API ✿ HATEOAS ✿ Versioning ✿ OpenAPI / Swagger ✿ Validation ✿ Error Handling 
+- **CLOUD & DEPLOYMENT** ✿ Docker ✿ Kubernetes ✿ Spring Boot Fat JAR ✿ Cloud Native Buildpacks ✿ Horizontal Scaling ✿ External Config 
+- **PERFORMANCE & TUNING** ✿ Thread Pool Tuning ✿ Connection Pool (HikariCP) ✿ Caching (`@Cacheable`) ✿ Redis Integration ✿ Lazy Initialization ✿ JVM Tuning 
+- **RESILIENCE** ✿ Retry (`@Retryable`) ✿ Circuit Breaker ✿ Rate Limiting ✿ Timeout ✿ Fallback ✿ Bulkhead 
+- **TRANSACTIONS** ✿ Declarative Transactions ✿ Programmatic Transactions ✿ Propagation ✿ Isolation Levels ✿ Rollback Rules 
+- **BUILD & DEPENDENCY MANAGEMENT** ✿ Maven ✿ Gradle ✿ Dependency Management ✿ BOM (Bill of Materials) 
+- **DESIGN PRINCIPLES (SPRING CONTEXT)** ✿ Convention over Configuration ✿ Dependency Injection ✿ Loose Coupling ✿ Testability ✿ Modularity 
+- **COMMON PITFALLS** ✿ Circular Dependencies ✿ Blocking Calls in Reactive ✿ N+1 Queries ✿ Misconfigured Transactions ✿ Overuse of Annotations ✿ Tight Coupling 
+- **INTERVIEW POWER KEYWORDS** ✿ Auto-configuration magic ✿ Starter abstraction ✿ Embedded vs External server ✿ Reactive vs Blocking ✿ Stateless microservices ✿ Externalized configuration 
+- **ADVANCED / STAFF+ LEVEL** ✿ Multi-module Spring Boot ✿ Domain-Driven Design (DDD) ✿ Event-driven Microservices ✿ Saga Pattern (Orchestration / Choreography) ✿ Observability-first Architecture ✿ Platform Engineering with Spring ✿ Internal Developer Platform (IDP) 
 
 # KAFKA
-###  CORE KAFKA CONCEPTS** ✿ Apache Kafka ✿ Event Streaming ✿ Distributed Log ✿ Publish-Subscribe ✿ Messaging System ✿ Event Bus 
-###  BASIC BUILDING BLOCKS** ✿ Topic ✿ Partition ✿ Offset ✿ Record / Message ✿ Key / Value ✿ Header ✿ Timestamp 
-###  PRODUCER** ✿ Producer API ✿ Producer Record ✿ Partitioning Strategy ✿ Key-based Partitioning ✿ Round-robin Partitioning ✿ Sticky Partitioner ✿ Batching ✿ Compression 
-###  CONSUMER** ✿ Consumer API ✿ Consumer Group ✿ Group Coordinator ✿ Partition Assignment ✿ Rebalancing ✿ Auto Commit ✿ Manual Commit ✿ Offset Management 
-###  CLUSTER ARCHITECTURE** ✿ Broker ✿ Cluster ✿ Controller ✿ Leader / Follower ✿ ISR (In-Sync Replicas) ✿ Replica ✿ Replication Factor 
-###  STORAGE MODEL** ✿ Log-based Storage ✿ Append-only Log ✿ Segment Files ✿ Log Segments ✿ Log Retention ✿ Log Compaction 
-###  DELIVERY SEMANTICS** ✿ At-most-once ✿ At-least-once ✿ Exactly-once ✿ Idempotent Producer ✿ Transactional Producer 
-###  REPLICATION** & CONSISTENCY ✿ Leader Election ✿ Replica Sync ✿ High Watermark ✿ Acknowledgments (`acks=0,1,all`) ✿ Quorum 
-###  PERFORMANCE** & SCALING ✿ Throughput ✿ Latency ✿ Partition Scaling ✿ Parallelism ✿ Horizontal Scaling ✿ Backpressure ✿ Zero-copy (sendfile) 
-###  KAFKA STREAMS** ✿ Kafka Streams API ✿ Stream Processing ✿ KStream / KTable ✿ Stateful Processing ✿ Windowing   ✿ Tumbling Window   ✿ Sliding Window ✿ Aggregation ✿ Join Operations 
-###  KSQL / KSQLDB** ✿ Stream Queries ✿ Continuous Queries ✿ SQL on Streams ✿ Materialized Views 
-###  KAFKA CONNECT** ✿ Source Connector ✿ Sink Connector ✿ Connector Config ✿ Offset Storage ✿ Distributed Mode ✿ Standalone Mode 
-###  SCHEMA & SERIALIZATION** ✿ Schema Registry ✿ Avro ✿ Protobuf ✿ JSON Schema ✿ Schema Evolution ✿ Backward / Forward Compatibility 
-###  SECURITY** ✿ SSL / TLS ✿ SASL ✿ Authentication ✿ Authorization (ACLs) ✿ Encryption 
-###  EVENT PATTERNS** ✿ Event Sourcing ✿ CQRS ✿ Event Replay ✿ Event Versioning ✿ Event Aggregation ✿ Pub/Sub ✿ Stream Processing 
-###  DISTRIBUTED SYSTEMS CONCEPTS** ✿ CAP Theorem ✿ Consistency ✿ Availability ✿ Partition Tolerance ✿ Leader Election ✿ Consensus ✿ Distributed Commit 
-###  CONFIGURATION** ✿ Broker Config ✿ Topic Config ✿ Retention Policy ✿ Cleanup Policy ✿ Segment Size ✿ Log Retention Time 
-###  MONITORING & OBSERVABILITY** ✿ Consumer Lag ✿ Metrics ✿ JMX ✿ Logging ✿ Alerting ✿ Lag Monitoring 
-###  TESTING** ✿ Embedded Kafka ✿ Integration Testing ✿ Contract Testing ✿ Event Simulation 
-###  DEVOPS & OPERATIONS** ✿ Cluster Setup ✿ Scaling Brokers ✿ Partition Reassignment ✿ Rolling Upgrade ✿ Backup / Restore ✿ Disaster Recovery 
-###  KAFKA ECOSYSTEM** ✿ Kafka Streams ✿ Kafka Connect ✿ ksqlDB 
-###  ZOOKEEPER / KRAFT** ✿ Apache ZooKeeper ✿ KRaft (Kafka Raft Metadata Mode) ✿ Controller Quorum ✿ Metadata Management 
-###  ADVANCED FEATURES** ✿ Tiered Storage ✿ Rack Awareness ✿ Exactly-once Processing ✿ Transactional Messaging ✿ MirrorMaker (Cross-cluster replication) ✿ Multi-region Kafka 
-###  ANTI-PATTERNS** ✿ Large Messages ✿ Hot Partitions ✿ Over-partitioning ✿ Message Ordering Issues ✿ Tight Coupling via Events ✿ Unbounded Retention 
-###  INTERVIEW POWER KEYWORDS** ✿ Partitioning Strategy ✿ Consumer Lag Handling ✿ Exactly-once vs At-least-once ✿ Ordering Guarantees ✿ Throughput vs Latency Trade-off ✿ Kafka vs RabbitMQ 
-###  STAFF+ LEVEL** ✿ Event Streaming Platform Design ✿ Multi-cluster Architecture ✿ Data Mesh with Kafka ✿ Stream-first Architecture ✿ Real-time Analytics Pipeline ✿ Backpressure Management ✿ Load Shedding 
+- **CORE KAFKA CONCEPTS** ✿ Apache Kafka ✿ Event Streaming ✿ Distributed Log ✿ Publish-Subscribe ✿ Messaging System ✿ Event Bus 
+- **BASIC BUILDING BLOCKS** ✿ Topic ✿ Partition ✿ Offset ✿ Record / Message ✿ Key / Value ✿ Header ✿ Timestamp 
+- **PRODUCER** ✿ Producer API ✿ Producer Record ✿ Partitioning Strategy ✿ Key-based Partitioning ✿ Round-robin Partitioning ✿ Sticky Partitioner ✿ Batching ✿ Compression 
+- **CONSUMER** ✿ Consumer API ✿ Consumer Group ✿ Group Coordinator ✿ Partition Assignment ✿ Rebalancing ✿ Auto Commit ✿ Manual Commit ✿ Offset Management 
+- **CLUSTER ARCHITECTURE** ✿ Broker ✿ Cluster ✿ Controller ✿ Leader / Follower ✿ ISR (In-Sync Replicas) ✿ Replica ✿ Replication Factor 
+- **STORAGE MODEL** ✿ Log-based Storage ✿ Append-only Log ✿ Segment Files ✿ Log Segments ✿ Log Retention ✿ Log Compaction 
+- **DELIVERY SEMANTICS** ✿ At-most-once ✿ At-least-once ✿ Exactly-once ✿ Idempotent Producer ✿ Transactional Producer 
+- **REPLICATION** & CONSISTENCY ✿ Leader Election ✿ Replica Sync ✿ High Watermark ✿ Acknowledgments (`acks=0,1,all`) ✿ Quorum 
+- **PERFORMANCE** & SCALING ✿ Throughput ✿ Latency ✿ Partition Scaling ✿ Parallelism ✿ Horizontal Scaling ✿ Backpressure ✿ Zero-copy (sendfile) 
+- **KAFKA STREAMS** ✿ Kafka Streams API ✿ Stream Processing ✿ KStream / KTable ✿ Stateful Processing ✿ Windowing   ✿ Tumbling Window   ✿ Sliding Window ✿ Aggregation ✿ Join Operations 
+- **KSQL / KSQLDB** ✿ Stream Queries ✿ Continuous Queries ✿ SQL on Streams ✿ Materialized Views 
+- **KAFKA CONNECT** ✿ Source Connector ✿ Sink Connector ✿ Connector Config ✿ Offset Storage ✿ Distributed Mode ✿ Standalone Mode 
+- **SCHEMA & SERIALIZATION** ✿ Schema Registry ✿ Avro ✿ Protobuf ✿ JSON Schema ✿ Schema Evolution ✿ Backward / Forward Compatibility 
+- **SECURITY** ✿ SSL / TLS ✿ SASL ✿ Authentication ✿ Authorization (ACLs) ✿ Encryption 
+- **EVENT PATTERNS** ✿ Event Sourcing ✿ CQRS ✿ Event Replay ✿ Event Versioning ✿ Event Aggregation ✿ Pub/Sub ✿ Stream Processing 
+- **DISTRIBUTED SYSTEMS CONCEPTS** ✿ CAP Theorem ✿ Consistency ✿ Availability ✿ Partition Tolerance ✿ Leader Election ✿ Consensus ✿ Distributed Commit 
+- **CONFIGURATION** ✿ Broker Config ✿ Topic Config ✿ Retention Policy ✿ Cleanup Policy ✿ Segment Size ✿ Log Retention Time 
+- **MONITORING & OBSERVABILITY** ✿ Consumer Lag ✿ Metrics ✿ JMX ✿ Logging ✿ Alerting ✿ Lag Monitoring 
+- **TESTING** ✿ Embedded Kafka ✿ Integration Testing ✿ Contract Testing ✿ Event Simulation 
+- **DEVOPS & OPERATIONS** ✿ Cluster Setup ✿ Scaling Brokers ✿ Partition Reassignment ✿ Rolling Upgrade ✿ Backup / Restore ✿ Disaster Recovery 
+- **KAFKA ECOSYSTEM** ✿ Kafka Streams ✿ Kafka Connect ✿ ksqlDB 
+- **ZOOKEEPER / KRAFT** ✿ Apache ZooKeeper ✿ KRaft (Kafka Raft Metadata Mode) ✿ Controller Quorum ✿ Metadata Management 
+- **ADVANCED FEATURES** ✿ Tiered Storage ✿ Rack Awareness ✿ Exactly-once Processing ✿ Transactional Messaging ✿ MirrorMaker (Cross-cluster replication) ✿ Multi-region Kafka 
+- **ANTI-PATTERNS** ✿ Large Messages ✿ Hot Partitions ✿ Over-partitioning ✿ Message Ordering Issues ✿ Tight Coupling via Events ✿ Unbounded Retention 
+- **INTERVIEW POWER KEYWORDS** ✿ Partitioning Strategy ✿ Consumer Lag Handling ✿ Exactly-once vs At-least-once ✿ Ordering Guarantees ✿ Throughput vs Latency Trade-off ✿ Kafka vs RabbitMQ 
+- **STAFF+ LEVEL** ✿ Event Streaming Platform Design ✿ Multi-cluster Architecture ✿ Data Mesh with Kafka ✿ Stream-first Architecture ✿ Real-time Analytics Pipeline ✿ Backpressure Management ✿ Load Shedding 
 
 # DATABASE
-###  CORE DATABASE CONCEPTS** ✿ Database ✿ DBMS / RDBMS / NoSQL ✿ Data Model ✿ Schema ✿ Instance ✿ Metadata ✿ Data Dictionary ✿ Catalog ✿ Logical vs Physical Model
-###  DATA MODELS** ✿ Relational Model ✿ Hierarchical Model ✿ Network Model ✿ Document Model ✿ Key-Value Model ✿ Column-Family Model ✿ Graph Model ✿ Time-Series Model ✿ Object-Oriented Database
-###  DATABASE TYPES** ✿ OLTP (Transactional) ✿ OLAP (Analytical) ✿ HTAP (Hybrid) ✿ In-Memory Database ✿ Distributed Database ✿ Embedded Database ✿ Cloud Database ✿ Serverless Database
-###  DATA TYPES** ✿ Numeric ✿ Character / String ✿ Boolean ✿ Date / Time / Timestamp ✿ Binary (BLOB) ✿ Text (CLOB) ✿ JSON / XML ✿ Spatial / Geospatial
-###  DATABASE OBJECTS** ✿ Table ✿ Row / Record ✿ Column / Field ✿ View ✿ Materialized View ✿ Index ✿ Sequence ✿ Trigger ✿ Stored Procedure ✿ Function
-###  RELATIONSHIPS & CONSTRAINTS** ✿ Primary Key ✿ Foreign Key ✿ Unique ✿ Not Null ✿ Check ✿ Default ✿ Referential Integrity ✿ Cardinality (1:1, 1:N, N:M)
-###  SQL & QUERYING** ✿ SELECT / INSERT / UPDATE / DELETE ✿ MERGE / UPSERT ✿ JOIN (Inner, Outer, Cross) ✿ Subquery ✿ CTE (Common Table Expression) ✿ Window Functions ✿ Aggregation (SUM, AVG, COUNT) ✿ GROUP BY / HAVING ✿ ORDER BY
-###  INDEXING** ✿ B-Tree Index ✿ Hash Index ✿ Bitmap Index ✿ Composite Index ✿ Covering Index ✿ Clustered Index ✿ Non-clustered Index ✿ Full-Text Index ✿ Function-Based Index
-###  QUERY OPTIMIZATION** ✿ Query Plan / Execution Plan ✿ Cost-Based Optimizer (CBO) ✿ Rule-Based Optimizer ✿ Index Scan / Full Table Scan ✿ Predicate Pushdown ✿ Join Optimization ✿ Query Rewrite ✿ Statistics
-###  TRANSACTIONS** ✿ Transaction ✿ ACID Properties ✿ Isolation Levels ✿ Read Uncommitted ✿ Read Committed ✿ Repeatable Read ✿ Serializable ✿ Commit / Rollback ✿ Savepoint
-###  CONCURRENCY CONTROL** ✿ Locking (Row / Table / Page) ✿ Shared / Exclusive Locks ✿ Optimistic Concurrency ✿ Pessimistic Concurrency ✿ Deadlock ✿ Livelock ✿ MVCC (Multi-Version Concurrency Control)
-###  CONSISTENCY MODELS** ✿ Strong Consistency ✿ Eventual Consistency ✿ Causal Consistency ✿ Read-your-writes ✿ Monotonic Reads ✿ CAP Theorem ✿ PACELC Theorem
-###  STORAGE ENGINE & ARCHITECTURE** ✿ Storage Engine ✿ Row Store ✿ Column Store ✿ LSM Tree ✿ Write-Ahead Log (WAL) ✿ SSTable ✿ Buffer Cache ✿ Page / Block ✿ Compression
-###  DATA DISTRIBUTION** ✿ Sharding ✿ Partitioning (Horizontal / Vertical) ✿ Replication ✿ Master-Slave ✿ Leader-Follower ✿ Multi-Master ✿ Consistent Hashing ✿ Data Locality
-###  DISTRIBUTED DATABASES** ✿ Distributed Transactions ✿ Two-Phase Commit (2PC) ✿ Three-Phase Commit (3PC) ✿ Consensus (Raft / Paxos) ✿ Leader Election ✿ Quorum ✿ Gossip Protocol
-###  PERFORMANCE & SCALING** ✿ Latency ✿ Throughput ✿ Connection Pooling ✿ Caching ✿ Read Replicas ✿ Write Scaling ✿ Batch Processing ✿ Query Parallelism
-###  DATA WAREHOUSING & ANALYTICS** ✿ Data Warehouse ✿ Data Lake ✿ Data Mart ✿ ETL / ELT ✿ Star Schema ✿ Snowflake Schema ✿ Fact / Dimension Tables ✿ OLAP Cube
-###  STREAMING & REAL-TIME DATA** ✿ Event Streaming ✿ Change Data Capture (CDC) ✿ Log-Based Replication ✿ Stream Processing ✿ Windowing
-###  SECURITY** ✿ Authentication ✿ Authorization ✿ RBAC / ABAC ✿ Encryption (At Rest / In Transit) ✿ Data Masking ✿ Auditing ✿ Row-Level Security
-###  BACKUP & RECOVERY** ✿ Backup (Full / Incremental / Differential) ✿ Restore ✿ Point-in-Time Recovery ✿ Snapshots ✿ Disaster Recovery ✿ High Availability
-###  CLOUD DATABASES** ✿ Managed Database ✿ Multi-AZ Deployment ✿ Auto Scaling ✿ Serverless ✿ Global Distribution ✿ Edge Databases
-###  NOSQL SYSTEMS** ✿ Key-Value Store ✿ Document Store ✿ Column Store ✿ Graph Database ✿ Schema-less ✿ Denormalization
-###  GRAPH DATABASES** ✿ Nodes / Edges ✿ Traversal ✿ Cypher / Gremlin ✿ Path Queries
-###  TIME-SERIES DATABASES** ✿ Time Index ✿ Downsampling ✿ Retention Policy ✿ Compression
-###  DATABASE TOOLS & ECOSYSTEM** ✿ ETL Tools ✿ Data Integration ✿ Data Governance ✿ Data Catalog ✿ Data Lineage
-###  ANTI-PATTERNS** ✿ N+1 Query Problem ✿ Full Table Scan Abuse ✿ Missing Index ✿ Over-Normalization ✿ Under-Normalization ✿ Hot Partition ✿ Single Point of Failure
-###  INTERVIEW POWER KEYWORDS** ✿ Read vs Write Optimization ✿ Index Trade-offs ✿ Partition Strategy ✿ Consistency vs Availability ✿ Scaling Strategy ✿ Query Optimization
-###  ADVANCED / STAFF+ LEVEL** ✿ Multi-Tenant Databases ✿ Data Sovereignty ✿ Global Replication ✿ Active-Active / Active-Passive ✿ Data Mesh ✿ Lakehouse Architecture ✿ HTAP Systems ✿ Cost Optimization (Storage vs Compute)
+- **CORE DATABASE CONCEPTS** ✿ Database ✿ DBMS / RDBMS / NoSQL ✿ Data Model ✿ Schema ✿ Instance ✿ Metadata ✿ Data Dictionary ✿ Catalog ✿ Logical vs Physical Model
+- **DATA MODELS** ✿ Relational Model ✿ Hierarchical Model ✿ Network Model ✿ Document Model ✿ Key-Value Model ✿ Column-Family Model ✿ Graph Model ✿ Time-Series Model ✿ Object-Oriented Database
+- **DATABASE TYPES** ✿ OLTP (Transactional) ✿ OLAP (Analytical) ✿ HTAP (Hybrid) ✿ In-Memory Database ✿ Distributed Database ✿ Embedded Database ✿ Cloud Database ✿ Serverless Database
+- **DATA TYPES** ✿ Numeric ✿ Character / String ✿ Boolean ✿ Date / Time / Timestamp ✿ Binary (BLOB) ✿ Text (CLOB) ✿ JSON / XML ✿ Spatial / Geospatial
+- **DATABASE OBJECTS** ✿ Table ✿ Row / Record ✿ Column / Field ✿ View ✿ Materialized View ✿ Index ✿ Sequence ✿ Trigger ✿ Stored Procedure ✿ Function
+- **RELATIONSHIPS & CONSTRAINTS** ✿ Primary Key ✿ Foreign Key ✿ Unique ✿ Not Null ✿ Check ✿ Default ✿ Referential Integrity ✿ Cardinality (1:1, 1:N, N:M)
+- **SQL & QUERYING** ✿ SELECT / INSERT / UPDATE / DELETE ✿ MERGE / UPSERT ✿ JOIN (Inner, Outer, Cross) ✿ Subquery ✿ CTE (Common Table Expression) ✿ Window Functions ✿ Aggregation (SUM, AVG, COUNT) ✿ GROUP BY / HAVING ✿ ORDER BY
+- **INDEXING** ✿ B-Tree Index ✿ Hash Index ✿ Bitmap Index ✿ Composite Index ✿ Covering Index ✿ Clustered Index ✿ Non-clustered Index ✿ Full-Text Index ✿ Function-Based Index
+- **QUERY OPTIMIZATION** ✿ Query Plan / Execution Plan ✿ Cost-Based Optimizer (CBO) ✿ Rule-Based Optimizer ✿ Index Scan / Full Table Scan ✿ Predicate Pushdown ✿ Join Optimization ✿ Query Rewrite ✿ Statistics
+- **TRANSACTIONS** ✿ Transaction ✿ ACID Properties ✿ Isolation Levels ✿ Read Uncommitted ✿ Read Committed ✿ Repeatable Read ✿ Serializable ✿ Commit / Rollback ✿ Savepoint
+- **CONCURRENCY CONTROL** ✿ Locking (Row / Table / Page) ✿ Shared / Exclusive Locks ✿ Optimistic Concurrency ✿ Pessimistic Concurrency ✿ Deadlock ✿ Livelock ✿ MVCC (Multi-Version Concurrency Control)
+- **CONSISTENCY MODELS** ✿ Strong Consistency ✿ Eventual Consistency ✿ Causal Consistency ✿ Read-your-writes ✿ Monotonic Reads ✿ CAP Theorem ✿ PACELC Theorem
+- **STORAGE ENGINE & ARCHITECTURE** ✿ Storage Engine ✿ Row Store ✿ Column Store ✿ LSM Tree ✿ Write-Ahead Log (WAL) ✿ SSTable ✿ Buffer Cache ✿ Page / Block ✿ Compression
+- **DATA DISTRIBUTION** ✿ Sharding ✿ Partitioning (Horizontal / Vertical) ✿ Replication ✿ Master-Slave ✿ Leader-Follower ✿ Multi-Master ✿ Consistent Hashing ✿ Data Locality
+- **DISTRIBUTED DATABASES** ✿ Distributed Transactions ✿ Two-Phase Commit (2PC) ✿ Three-Phase Commit (3PC) ✿ Consensus (Raft / Paxos) ✿ Leader Election ✿ Quorum ✿ Gossip Protocol
+- **PERFORMANCE & SCALING** ✿ Latency ✿ Throughput ✿ Connection Pooling ✿ Caching ✿ Read Replicas ✿ Write Scaling ✿ Batch Processing ✿ Query Parallelism
+- **DATA WAREHOUSING & ANALYTICS** ✿ Data Warehouse ✿ Data Lake ✿ Data Mart ✿ ETL / ELT ✿ Star Schema ✿ Snowflake Schema ✿ Fact / Dimension Tables ✿ OLAP Cube
+- **STREAMING & REAL-TIME DATA** ✿ Event Streaming ✿ Change Data Capture (CDC) ✿ Log-Based Replication ✿ Stream Processing ✿ Windowing
+- **SECURITY** ✿ Authentication ✿ Authorization ✿ RBAC / ABAC ✿ Encryption (At Rest / In Transit) ✿ Data Masking ✿ Auditing ✿ Row-Level Security
+- **BACKUP & RECOVERY** ✿ Backup (Full / Incremental / Differential) ✿ Restore ✿ Point-in-Time Recovery ✿ Snapshots ✿ Disaster Recovery ✿ High Availability
+- **CLOUD DATABASES** ✿ Managed Database ✿ Multi-AZ Deployment ✿ Auto Scaling ✿ Serverless ✿ Global Distribution ✿ Edge Databases
+- **NOSQL SYSTEMS** ✿ Key-Value Store ✿ Document Store ✿ Column Store ✿ Graph Database ✿ Schema-less ✿ Denormalization
+- **GRAPH DATABASES** ✿ Nodes / Edges ✿ Traversal ✿ Cypher / Gremlin ✿ Path Queries
+- **TIME-SERIES DATABASES** ✿ Time Index ✿ Downsampling ✿ Retention Policy ✿ Compression
+- **DATABASE TOOLS & ECOSYSTEM** ✿ ETL Tools ✿ Data Integration ✿ Data Governance ✿ Data Catalog ✿ Data Lineage
+- **ANTI-PATTERNS** ✿ N+1 Query Problem ✿ Full Table Scan Abuse ✿ Missing Index ✿ Over-Normalization ✿ Under-Normalization ✿ Hot Partition ✿ Single Point of Failure
+- **INTERVIEW POWER KEYWORDS** ✿ Read vs Write Optimization ✿ Index Trade-offs ✿ Partition Strategy ✿ Consistency vs Availability ✿ Scaling Strategy ✿ Query Optimization
+- **ADVANCED / STAFF+ LEVEL** ✿ Multi-Tenant Databases ✿ Data Sovereignty ✿ Global Replication ✿ Active-Active / Active-Passive ✿ Data Mesh ✿ Lakehouse Architecture ✿ HTAP Systems ✿ Cost Optimization (Storage vs Compute)
 
 
 
