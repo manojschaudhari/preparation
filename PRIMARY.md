@@ -28,61 +28,62 @@
 - DATA STRUCTURES
 
 ## JAVA
-**CORE JAVA BASICS** ✿ Java ✿ JDK / JRE / JVM ✿ Bytecode ✿ Platform Independence ✿ Write Once Run Anywhere (WORA) ✿ Class ✿ Object ✿ Method ✿ Main Method ✿ Package ✿ Import 
-**DATA TYPES & VARIABLES** ✿ Primitive Types (byte, short, int, long, float, double, char, boolean) ✿ Wrapper Classes ✿ Autoboxing / Unboxing ✿ Type Casting (Implicit / Explicit) ✿ Variables (Local / Instance / Static) ✿ Constants (`final`) ✿ Default Values 
-**CONTROL FLOW** ✿ if / else ✿ switch ✿ for loop ✿ while loop ✿ do-while ✿ break / continue ✿ return 
-**OBJECT-ORIENTED PROGRAMMING (OOP)** ✿ Class / Object ✿ Encapsulation ✿ Abstraction ✿ Inheritance ✿ Polymorphism ✿ Method Overloading / Overriding ✿ Dynamic Dispatch ✿ Access Modifiers ✿ `this` / `super` 
-**KEYWORDS (JAVA LANGUAGE)** ✿ `final` ✿ `static` ✿ `abstract` ✿ `synchronized` ✿ `volatile` ✿ `transient` ✿ `native` ✿ `strictfp` ✿ `instanceof` ✿ `enum` ✿ `record` ✿ `sealed` / `permits` 
-**CLASS DESIGN** ✿ Constructor ✿ Default / Parameterized Constructor ✿ Copy Constructor (pattern) ✿ Static Block ✿ Instance Block ✿ Nested Class ✿ Inner Class ✿ Anonymous Class ✿ Local Class 
-**COLLECTIONS FRAMEWORK** ✿ Collection ✿ List (ArrayList, LinkedList, Vector) ✿ Set (HashSet, LinkedHashSet, TreeSet) ✿ Map (HashMap, LinkedHashMap, TreeMap, Hashtable) ✿ Queue / Deque ✿ PriorityQueue ✿ Iterator / ListIterator ✿ Comparable / Comparator 
-**JAVA 8+ FEATURES** ✿ Lambda Expressions ✿ Functional Interfaces ✿ Streams API ✿ Stream Operations (map, filter, reduce) ✿ Method References ✿ Optional ✿ Default Methods ✿ Static Interface Methods 
-**MODERN JAVA (9–21+)** ✿ Modules (JPMS) ✿ `var` keyword ✿ Records ✿ Sealed Classes ✿ Pattern Matching (`instanceof`, switch) ✿ Text Blocks ✿ Virtual Threads (Project Loom) ✿ Structured Concurrency ✿ Foreign Function & Memory API 
-**MULTITHREADING & CONCURRENCY** ✿ Thread ✿ Runnable / Callable ✿ Executor Framework ✿ Thread Pool ✿ Future / CompletableFuture ✿ ForkJoinPool ✿ Synchronization ✿ Locks (`ReentrantLock`) ✿ ReadWriteLock ✿ Atomic Variables ✿ Concurrent Collections ✿ Thread Safety ✿ Race Condition ✿ Deadlock / Livelock / Starvation 
-**JVM INTERNALS** ✿ Class Loader ✿ Bytecode Execution ✿ JIT Compiler ✿ HotSpot ✿ Garbage Collection (GC) ✿ Serial / Parallel / CMS / G1 / ZGC / Shenandoah ✿ Heap / Stack ✿ Metaspace ✿ GC Roots ✿ Escape Analysis 
-**MEMORY MANAGEMENT** ✿ Heap Memory ✿ Stack Memory ✿ Off-Heap ✿ Object Lifecycle ✿ Strong / Weak / Soft / Phantom References ✿ Memory Leak ✿ OutOfMemoryError 
-**FILE I/O & NIO** ✿ File Handling ✿ Streams (InputStream / OutputStream) ✿ Reader / Writer ✿ Buffered Streams ✿ NIO / NIO.2 ✿ Channels / Buffers ✿ FileSystem API 
-**NETWORKING** ✿ Sockets ✿ ServerSocket ✿ HTTP Client (Java 11+) ✿ URL / URI ✿ TCP / UDP 
-**EXCEPTIONS** ✿ Exception ✿ Checked / Unchecked Exceptions ✿ Error ✿ try-catch-finally ✿ try-with-resources ✿ Custom Exceptions 
-**REFLECTION & ANNOTATIONS** ✿ Reflection API ✿ Class Metadata ✿ Method Invocation ✿ Annotations ✿ Built-in Annotations (`@Override`, `@Deprecated`) ✿ Custom Annotations ✿ Annotation Processing 
-**JAVA STANDARD LIBRARIES** ✿ `java.lang` ✿ `java.util` ✿ `java.io` ✿ `java.nio` ✿ `java.time` ✿ `java.math` ✿ `java.net` 
-**DESIGN PATTERNS (JAVA CONTEXT)** ✿ Singleton ✿ Factory ✿ Builder ✿ Strategy ✿ Observer ✿ Decorator ✿ Proxy ✿ Template Method 
-**BUILD TOOLS** ✿ Maven ✿ Gradle ✿ Ant 
-**TESTING FRAMEWORKS** ✿ JUnit ✿ TestNG ✿ Mockito ✿ Cucumber 
-**JAVA ECOSYSTEM (SPRING & BEYOND)** ✿ Spring Framework ✿ Spring Boot ✿ Spring Cloud ✿ Hibernate ✿ Jakarta EE 
-**MESSAGING & INTEGRATION** ✿ Apache Kafka ✿ RabbitMQ ✿ Apache RocketMQ ✿ ActiveMQ 
-**SECURITY** ✿ Java Security Manager (deprecated) ✿ Cryptography (JCA/JCE) ✿ SSL/TLS ✿ KeyStore / TrustStore ✿ Authentication / Authorization 
-**OBSERVABILITY** ✿ Logging (SLF4J, Logback) ✿ Metrics (Micrometer) ✿ Tracing (OpenTelemetry) ✿ Monitoring 
-**DEVOPS & RUNTIME** ✿ Containerization (Docker) ✿ Kubernetes ✿ JVM Tuning ✿ GC Tuning ✿ Profiling (JFR, JMC) 
-**COMMON PITFALLS** ✿ Memory Leaks ✿ Improper Synchronization ✿ Blocking Calls ✿ N+1 Queries ✿ Overuse of Reflection ✿ Tight Coupling 
-**INTERVIEW POWER KEYWORDS** ✿ Immutability ✿ Thread Safety ✿ Idempotency ✿ Backpressure ✿ Lazy Initialization ✿ Double-Checked Locking ✿ Escape Analysis 
-**ADVANCED / STAFF+ LEVEL** ✿ Reactive Programming ✿ Project Reactor ✿ RxJava ✿ Virtual Threads (Loom) ✿ Structured Concurrency ✿ Distributed Tracing ✿ Microservices Architecture ✿ Domain-Driven Design (DDD) 
+
+- **CORE JAVA BASICS** ✿ Java ✿ JDK / JRE / JVM ✿ Bytecode ✿ Platform Independence ✿ Write Once Run Anywhere (WORA) ✿ Class ✿ Object ✿ Method ✿ Main Method ✿ Package ✿ Import 
+- **DATA TYPES & VARIABLES** ✿ Primitive Types (byte, short, int, long, float, double, char, boolean) ✿ Wrapper Classes ✿ Autoboxing / Unboxing ✿ Type Casting (Implicit / Explicit) ✿ Variables (Local / Instance / Static) ✿ Constants (`final`) ✿ Default Values 
+- **CONTROL FLOW** ✿ if / else ✿ switch ✿ for loop ✿ while loop ✿ do-while ✿ break / continue ✿ return 
+- **OBJECT-ORIENTED PROGRAMMING (OOP)** ✿ Class / Object ✿ Encapsulation ✿ Abstraction ✿ Inheritance ✿ Polymorphism ✿ Method Overloading / Overriding ✿ Dynamic Dispatch ✿ Access Modifiers ✿ `this` / `super` 
+- **KEYWORDS (JAVA LANGUAGE)** ✿ `final` ✿ `static` ✿ `abstract` ✿ `synchronized` ✿ `volatile` ✿ `transient` ✿ `native` ✿ `strictfp` ✿ `instanceof` ✿ `enum` ✿ `record` ✿ `sealed` / `permits` 
+- **CLASS DESIGN** ✿ Constructor ✿ Default / Parameterized Constructor ✿ Copy Constructor (pattern) ✿ Static Block ✿ Instance Block ✿ Nested Class ✿ Inner Class ✿ Anonymous Class ✿ Local Class 
+- **COLLECTIONS FRAMEWORK** ✿ Collection ✿ List (ArrayList, LinkedList, Vector) ✿ Set (HashSet, LinkedHashSet, TreeSet) ✿ Map (HashMap, LinkedHashMap, TreeMap, Hashtable) ✿ Queue / Deque ✿ PriorityQueue ✿ Iterator / ListIterator ✿ Comparable / Comparator 
+- **JAVA 8+ FEATURES** ✿ Lambda Expressions ✿ Functional Interfaces ✿ Streams API ✿ Stream Operations (map, filter, reduce) ✿ Method References ✿ Optional ✿ Default Methods ✿ Static Interface Methods 
+- **MODERN JAVA (9–21+)** ✿ Modules (JPMS) ✿ `var` keyword ✿ Records ✿ Sealed Classes ✿ Pattern Matching (`instanceof`, switch) ✿ Text Blocks ✿ Virtual Threads (Project Loom) ✿ Structured Concurrency ✿ Foreign Function & Memory API 
+- **MULTITHREADING & CONCURRENCY** ✿ Thread ✿ Runnable / Callable ✿ Executor Framework ✿ Thread Pool ✿ Future / CompletableFuture ✿ ForkJoinPool ✿ Synchronization ✿ Locks (`ReentrantLock`) ✿ ReadWriteLock ✿ Atomic Variables ✿ Concurrent Collections ✿ Thread Safety ✿ Race Condition ✿ Deadlock / Livelock / Starvation 
+- **JVM INTERNALS** ✿ Class Loader ✿ Bytecode Execution ✿ JIT Compiler ✿ HotSpot ✿ Garbage Collection (GC) ✿ Serial / Parallel / CMS / G1 / ZGC / Shenandoah ✿ Heap / Stack ✿ Metaspace ✿ GC Roots ✿ Escape Analysis 
+- **MEMORY MANAGEMENT** ✿ Heap Memory ✿ Stack Memory ✿ Off-Heap ✿ Object Lifecycle ✿ Strong / Weak / Soft / Phantom References ✿ Memory Leak ✿ OutOfMemoryError 
+- **FILE I/O & NIO** ✿ File Handling ✿ Streams (InputStream / OutputStream) ✿ Reader / Writer ✿ Buffered Streams ✿ NIO / NIO.2 ✿ Channels / Buffers ✿ FileSystem API 
+- **NETWORKING** ✿ Sockets ✿ ServerSocket ✿ HTTP Client (Java 11+) ✿ URL / URI ✿ TCP / UDP 
+- **EXCEPTIONS** ✿ Exception ✿ Checked / Unchecked Exceptions ✿ Error ✿ try-catch-finally ✿ try-with-resources ✿ Custom Exceptions 
+- **REFLECTION & ANNOTATIONS** ✿ Reflection API ✿ Class Metadata ✿ Method Invocation ✿ Annotations ✿ Built-in Annotations (`@Override`, `@Deprecated`) ✿ Custom Annotations ✿ Annotation Processing 
+- **JAVA STANDARD LIBRARIES** ✿ `java.lang` ✿ `java.util` ✿ `java.io` ✿ `java.nio` ✿ `java.time` ✿ `java.math` ✿ `java.net` 
+- **DESIGN PATTERNS (JAVA CONTEXT)** ✿ Singleton ✿ Factory ✿ Builder ✿ Strategy ✿ Observer ✿ Decorator ✿ Proxy ✿ Template Method 
+- **BUILD TOOLS** ✿ Maven ✿ Gradle ✿ Ant 
+- **TESTING FRAMEWORKS** ✿ JUnit ✿ TestNG ✿ Mockito ✿ Cucumber 
+- **JAVA ECOSYSTEM (SPRING & BEYOND)** ✿ Spring Framework ✿ Spring Boot ✿ Spring Cloud ✿ Hibernate ✿ Jakarta EE 
+- **MESSAGING & INTEGRATION** ✿ Apache Kafka ✿ RabbitMQ ✿ Apache RocketMQ ✿ ActiveMQ 
+- **SECURITY** ✿ Java Security Manager (deprecated) ✿ Cryptography (JCA/JCE) ✿ SSL/TLS ✿ KeyStore / TrustStore ✿ Authentication / Authorization 
+- **OBSERVABILITY** ✿ Logging (SLF4J, Logback) ✿ Metrics (Micrometer) ✿ Tracing (OpenTelemetry) ✿ Monitoring 
+- **DEVOPS & RUNTIME** ✿ Containerization (Docker) ✿ Kubernetes ✿ JVM Tuning ✿ GC Tuning ✿ Profiling (JFR, JMC) 
+- **COMMON PITFALLS** ✿ Memory Leaks ✿ Improper Synchronization ✿ Blocking Calls ✿ N+1 Queries ✿ Overuse of Reflection ✿ Tight Coupling 
+- **INTERVIEW POWER KEYWORDS** ✿ Immutability ✿ Thread Safety ✿ Idempotency ✿ Backpressure ✿ Lazy Initialization ✿ Double-Checked Locking ✿ Escape Analysis 
+- **ADVANCED / STAFF+ LEVEL** ✿ Reactive Programming ✿ Project Reactor ✿ RxJava ✿ Virtual Threads (Loom) ✿ Structured Concurrency ✿ Distributed Tracing ✿ Microservices Architecture ✿ Domain-Driven Design (DDD) 
 
 # JAVA VERSION
-###  JAVA 5 (2004) — *Generics & Concurrency Revolution* ✿ Generics ✿ Type Safety ✿ Enhanced for-loop ✿ Autoboxing / Unboxing ✿ Varargs ✿ Enums ✿ Annotations ✿ Static Import ✿ Concurrency Utilities (`java.util.concurrent`) ✿ Executor Framework 
-###  JAVA 6 (2006) ✿ Scripting API ✿ Compiler API ✿ JDBC 4.0 ✿ Pluggable Annotations ✿ Performance Improvements ✿ Monitoring & Management APIs 
-###  JAVA 7 (2011) ✿ Try-with-resources ✿ Multi-catch ✿ Diamond Operator ✿ Strings in switch ✿ NIO.2 (FileSystem API) ✿ ForkJoin Framework ✿ Binary Literals ✿ Underscores in numbers 
-###  JAVA 8 (2014) — *Functional Programming Era* ✿ Lambda Expressions ✿ Functional Interfaces ✿ Streams API ✿ Method References ✿ Optional ✿ Default Methods ✿ Static Interface Methods ✿ Date & Time API (`java.time`) ✿ Nashorn JS Engine 
-###  JAVA 9 (2017) — *Modularization* ✿ JPMS (Modules) ✿ `module-info.java` ✿ JShell ✿ Reactive Streams (`Flow API`) ✿ Multi-release JAR ✿ Private Interface Methods 
-###  JAVA 10 (2018) ✿ `var` (Local Variable Type Inference) ✿ Application CDS ✿ Garbage Collector Improvements 
-###  JAVA 11 (LTS, 2018) ✿ HTTP Client API ✿ `var` in lambda ✿ String APIs (`isBlank`, `lines`) ✿ Files API enhancements ✿ Removal of Java EE modules ✿ ZGC (experimental) 
-###  JAVA 12 (2019) ✿ Switch Expressions (preview) ✿ Shenandoah GC (experimental) ✿ JVM Constants API 
-###  JAVA 13 (2019) ✿ Text Blocks (preview) ✿ Switch Expressions (2nd preview) ✿ Dynamic CDS 
-###  JAVA 14 (2020) ✿ Records (preview) ✿ Pattern Matching for `instanceof` (preview) ✿ Switch Expressions (standard) ✿ Helpful NullPointerExceptions 
-###  JAVA 15 (2020) ✿ Text Blocks (standard) ✿ Sealed Classes (preview) ✿ Hidden Classes ✿ ZGC improvements 
-###  JAVA 16 (2021) ✿ Records (standard) ✿ Pattern Matching (`instanceof`) ✿ Stream API enhancements ✿ Vector API (incubator) 
-###  JAVA 17 (LTS, 2021) ✿ Sealed Classes (standard) ✿ Pattern Matching for switch (preview) ✿ Strong Encapsulation (JDK internals) ✿ Foreign Function API (incubator) 
-###  JAVA 18 (2022) ✿ Simple Web Server (`jwebserver`) ✿ UTF-8 default charset ✿ Code Snippets in JavaDoc 
-###  JAVA 19 (2022) ✿ Virtual Threads (preview) ✿ Structured Concurrency (incubator) ✿ Record Patterns (preview) 
-###  JAVA 20 (2023) ✿ Virtual Threads (2nd preview) ✿ Scoped Values (incubator) ✿ Pattern Matching for switch (preview) 
-###  JAVA 21 (LTS, 2023) — *Modern Concurrency* ✿ Virtual Threads (standard) ✿ Structured Concurrency (preview) ✿ Scoped Values ✿ Pattern Matching for switch ✿ Record Patterns ✿ Sequenced Collections ✿ String Templates (preview) 
-###  JAVA 22 (2024) ✿ String Templates (2nd preview) ✿ Foreign Function & Memory API ✿ Unnamed Variables & Patterns ✿ Implicit Classes (preview) 
-###  JAVA 23 (2024) ✿ Primitive Types in Patterns (preview) ✿ Markdown JavaDoc ✿ Scoped Values updates ✿ Performance Enhancements 
-###  JAVA 24 (2025) ✿ Value Objects (Project Valhalla preview) ✿ Enhanced Pattern Matching ✿ Continuation Improvements ✿ GC Enhancements 
-###  JAVA 25 (LTS, 2025) ✿ Loom Enhancements (Concurrency) ✿ Valhalla Updates (Value Types) ✿ Panama Improvements (Native Interop) ✿ Performance & JVM tuning 
-###  JAVA 26 (2026, early roadmap) ✿ Advanced Value Types ✿ Enhanced Foreign Memory Access ✿ Unified Pattern Matching ✿ Advanced JIT Optimizations ✿ AI-assisted JVM optimizations (experimental direction) 
-✈✈✈ ###  CROSS-VERSION KEYWORDS (IMPORTANT) ✿ LTS (Long Term Support) ✿ Preview Features ✿ Incubator Features ✿ Backward Compatibility ✿ Bytecode Evolution ✿ JVM Enhancements ✿ Garbage Collectors (G1, ZGC, Shenandoah) ✿ Project Loom (Concurrency) ✿ Project Valhalla (Value Types) ✿ Project Panama (Native Interop) 
-###  INTERVIEW POWER KEYWORDS ✿ Java 8 → Functional Paradigm Shift ✿ Java 9 → Modularization ✿ Java 17 → Enterprise Stability (LTS) ✿ Java 21 → Concurrency Revolution ✿ Loom vs Traditional Threads ✿ Records vs POJOs ✿ Sealed Classes vs Inheritance 
-###  STAFF+ LEVEL THEMES ✿ Evolution of Java Language Design ✿ Performance vs Safety Trade-offs ✿ JVM Optimization Trends ✿ Cloud-native Java ✿ Reactive vs Virtual Threads ✿ Native Interoperability 
+- **JAVA 5 (2004)** — *Generics & Concurrency Revolution* ✿ Generics ✿ Type Safety ✿ Enhanced for-loop ✿ Autoboxing / Unboxing ✿ Varargs ✿ Enums ✿ Annotations ✿ Static Import ✿ Concurrency Utilities (`java.util.concurrent`) ✿ Executor Framework 
+- **JAVA 6 (2006)** ✿ Scripting API ✿ Compiler API ✿ JDBC 4.0 ✿ Pluggable Annotations ✿ Performance Improvements ✿ Monitoring & Management APIs 
+- **JAVA 7 (2011)** ✿ Try-with-resources ✿ Multi-catch ✿ Diamond Operator ✿ Strings in switch ✿ NIO.2 (FileSystem API) ✿ ForkJoin Framework ✿ Binary Literals ✿ Underscores in numbers 
+- **JAVA 8 (2014)** — *Functional Programming Era* ✿ Lambda Expressions ✿ Functional Interfaces ✿ Streams API ✿ Method References ✿ Optional ✿ Default Methods ✿ Static Interface Methods ✿ Date & Time API (`java.time`) ✿ Nashorn JS Engine 
+- **JAVA 9 (2017)** — *Modularization* ✿ JPMS (Modules) ✿ `module-info.java` ✿ JShell ✿ Reactive Streams (`Flow API`) ✿ Multi-release JAR ✿ Private Interface Methods 
+- **JAVA 10 (2018)** ✿ `var` (Local Variable Type Inference) ✿ Application CDS ✿ Garbage Collector Improvements 
+- **JAVA 11 (LTS, 2018)** ✿ HTTP Client API ✿ `var` in lambda ✿ String APIs (`isBlank`, `lines`) ✿ Files API enhancements ✿ Removal of Java EE modules ✿ ZGC (experimental) 
+- **JAVA 12 (2019)** ✿ Switch Expressions (preview) ✿ Shenandoah GC (experimental) ✿ JVM Constants API 
+- **JAVA 13 (2019)** ✿ Text Blocks (preview) ✿ Switch Expressions (2nd preview) ✿ Dynamic CDS 
+- **JAVA 14 (2020)** ✿ Records (preview) ✿ Pattern Matching for `instanceof` (preview) ✿ Switch Expressions (standard) ✿ Helpful NullPointerExceptions 
+- **JAVA 15 (2020)** ✿ Text Blocks (standard) ✿ Sealed Classes (preview) ✿ Hidden Classes ✿ ZGC improvements 
+- **JAVA 16 (2021)** ✿ Records (standard) ✿ Pattern Matching (`instanceof`) ✿ Stream API enhancements ✿ Vector API (incubator) 
+- **JAVA 17 (LTS, 2021)** ✿ Sealed Classes (standard) ✿ Pattern Matching for switch (preview) ✿ Strong Encapsulation (JDK internals) ✿ Foreign Function API (incubator) 
+- **JAVA 18 (2022)** ✿ Simple Web Server (`jwebserver`) ✿ UTF-8 default charset ✿ Code Snippets in JavaDoc 
+- **JAVA 19 (2022)** ✿ Virtual Threads (preview) ✿ Structured Concurrency (incubator) ✿ Record Patterns (preview) 
+- **JAVA 20 (2023)** ✿ Virtual Threads (2nd preview) ✿ Scoped Values (incubator) ✿ Pattern Matching for switch (preview) 
+- **JAVA 21 (LTS, 2023)** — *Modern Concurrency* ✿ Virtual Threads (standard) ✿ Structured Concurrency (preview) ✿ Scoped Values ✿ Pattern Matching for switch ✿ Record Patterns ✿ Sequenced Collections ✿ String Templates (preview) 
+- **JAVA 22 (2024)** ✿ String Templates (2nd preview) ✿ Foreign Function & Memory API ✿ Unnamed Variables & Patterns ✿ Implicit Classes (preview) 
+- **JAVA 23 (2024)** ✿ Primitive Types in Patterns (preview) ✿ Markdown JavaDoc ✿ Scoped Values updates ✿ Performance Enhancements 
+- **JAVA 24 (2025)** ✿ Value Objects (Project Valhalla preview) ✿ Enhanced Pattern Matching ✿ Continuation Improvements ✿ GC Enhancements 
+- **JAVA 25 (LTS, 2025)** ✿ Loom Enhancements (Concurrency) ✿ Valhalla Updates (Value Types) ✿ Panama Improvements (Native Interop) ✿ Performance & JVM tuning 
+- **JAVA 26 (2026, early roadmap)** ✿ Advanced Value Types ✿ Enhanced Foreign Memory Access ✿ Unified Pattern Matching ✿ Advanced JIT Optimizations ✿ AI-assisted JVM optimizations (experimental direction) 
+- **CROSS-VERSION KEYWORDS (IMPORTANT)** ✿ LTS (Long Term Support) ✿ Preview Features ✿ Incubator Features ✿ Backward Compatibility ✿ Bytecode Evolution ✿ JVM Enhancements ✿ Garbage Collectors (G1, ZGC, Shenandoah) ✿ Project Loom (Concurrency) ✿ Project Valhalla (Value Types) ✿ Project Panama (Native Interop) 
+- **INTERVIEW POWER KEYWORDS** ✿ Java 8 → Functional Paradigm Shift ✿ Java 9 → Modularization ✿ Java 17 → Enterprise Stability (LTS) ✿ Java 21 → Concurrency Revolution ✿ Loom vs Traditional Threads ✿ Records vs POJOs ✿ Sealed Classes vs Inheritance 
+- **STAFF+ LEVEL THEMES** ✿ Evolution of Java Language Design ✿ Performance vs Safety Trade-offs ✿ JVM Optimization Trends ✿ Cloud-native Java ✿ Reactive vs Virtual Threads ✿ Native Interoperability 
 
 # OBJECT ORIENTED
 ###  CORE OOP CONCEPTS ✿ Object ✿ Class ✿ Instance ✿ Method ✿ Attribute / Property / Field ✿ State ✿ Behavior ✿ Identity
