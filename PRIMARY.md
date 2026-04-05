@@ -13,7 +13,14 @@
 - DATABASE
 
 ## NOTES
-- RANDOM PATTERNS NOTES
+- RANDOM PATTERNS
+- SOA DESIGN PATTERNS (Service-Oriented Architecture)
+- MICROSERVICES PATTERNS
+- CLOUD PATTERNS
+- BIG DATA PATTERNS
+- DEVOPS PATTERNS
+- SECURITY PATTERNS (Cross-Domain)
+- GOVERNANCE & ENTERPRISE PATTERNS
 
 ## JAVA
 - **CORE JAVA BASICS** ✿ Java ✿ JDK / JRE / JVM ✿ Bytecode ✿ Platform Independence ✿ Write Once Run Anywhere (WORA) ✿ Class / Object / Method ✿ Main Method (`public static void main`) ✿ Package / Import ✿ Classpath / Modulepath ✿ Java Compilation Pipeline 
@@ -98,7 +105,7 @@
 - **UML & MODELING** ✿ Class Diagram ✿ Object Diagram ✿ Sequence Diagram ✿ Activity Diagram ✿ State Diagram ✿ Use Case Diagram
 - **ANTI-PATTERNS (OOP MISUSE)** ✿ God Object ✿ Spaghetti Code ✿ Tight Coupling ✿ Anemic Domain Model ✿ Over-engineering
 - **LANGUAGE-SPECIFIC (JAVA-FRIENDLY)** ✿ this keyword ✿ super keyword ✿ final keyword ✿ static keyword ✿ transient ✿ volatile ✿ synchronized ✿ instanceof
-- **BONUS (INTERVIEW GOLD)** ✿ Favor Composition over Inheritance ✿ Program to an Interface ✿ Law of Demeter ✿ High Cohesion ✿ Low Coupling Here’s your ✿✿extended OOP keyword master list✿✿ with a ✿✿dedicated Static Analysis section✿✿—tailored for ✿✿Staff+/Architect-level interviews✿✿.
+- **BONUS (INTERVIEW GOLD)** ✿ Favor Composition over Inheritance ✿ Program to an Interface ✿ Law of Demeter ✿ High Cohesion ✿ Low Coupling
 - **CORE STATIC ANALYSIS CONCEPTS** ✿ Static Analysis ✿ Code Analysis ✿ Compile-time Analysis ✿ Source Code Inspection ✿ Linting ✿ Code Quality Analysis ✿ Semantic Analysis ✿ Syntax Analysis ✿ Abstract Syntax Tree (AST) ✿ Control Flow Graph (CFG) ✿ Data Flow Analysis
 - **STATIC ANALYSIS TYPES** ✿ Syntactic Analysis ✿ Semantic Analysis ✿ Control Flow Analysis ✿ Data Flow Analysis ✿ Taint Analysis ✿ Symbolic Execution ✿ Type Checking ✿ Nullability Analysis ✿ Escape Analysis ✿ Alias Analysis
 - **BUG & DEFECT DETECTION** ✿ Null Pointer Dereference ✿ Memory Leak Detection ✿ Dead Code Detection ✿ Unreachable Code ✿ Infinite Loop Detection ✿ Resource Leak ✿ Race Condition Detection ✿ Concurrency Issues ✿ Buffer Overflow ✿ Integer Overflow
@@ -116,30 +123,30 @@
 - **INTERVIEW POWER BOOST (HOW TO POSITION)** When asked in interviews, connect ✿✿OOP + Static Analysis✿✿ like this: ✿ Static analysis ensures ✿✿OOP design integrity✿✿ ✿ Detects violations of ✿✿SOLID / design patterns✿✿ ✿ Prevents ✿✿runtime failures at compile-time✿✿ ✿ Enforces ✿✿architecture boundaries✿✿ ✿ Improves ✿✿maintainability + scalability✿✿
 
 
-# DATA STRUCTURES
-###  CORE DATA STRUCTURE CONCEPTS ✿ Data Structure ✿ Abstract Data Type (ADT) ✿ Linear vs Non-linear ✿ Static vs Dynamic ✿ Homogeneous / Heterogeneous ✿ Memory Layout ✿ Time Complexity ✿ Space Complexity ✿ Big-O / Big-Theta / Big-Omega ✿ Amortized Analysis
-###  LINEAR DATA STRUCTURES ✿ Array ✿ Dynamic Array ✿ Vector ✿ Linked List     ✿ Singly Linked List     ✿ Doubly Linked List     ✿ Circular Linked List ✿ Stack ✿ Queue     ✿ Simple Queue     ✿ Circular Queue     ✿ Priority Queue     ✿ Deque (Double-ended Queue)
-###  TREE DATA STRUCTURES ✿ Tree ✿ Binary Tree ✿ Binary Search Tree (BST) ✿ Balanced Trees     ✿ AVL Tree     ✿ Red-Black Tree     ✿ Splay Tree ✿ Heap  ✿ Min Heap     ✿ Max Heap ✿ Trie (Prefix Tree) ✿ Segment Tree ✿ Fenwick Tree (Binary Indexed Tree) ✿ B-Tree ✿ B+ Tree ✿ N-ary Tree ✿ Expression Tree
-###  GRAPH DATA STRUCTURES ✿ Graph ✿ Directed Graph ✿ Undirected Graph ✿ Weighted Graph ✿ Unweighted Graph ✿ Adjacency Matrix ✿ Adjacency List ✿ Edge List
-###  HASH-BASED STRUCTURES ✿ Hash Table ✿ Hash Map ✿ Hash Set ✿ Hash Function ✿ Collision Handling ✿ Chaining ✿ Open Addressing ✿ Load Factor ✿ Rehashing
-###  SPECIALIZED DATA STRUCTURES ✿ Disjoint Set (Union-Find) ✿ Skip List ✿ Bloom Filter ✿ Count-Min Sketch ✿ HyperLogLog ✿ BitSet / Bitmap ✿ Rope (String DS) ✿ Suffix Tree ✿ Suffix Array ✿ KD-Tree ✿ Quad Tree ✿ Interval Tree
-###  ADVANCED TREES ✿ Cartesian Tree ✿ Treap ✿ Persistent Tree ✿ Order Statistic Tree ✿ Range Tree
-###  ITERATION & TRAVERSAL ✿ Traversal ✿ DFS (Depth First Search) ✿ BFS (Breadth First Search) ✿ Tree Traversals ✿ Inorder ✿ Preorder ✿ Postorder ✿ Level Order
-###  OPERATIONS ✿ Insert ✿ Delete ✿ Search ✿ Update ✿ Traverse ✿ Sort ✿ Merge ✿ Split
-###  SORTING ALGORITHMS (DS RELATED) ✿ Bubble Sort ✿ Selection Sort ✿ Insertion Sort ✿ Merge Sort ✿ Quick Sort ✿ Heap Sort ✿ Counting Sort ✿ Radix Sort ✿ Bucket Sort
-###  SEARCHING ALGORITHMS ✿ Linear Search ✿ Binary Search ✿ Interpolation Search ✿ Exponential Search
-###  GRAPH ALGORITHMS ✿ Dijkstra ✿ Bellman-Ford ✿ Floyd-Warshall ✿ Kruskal ✿ Prim ✿ Topological Sort ✿ Cycle Detection ✿ Strongly Connected Components (Kosaraju, Tarjan)
-###  CONCURRENT DATA STRUCTURES ✿ Concurrent Hash Map ✿ Blocking Queue ✿ Lock-Free Data Structures ✿ Wait-Free Algorithms ✿ Copy-on-Write Structures ✿ Ring Buffer ✿ Disruptor Pattern
-###  DISTRIBUTED DATA STRUCTURES ✿ Distributed Hash Table (DHT) ✿ Consistent Hashing Ring ✿ Sharded Data Structures ✿ Partitioned Map ✿ Distributed Cache (Map-like DS)
-###  MEMORY & STORAGE ✿ Heap (Memory DS vs Heap DS distinction) ✿ Stack (Memory vs DS) ✿ Garbage Collection Awareness ✿ Object Pool ✿ Memory Fragmentation
-###  STRING & TEXT STRUCTURES ✿ String ✿ String Builder / Buffer ✿ Trie ✿ Suffix Tree ✿ Suffix Array ✿ KMP Algorithm ✿ Rabin-Karp
-###  PROBABILISTIC STRUCTURES ✿ Bloom Filter ✿ Count-Min Sketch ✿ HyperLogLog
-###  FUNCTIONAL / IMMUTABLE STRUCTURES ✿ Persistent Data Structures ✿ Immutable List ✿ Immutable Map ✿ Functional Tree
-###  CACHE & SYSTEM DS ✿ LRU Cache ✿ LFU Cache ✿ MRU Cache ✿ ARC Cache ✿ Distributed Cache Structures
-###  COMPLEXITY KEYWORDS ✿ Time Complexity ✿ Space Complexity ✿ Best / Average / Worst Case ✿ Amortized Complexity
-###  COMMON PITFALLS ✿ Memory Leak ✿ Stack Overflow ✿ Poor Hash Function ✿ Unbalanced Tree ✿ High Collision Rate ✿ Inefficient Traversal
-###  INTERVIEW POWER KEYWORDS ✿ Trade-offs (Time vs Space) ✿ Lookup vs Insert Optimization ✿ Cache Efficiency ✿ Locality of Reference ✿ Scalability of DS ✿ Real-world Mapping
-###  ADVANCED / STAFF+ LEVEL ✿ Data Structure Selection Strategy ✿ Hybrid Data Structures ✿ Cache-aware / Cache-oblivious DS ✿ Parallel Data Structures ✿ External Memory DS ✿ Columnar Storage Structures ✿ Log-Structured Merge (LSM Tree) ✿ Vector Index (for AI/ML)
+## DATA STRUCTURES
+- **CORE DATA STRUCTURE CONCEPTS** ✿ Data Structure ✿ Abstract Data Type (ADT) ✿ Linear vs Non-linear ✿ Static vs Dynamic ✿ Homogeneous / Heterogeneous ✿ Memory Layout ✿ Time Complexity ✿ Space Complexity ✿ Big-O / Big-Theta / Big-Omega ✿ Amortized Analysis
+- **LINEAR DATA STRUCTURES** ✿ Array ✿ Dynamic Array ✿ Vector ✿ Linked List     ✿ Singly Linked List     ✿ Doubly Linked List     ✿ Circular Linked List ✿ Stack ✿ Queue     ✿ Simple Queue     ✿ Circular Queue     ✿ Priority Queue     ✿ Deque (Double-ended Queue)
+- **TREE DATA STRUCTURES** ✿ Tree ✿ Binary Tree ✿ Binary Search Tree (BST) ✿ Balanced Trees     ✿ AVL Tree     ✿ Red-Black Tree     ✿ Splay Tree ✿ Heap  ✿ Min Heap     ✿ Max Heap ✿ Trie (Prefix Tree) ✿ Segment Tree ✿ Fenwick Tree (Binary Indexed Tree) ✿ B-Tree ✿ B+ Tree ✿ N-ary Tree ✿ Expression Tree
+- **GRAPH DATA STRUCTURES** ✿ Graph ✿ Directed Graph ✿ Undirected Graph ✿ Weighted Graph ✿ Unweighted Graph ✿ Adjacency Matrix ✿ Adjacency List ✿ Edge List
+- **HASH-BASED STRUCTURES** ✿ Hash Table ✿ Hash Map ✿ Hash Set ✿ Hash Function ✿ Collision Handling ✿ Chaining ✿ Open Addressing ✿ Load Factor ✿ Rehashing
+- **SPECIALIZED DATA STRUCTURES** ✿ Disjoint Set (Union-Find) ✿ Skip List ✿ Bloom Filter ✿ Count-Min Sketch ✿ HyperLogLog ✿ BitSet / Bitmap ✿ Rope (String DS) ✿ Suffix Tree ✿ Suffix Array ✿ KD-Tree ✿ Quad Tree ✿ Interval Tree
+- **ADVANCED TREES** ✿ Cartesian Tree ✿ Treap ✿ Persistent Tree ✿ Order Statistic Tree ✿ Range Tree
+- **ITERATION & TRAVERSAL** ✿ Traversal ✿ DFS (Depth First Search) ✿ BFS (Breadth First Search) ✿ Tree Traversals ✿ Inorder ✿ Preorder ✿ Postorder ✿ Level Order
+- **OPERATIONS** ✿ Insert ✿ Delete ✿ Search ✿ Update ✿ Traverse ✿ Sort ✿ Merge ✿ Split
+- **SORTING ALGORITHMS (DS RELATED)** ✿ Bubble Sort ✿ Selection Sort ✿ Insertion Sort ✿ Merge Sort ✿ Quick Sort ✿ Heap Sort ✿ Counting Sort ✿ Radix Sort ✿ Bucket Sort
+- **SEARCHING ALGORITHMS** ✿ Linear Search ✿ Binary Search ✿ Interpolation Search ✿ Exponential Search
+- **GRAPH ALGORITHMS** ✿ Dijkstra ✿ Bellman-Ford ✿ Floyd-Warshall ✿ Kruskal ✿ Prim ✿ Topological Sort ✿ Cycle Detection ✿ Strongly Connected Components (Kosaraju, Tarjan)
+- **CONCURRENT DATA STRUCTURES** ✿ Concurrent Hash Map ✿ Blocking Queue ✿ Lock-Free Data Structures ✿ Wait-Free Algorithms ✿ Copy-on-Write Structures ✿ Ring Buffer ✿ Disruptor Pattern
+- **DISTRIBUTED DATA STRUCTURES** ✿ Distributed Hash Table (DHT) ✿ Consistent Hashing Ring ✿ Sharded Data Structures ✿ Partitioned Map ✿ Distributed Cache (Map-like DS)
+- **MEMORY & STORAGE** ✿ Heap (Memory DS vs Heap DS distinction) ✿ Stack (Memory vs DS) ✿ Garbage Collection Awareness ✿ Object Pool ✿ Memory Fragmentation
+- **STRING & TEXT STRUCTURES** ✿ String ✿ String Builder / Buffer ✿ Trie ✿ Suffix Tree ✿ Suffix Array ✿ KMP Algorithm ✿ Rabin-Karp
+- **PROBABILISTIC STRUCTURES** ✿ Bloom Filter ✿ Count-Min Sketch ✿ HyperLogLog
+- **FUNCTIONAL / IMMUTABLE STRUCTURES** ✿ Persistent Data Structures ✿ Immutable List ✿ Immutable Map ✿ Functional Tree
+- **CACHE & SYSTEM DS** ✿ LRU Cache ✿ LFU Cache ✿ MRU Cache ✿ ARC Cache ✿ Distributed Cache Structures
+- **COMPLEXITY KEYWORDS** ✿ Time Complexity ✿ Space Complexity ✿ Best / Average / Worst Case ✿ Amortized Complexity
+- **COMMON PITFALLS** ✿ Memory Leak ✿ Stack Overflow ✿ Poor Hash Function ✿ Unbalanced Tree ✿ High Collision Rate ✿ Inefficient Traversal
+- **INTERVIEW POWER KEYWORDS** ✿ Trade-offs (Time vs Space) ✿ Lookup vs Insert Optimization ✿ Cache Efficiency ✿ Locality of Reference ✿ Scalability of DS ✿ Real-world Mapping
+- **ADVANCED / STAFF+ LEVEL** ✿ Data Structure Selection Strategy ✿ Hybrid Data Structures ✿ Cache-aware / Cache-oblivious DS ✿ Parallel Data Structures ✿ External Memory DS ✿ Columnar Storage Structures ✿ Log-Structured Merge (LSM Tree) ✿ Vector Index (for AI/ML)
 
 # PRINCIPLES
 ###  CORE ENGINEERING PRINCIPLES ✿ Separation of Concerns (SoC) ✿ Modularity ✿ Abstraction ✿ Encapsulation ✿ Information Hiding ✿ Single Responsibility ✿ Composition over Inheritance ✿ Program to an Interface ✿ Least Knowledge (Law of Demeter) ✿ Principle of Least Astonishment (POLA)
