@@ -29,34 +29,38 @@
 
 ## JAVA
 
-- **CORE JAVA BASICS** ✿ Java ✿ JDK / JRE / JVM ✿ Bytecode ✿ Platform Independence ✿ Write Once Run Anywhere (WORA) ✿ Class ✿ Object ✿ Method ✿ Main Method ✿ Package ✿ Import 
-- **DATA TYPES & VARIABLES** ✿ Primitive Types (byte, short, int, long, float, double, char, boolean) ✿ Wrapper Classes ✿ Autoboxing / Unboxing ✿ Type Casting (Implicit / Explicit) ✿ Variables (Local / Instance / Static) ✿ Constants (`final`) ✿ Default Values 
-- **CONTROL FLOW** ✿ if / else ✿ switch ✿ for loop ✿ while loop ✿ do-while ✿ break / continue ✿ return 
-- **OBJECT-ORIENTED PROGRAMMING (OOP)** ✿ Class / Object ✿ Encapsulation ✿ Abstraction ✿ Inheritance ✿ Polymorphism ✿ Method Overloading / Overriding ✿ Dynamic Dispatch ✿ Access Modifiers ✿ `this` / `super` 
-- **KEYWORDS (JAVA LANGUAGE)** ✿ `final` ✿ `static` ✿ `abstract` ✿ `synchronized` ✿ `volatile` ✿ `transient` ✿ `native` ✿ `strictfp` ✿ `instanceof` ✿ `enum` ✿ `record` ✿ `sealed` / `permits` 
-- **CLASS DESIGN** ✿ Constructor ✿ Default / Parameterized Constructor ✿ Copy Constructor (pattern) ✿ Static Block ✿ Instance Block ✿ Nested Class ✿ Inner Class ✿ Anonymous Class ✿ Local Class 
-- **COLLECTIONS FRAMEWORK** ✿ Collection ✿ List (ArrayList, LinkedList, Vector) ✿ Set (HashSet, LinkedHashSet, TreeSet) ✿ Map (HashMap, LinkedHashMap, TreeMap, Hashtable) ✿ Queue / Deque ✿ PriorityQueue ✿ Iterator / ListIterator ✿ Comparable / Comparator 
-- **JAVA 8+ FEATURES** ✿ Lambda Expressions ✿ Functional Interfaces ✿ Streams API ✿ Stream Operations (map, filter, reduce) ✿ Method References ✿ Optional ✿ Default Methods ✿ Static Interface Methods 
-- **MODERN JAVA (9–21+)** ✿ Modules (JPMS) ✿ `var` keyword ✿ Records ✿ Sealed Classes ✿ Pattern Matching (`instanceof`, switch) ✿ Text Blocks ✿ Virtual Threads (Project Loom) ✿ Structured Concurrency ✿ Foreign Function & Memory API 
-- **MULTITHREADING & CONCURRENCY** ✿ Thread ✿ Runnable / Callable ✿ Executor Framework ✿ Thread Pool ✿ Future / CompletableFuture ✿ ForkJoinPool ✿ Synchronization ✿ Locks (`ReentrantLock`) ✿ ReadWriteLock ✿ Atomic Variables ✿ Concurrent Collections ✿ Thread Safety ✿ Race Condition ✿ Deadlock / Livelock / Starvation 
-- **JVM INTERNALS** ✿ Class Loader ✿ Bytecode Execution ✿ JIT Compiler ✿ HotSpot ✿ Garbage Collection (GC) ✿ Serial / Parallel / CMS / G1 / ZGC / Shenandoah ✿ Heap / Stack ✿ Metaspace ✿ GC Roots ✿ Escape Analysis 
-- **MEMORY MANAGEMENT** ✿ Heap Memory ✿ Stack Memory ✿ Off-Heap ✿ Object Lifecycle ✿ Strong / Weak / Soft / Phantom References ✿ Memory Leak ✿ OutOfMemoryError 
-- **FILE I/O & NIO** ✿ File Handling ✿ Streams (InputStream / OutputStream) ✿ Reader / Writer ✿ Buffered Streams ✿ NIO / NIO.2 ✿ Channels / Buffers ✿ FileSystem API 
-- **NETWORKING** ✿ Sockets ✿ ServerSocket ✿ HTTP Client (Java 11+) ✿ URL / URI ✿ TCP / UDP 
-- **EXCEPTIONS** ✿ Exception ✿ Checked / Unchecked Exceptions ✿ Error ✿ try-catch-finally ✿ try-with-resources ✿ Custom Exceptions 
-- **REFLECTION & ANNOTATIONS** ✿ Reflection API ✿ Class Metadata ✿ Method Invocation ✿ Annotations ✿ Built-in Annotations (`@Override`, `@Deprecated`) ✿ Custom Annotations ✿ Annotation Processing 
-- **JAVA STANDARD LIBRARIES** ✿ `java.lang` ✿ `java.util` ✿ `java.io` ✿ `java.nio` ✿ `java.time` ✿ `java.math` ✿ `java.net` 
-- **DESIGN PATTERNS (JAVA CONTEXT)** ✿ Singleton ✿ Factory ✿ Builder ✿ Strategy ✿ Observer ✿ Decorator ✿ Proxy ✿ Template Method 
-- **BUILD TOOLS** ✿ Maven ✿ Gradle ✿ Ant 
-- **TESTING FRAMEWORKS** ✿ JUnit ✿ TestNG ✿ Mockito ✿ Cucumber 
-- **JAVA ECOSYSTEM (SPRING & BEYOND)** ✿ Spring Framework ✿ Spring Boot ✿ Spring Cloud ✿ Hibernate ✿ Jakarta EE 
-- **MESSAGING & INTEGRATION** ✿ Apache Kafka ✿ RabbitMQ ✿ Apache RocketMQ ✿ ActiveMQ 
-- **SECURITY** ✿ Java Security Manager (deprecated) ✿ Cryptography (JCA/JCE) ✿ SSL/TLS ✿ KeyStore / TrustStore ✿ Authentication / Authorization 
-- **OBSERVABILITY** ✿ Logging (SLF4J, Logback) ✿ Metrics (Micrometer) ✿ Tracing (OpenTelemetry) ✿ Monitoring 
-- **DEVOPS & RUNTIME** ✿ Containerization (Docker) ✿ Kubernetes ✿ JVM Tuning ✿ GC Tuning ✿ Profiling (JFR, JMC) 
-- **COMMON PITFALLS** ✿ Memory Leaks ✿ Improper Synchronization ✿ Blocking Calls ✿ N+1 Queries ✿ Overuse of Reflection ✿ Tight Coupling 
-- **INTERVIEW POWER KEYWORDS** ✿ Immutability ✿ Thread Safety ✿ Idempotency ✿ Backpressure ✿ Lazy Initialization ✿ Double-Checked Locking ✿ Escape Analysis 
-- **ADVANCED / STAFF+ LEVEL** ✿ Reactive Programming ✿ Project Reactor ✿ RxJava ✿ Virtual Threads (Loom) ✿ Structured Concurrency ✿ Distributed Tracing ✿ Microservices Architecture ✿ Domain-Driven Design (DDD) 
+- **CORE JAVA BASICS** ✿ Java ✿ JDK / JRE / JVM ✿ Bytecode ✿ Platform Independence ✿ Write Once Run Anywhere (WORA) ✿ Class / Object / Method ✿ Main Method (`public static void main`) ✿ Package / Import ✿ Classpath / Modulepath ✿ Java Compilation Pipeline 
+- **DATA TYPES & VARIABLES** ✿ Primitive Types ✿ Wrapper Classes ✿ Autoboxing / Unboxing ✿ Type Casting ✿ Variables (Local / Instance / Static) ✿ Constants (`final`) ✿ Default Values ✿ Type Inference (`var`) ✿ Value-based classes 
+- **CONTROL FLOW** ✿ if / else ✿ switch (enhanced switch expressions) ✿ for / enhanced for ✿ while / do-while ✿ break / continue ✿ return / yield 
+- **OBJECT-ORIENTED PROGRAMMING (OOP)** ✿ Encapsulation / Abstraction ✿ Inheritance ✿ Polymorphism ✿ Method Overloading / Overriding ✿ Dynamic Dispatch ✿ Access Modifiers ✿ `this` / `super` ✿ Composition vs Inheritance ✿ SOLID Principles 
+- **KEYWORDS (JAVA LANGUAGE)** ✿ `final` / `static` / `abstract` ✿ `synchronized` / `volatile` / `transient` ✿ `native` / `strictfp` ✿ `instanceof` ✿ `enum` ✅ (added depth below) ✿ `record` ✿ `sealed` / `permits` ✿ `var` ✿ `yield` 
+- **ENUM (DETAILED – IMPORTANT)** ✿ Enum Basics ✿ Enum vs Class ✿ Enum with fields & methods ✿ Enum constructors ✿ Enum implementing interfaces ✿ Enum as Singleton ✿ EnumMap / EnumSet ✿ switch with enum ✿ Serialization safety of enums 
+- **CLASS DESIGN** ✿ Constructors ✿ Static / Instance blocks ✿ Nested / Inner / Anonymous / Local classes ✿ Immutable Classes ✿ Builder Pattern ✿ Factory Methods 
+- **COLLECTIONS FRAMEWORK (DEEP)** ✿ List / Set / Map / Queue ✿ HashMap internals (bucket, treeify) ✿ LinkedHashMap (LRU) ✿ TreeMap (Red-Black Tree) ✿ ConcurrentHashMap (segment/CAS) ✿ CopyOnWriteArrayList ✿ BlockingQueue ✿ PriorityQueue (heap) ✿ Fail-fast vs Fail-safe ✿ Iterator patterns ✿ Comparable vs Comparator 
+- **JAVA 8+ FEATURES** ✿ Lambda ✿ Functional Interfaces ✿ Streams API ✿ Parallel Streams ✿ Method References ✿ Optional ✿ Default / Static Interface Methods ✿ Spliterator 
+- **MODERN JAVA (9–21+)** ✿ JPMS (Modules) ✿ Records ✿ Sealed Classes ✿ Pattern Matching ✿ Text Blocks ✿ Virtual Threads (Project Loom) ✿ Structured Concurrency ✿ Scoped Values ✿ Foreign Function & Memory API (Project Panama) 
+- **MULTITHREADING & CONCURRENCY (ADVANCED)** ✿ Thread Lifecycle ✿ Runnable / Callable ✿ ExecutorService ✿ Thread Pools (fixed, cached, fork-join) ✿ Future / CompletableFuture ✿ ForkJoinPool / Work Stealing ✿ Synchronization (`synchronized`) ✿ Locks (`ReentrantLock`, `StampedLock`) ✿ ReadWriteLock ✿ Atomic Classes (CAS) ✿ VarHandle ✿ Happens-before relationship ✿ Memory Visibility ✿ False Sharing ✿ ThreadLocal ✿ Race Condition ✿ Deadlock / Livelock / Starvation ✿ Non-blocking algorithms 
+- **JVM INTERNALS (DEEP DIVE)** ✿ ClassLoader (Bootstrap, Platform, App) ✿ Delegation Model ✿ Bytecode Interpreter ✿ JIT (C1, C2) ✿ HotSpot ✿ Escape Analysis ✿ Inline Caching ✿ Tiered Compilation 
+- **GARBAGE COLLECTION (ADVANCED)** ✿ GC Algorithms (Mark-Sweep, G1, ZGC, Shenandoah) ✿ Generational GC ✿ Young / Old Gen ✿ STW (Stop-the-world) ✿ GC Tuning flags ✿ Allocation Rate ✿ Promotion Failure 
+- **MEMORY MANAGEMENT** ✿ Heap / Stack / Metaspace ✿ Off-Heap (Direct ByteBuffer) ✿ Object Lifecycle ✿ Reference Types (Strong/Weak/Soft/Phantom) ✿ Memory Leak ✿ OutOfMemoryError 
+- **FILE I/O & NIO** ✿ InputStream / OutputStream ✿ Reader / Writer ✿ Buffered Streams ✿ NIO Channels / Buffers ✿ Selector (Non-blocking IO) ✿ FileSystem API ✿ Zero-copy 
+- **NETWORKING** ✿ Socket / ServerSocket ✿ HTTP Client (Java 11) ✿ URL / URI ✿ TCP / UDP ✿ Netty basics 
+- **EXCEPTIONS** ✿ Checked / Unchecked ✿ Error ✿ try-catch-finally ✿ try-with-resources ✿ Custom Exceptions ✿ Exception chaining 
+- **REFLECTION & ANNOTATIONS** ✿ Reflection API ✿ Method Handles ✿ Dynamic Proxies ✿ Annotations ✿ Meta-annotations ✿ Annotation Processing (APT) 
+- **SERIALIZATION (MISSING – ADDED)** ✿ Java Serialization (`Serializable`) ✿ `serialVersionUID` ✿ Externalizable ✿ Transient fields ✿ Serialization pitfalls ✿ JSON/XML serialization (Jackson, Gson) 
+- **JDBC** ✿ JDBC API ✿ DriverManager ✿ Connection / Statement / PreparedStatement ✿ ResultSet ✿ Batch Processing ✿ Transactions (`commit`, `rollback`) ✿ Auto-commit ✿ Connection Pooling (HikariCP) ✿ Isolation Levels ✿ RowMapper pattern 
+- **JAVA STANDARD LIBRARIES** ✿ java.lang / util / io / nio ✿ java.time (Date/Time API) ✿ java.math (BigDecimal) ✿ java.net 
+- **DESIGN PATTERNS (EXPANDED)** ✿ Creational: Singleton, Factory, Builder, Prototype ✿ Structural: Adapter, Decorator, Proxy, Facade ✿ Behavioral: Strategy, Observer, Command, Template ✿ Concurrency Patterns ✿ Circuit Breaker 
+- **BUILD TOOLS** ✿ Maven (lifecycle, POM) ✿ Gradle (DSL, tasks) ✿ Dependency Management 
+- **TESTING** ✿ JUnit 5 ✿ Mockito ✿ TestNG ✿ Cucumber ✿ TDD / BDD ✿ Testcontainers 
+- **JAVA ECOSYSTEM** ✿ Spring / Spring Boot ✿ Spring Cloud ✿ Hibernate / JPA ✿ Jakarta EE 
+- **MESSAGING** ✿ Kafka ✿ RabbitMQ ✿ ActiveMQ ✿ Event-driven architecture 
+- **SECURITY** ✿ JCA / JCE ✿ SSL/TLS ✿ OAuth2 / JWT ✿ KeyStore / TrustStore 
+- **OBSERVABILITY** ✿ Logging (SLF4J, Logback) ✿ Metrics (Micrometer) ✿ Tracing (OpenTelemetry) ✿ Distributed Tracing 
+- **DEVOPS & RUNTIME** ✿ Docker / Kubernetes ✿ JVM Tuning ✿ GC Logs ✿ Profiling (JFR, JMC, VisualVM) 
+- **COMMON PITFALLS** ✿ Memory leaks ✿ Improper synchronization ✿ Blocking IO ✿ N+1 queries ✿ Overusing reflection 
+- **INTERVIEW POWER KEYWORDS** ✿ Immutability ✿ Thread Safety ✿ Idempotency ✿ Backpressure ✿ Lazy Initialization ✿ Double-Checked Locking ✿ CAP Theorem ✿ Consistency Models 
+- **ADVANCED / STAFF+** ✿ Reactive Programming ✿ Project Reactor / RxJava ✿ Virtual Threads ✿ Structured Concurrency ✿ Distributed Systems Design ✿ Domain-Driven Design (DDD) ✿ Event Sourcing ✿ CQRS 
 
 # JAVA VERSION
 - **JAVA 5 (2004)** — *Generics & Concurrency Revolution* ✿ Generics ✿ Type Safety ✿ Enhanced for-loop ✿ Autoboxing / Unboxing ✿ Varargs ✿ Enums ✿ Annotations ✿ Static Import ✿ Concurrency Utilities (`java.util.concurrent`) ✿ Executor Framework 
