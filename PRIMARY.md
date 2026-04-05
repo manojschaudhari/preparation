@@ -169,7 +169,7 @@
 - **LEADERSHIP & ENGINEERING PRINCIPLES (STAFF+)** ✿ Think in Systems ✿ Optimize for Outcomes, Not Output ✿ Bias for Action ✿ Ownership ✿ Long-term Thinking ✿ Trade-off Transparency ✿ Simplicity at Scale ✿ Build for Operability ✿ Measure What Matters
 - **INTERVIEW POWER KEYWORDS** ✿ Trade-offs ✿ Constraints-driven design ✿ Evolutionary Architecture ✿ Backward Compatibility ✿ Incremental Delivery ✿ Cost vs Performance Balance ✿ Risk Mitigation
 
-# PATTERNS
+## PATTERNS
 - **CORE DESIGN PATTERN CONCEPTS** ✿ Design Pattern ✿ Reusable Solution ✿ Template Solution ✿ Best Practice ✿ Intent ✿ Context ✿ Problem–Solution Mapping ✿ Pattern Language ✿ Pattern Composition
 - **CREATIONAL PATTERNS (OBJECT CREATION)** ✿ Singleton ✿ Factory Method ✿ Abstract Factory ✿ Builder ✿ Prototype ✿ Object Pool ✿ Lazy Initialization ✿ Dependency Injection ✿ Service Locator
 - **STRUCTURAL PATTERNS (OBJECT STRUCTURE)** ✿ Adapter ✿ Bridge ✿ Composite ✿ Decorator ✿ Facade ✿ Flyweight ✿ Proxy ✿ Wrapper ✿ Marker
@@ -194,7 +194,7 @@
 - **INTERVIEW POWER KEYWORDS** ✿ Pattern Trade-offs ✿ Pattern Composition ✿ Pattern vs Anti-pattern ✿ Context-Driven Pattern Selection ✿ Evolutionary Architecture ✿ Scalability Patterns ✿ Reliability Patterns
 
 
-# SYSTEM DESIGN
+## SYSTEM DESIGN
 - **CORE SYSTEM DESIGN CONCEPTS** ✿ System Design ✿ Architecture ✿ High-Level Design (HLD) ✿ Low-Level Design (LLD) ✿ Requirements (Functional / Non-functional) ✿ Constraints ✿ Trade-offs ✿ Assumptions ✿ Use Cases ✿ User Stories
 - **NON-FUNCTIONAL REQUIREMENTS (NFRs)** ✿ Scalability ✿ Availability ✿ Reliability ✿ Durability ✿ Performance ✿ Latency ✿ Throughput ✿ Consistency ✿ Fault Tolerance ✿ Resilience ✿ Security ✿ Maintainability ✿ Extensibility ✿ Observability
 - **ARCHITECTURE STYLES** ✿ Monolith ✿ Modular Monolith ✿ Microservices ✿ Service-Oriented Architecture (SOA) ✿ Event-Driven Architecture ✿ Serverless Architecture ✿ Hexagonal Architecture (Ports & Adapters) ✿ Clean Architecture ✿ Layered Architecture ✿ CQRS (Command Query Responsibility Segregation) ✿ Event Sourcing
@@ -221,7 +221,7 @@
 - **INTERVIEW KEYWORDS (MUST USE)** ✿ Bottleneck ✿ Trade-off Analysis ✿ Scale Estimation ✿ Capacity Planning ✿ Back-of-the-envelope Calculation ✿ Read/Write Ratio ✿ QPS (Queries Per Second) ✿ P99 Latency
 - **ADVANCED / STAFF+ LEVEL** ✿ Multi-tenancy ✿ Data Sovereignty ✿ Zero Downtime Deployment ✿ Global Distribution ✿ Geo-replication ✿ Active-Active / Active-Passive ✿ Service Level Objectives (SLO-driven design) ✿ Cost Optimization ✿ FinOps
 
-# DOMAIN-DRIVEN DESIGN
+## DOMAIN-DRIVEN DESIGN
 - **CORE DDD CONCEPTS** ✿ Domain-Driven Design (DDD) ✿ Domain ✿ Subdomain ✿ Core Domain ✿ Supporting Domain ✿ Generic Domain ✿ Business Capability ✿ Domain Model ✿ Model-Driven Design ✿ Domain Knowledge 
 - **UBIQUITOUS LANGUAGE** ✿ Ubiquitous Language ✿ Domain Vocabulary ✿ Shared Language ✿ Business Glossary ✿ Contextual Meaning ✿ Language Alignment 
 - **STRATEGIC DESIGN** ✿ Bounded Context ✿ Context Boundary ✿ Context Map ✿ Context Mapping ✿ Subdomain Mapping ✿ Domain Partitioning ✿ Organizational Alignment 
@@ -248,7 +248,7 @@
 - **ADVANCED / STAFF+ LEVEL** ✿ Domain Evolution ✿ Context Refactoring ✿ Multi-team Domain Ownership ✿ Domain Governance ✿ Event-driven Microservices ✿ Domain Platform Engineering ✿ Strategic vs Tactical Trade-offs 
 - **RELATED TOOLS / IMPLEMENTATION** ✿ Spring Boot ✿ Axon Framework ✿ Apache Kafka ✿ EventStoreDB 
 
-# MICROSERVICES
+## MICROSERVICES
 - **CORE MICROSERVICES CONCEPTS** ✿ Microservices Architecture ✿ Service-Oriented Architecture (SOA) ✿ Service Decomposition ✿ Bounded Context (DDD) ✿ Independent Deployability ✿ Loose Coupling ✿ High Cohesion ✿ Decentralization ✿ Autonomy 
 - **SERVICE DESIGN** ✿ Service Granularity ✿ Single Responsibility ✿ Stateless Services ✿ Stateful Services ✿ API-first Design ✿ Contract-first Design ✿ Backward Compatibility ✿ Versioning 
 - **API & COMMUNICATION** ✿ REST ✿ GraphQL ✿ gRPC ✿ WebSockets ✿ HTTP / HTTPS ✿ Idempotency ✿ Request-Response ✿ Async Communication 
@@ -274,7 +274,7 @@
 - **ADVANCED / STAFF+ LEVEL** ✿ Multi-cluster Microservices ✿ Global Traffic Management ✿ Cell-based Architecture ✿ Platform Engineering ✿ Internal Developer Platform (IDP) ✿ Multi-tenancy ✿ Cost Optimization 
 
 
-# SPRING
+## SPRING
 - **CORE SPRING FRAMEWORK** ✿ Spring Framework ✿ Inversion of Control (IoC) ✿ Dependency Injection (DI) ✿ ApplicationContext ✿ BeanFactory ✿ Bean Definition ✿ Bean Lifecycle ✿ Bean Scopes (singleton, prototype, request, session) ✿ Environment / Profiles ✿ Property Sources 
 - **SPRING BOOT CORE** ✿ Spring Boot ✿ Auto-Configuration ✿ Starter Dependencies ✿ SpringApplication ✿ Embedded Server (Tomcat, Jetty, Netty) ✿ application.properties / application.yml ✿ Externalized Configuration ✿ Profiles ✿ Banner / Startup 
 - **BEAN & CONTEXT MANAGEMENT** ✿ `@Component`, `@Service`, `@Repository`, `@Controller` ✿ `@Configuration`, `@Bean` ✿ `@Autowired` / Constructor Injection ✿ `@Qualifier` ✿ `@Primary` ✿ Lazy Initialization ✿ BeanPostProcessor ✿ FactoryBean ✿ Circular Dependency ✿ Context Hierarchy 
@@ -301,7 +301,7 @@
 - **INTERVIEW POWER KEYWORDS** ✿ Auto-configuration magic ✿ Starter abstraction ✿ Embedded vs External server ✿ Reactive vs Blocking ✿ Stateless microservices ✿ Externalized configuration 
 - **ADVANCED / STAFF+ LEVEL** ✿ Multi-module Spring Boot ✿ Domain-Driven Design (DDD) ✿ Event-driven Microservices ✿ Saga Pattern (Orchestration / Choreography) ✿ Observability-first Architecture ✿ Platform Engineering with Spring ✿ Internal Developer Platform (IDP) 
 
-# KAFKA
+## KAFKA
 - **CORE KAFKA CONCEPTS** ✿ Apache Kafka ✿ Event Streaming ✿ Distributed Log ✿ Publish-Subscribe ✿ Messaging System ✿ Event Bus 
 - **BASIC BUILDING BLOCKS** ✿ Topic ✿ Partition ✿ Offset ✿ Record / Message ✿ Key / Value ✿ Header ✿ Timestamp 
 - **PRODUCER** ✿ Producer API ✿ Producer Record ✿ Partitioning Strategy ✿ Key-based Partitioning ✿ Round-robin Partitioning ✿ Sticky Partitioner ✿ Batching ✿ Compression 
@@ -329,7 +329,7 @@
 - **INTERVIEW POWER KEYWORDS** ✿ Partitioning Strategy ✿ Consumer Lag Handling ✿ Exactly-once vs At-least-once ✿ Ordering Guarantees ✿ Throughput vs Latency Trade-off ✿ Kafka vs RabbitMQ 
 - **STAFF+ LEVEL** ✿ Event Streaming Platform Design ✿ Multi-cluster Architecture ✿ Data Mesh with Kafka ✿ Stream-first Architecture ✿ Real-time Analytics Pipeline ✿ Backpressure Management ✿ Load Shedding 
 
-# DATABASE
+## DATABASE
 - **CORE DATABASE CONCEPTS** ✿ Database ✿ DBMS / RDBMS / NoSQL ✿ Data Model ✿ Schema ✿ Instance ✿ Metadata ✿ Data Dictionary ✿ Catalog ✿ Logical vs Physical Model
 - **DATA MODELS** ✿ Relational Model ✿ Hierarchical Model ✿ Network Model ✿ Document Model ✿ Key-Value Model ✿ Column-Family Model ✿ Graph Model ✿ Time-Series Model ✿ Object-Oriented Database
 - **DATABASE TYPES** ✿ OLTP (Transactional) ✿ OLAP (Analytical) ✿ HTAP (Hybrid) ✿ In-Memory Database ✿ Distributed Database ✿ Embedded Database ✿ Cloud Database ✿ Serverless Database
