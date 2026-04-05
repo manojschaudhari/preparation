@@ -11,6 +11,7 @@
 - SPRING
 - KAFKA
 - DATABASE
+- ENTERPRISE ARCHITECTURE
 
 ## NOTES
 - RANDOM PATTERNS
@@ -359,7 +360,11 @@
 - **INTERVIEW POWER KEYWORDS** ✿ Read vs Write Optimization ✿ Index Trade-offs ✿ Partition Strategy ✿ Consistency vs Availability ✿ Scaling Strategy ✿ Query Optimization
 - **ADVANCED / STAFF+ LEVEL** ✿ Multi-Tenant Databases ✿ Data Sovereignty ✿ Global Replication ✿ Active-Active / Active-Passive ✿ Data Mesh ✿ Lakehouse Architecture ✿ HTAP Systems ✿ Cost Optimization (Storage vs Compute)
 
-
+## ENTERPRISE ARCHITECTURE 
+- <ins>**Business Architecture**</ins> ✿ Business capability modeling ✿ Value stream mapping ✿ Business process architecture ✿ Organizational structure alignment ✿ Operating models ✿ Business strategy alignment ✿ Strategic planning frameworks ✿ Stakeholder analysis ✿ Governance models ✿ Business service catalog ✿ Business functions decomposition ✿ Business capability maturity ✿ Process optimization ✿ Customer journey mapping ✿ Business KPI frameworks ✿ Performance measurement ✿ Risk management ✿ Compliance frameworks ✿ Change management ✿ Portfolio management ✿ Business architecture roadmaps ✿ Enterprise operating model design ✿ Business transformation strategy 
+- <ins>**Data Architecture**</ins> ✿ Enterprise data strategy ✿ Data governance frameworks ✿ Data ownership and stewardship ✿ Master data management ✿ Reference data management ✿ Metadata architecture ✿ Data lifecycle management ✿ Data modeling standards ✿ Conceptual/logical/physical modeling ✿ Data integration architecture ✿ ETL/ELT architecture ✿ Data quality management ✿ Data lineage tracking ✿ Data privacy and compliance ✿ Data security architecture ✿ Data classification ✿ Data warehousing architecture ✿ Data lake architecture ✿ Lakehouse architecture ✿ Real-time data pipelines ✿ Big data architecture ✿ Analytics architecture ✿ Data interoperability ✿ Data retention strategies ✿ Data migration architecture 
+- <ins>**Application Architecture**</ins> ✿ Application portfolio management ✿ Application rationalization ✿ Application lifecycle management ✿ Service-oriented architecture ✿ Microservices architecture ✿ API architecture ✿ Integration architecture ✿ Event-driven architecture ✿ Domain-driven design ✿ Application layering ✿ Modular architecture ✿ Monolith vs microservices tradeoffs ✿ Cloud-native applications ✿ Containerized architecture ✿ Serverless applications ✿ Application scalability ✿ Application resilience ✿ DevOps architecture ✿ CI/CD pipelines ✿ Application security architecture ✿ Identity and access management ✿ Dependency management ✿ Application modernization ✿ Legacy system transformation ✿ Software architecture governance 
+- <ins>**Technology Architecture**</ins> ✿ Infrastructure architecture ✿ Cloud architecture ✿ Hybrid cloud architecture ✿ Multi-cloud architecture ✿ Network architecture ✿ Compute architecture ✿ Storage architecture ✿ Virtualization platforms ✿ Container orchestration ✿ Platform engineering ✿ Operating systems strategy ✿ Middleware architecture ✿ Security architecture ✿ Zero trust architecture ✿ Disaster recovery architecture ✿ High availability design ✿ Monitoring architecture ✿ Observability platforms ✿ Automation architecture ✿ Infrastructure as code ✿ DevOps toolchains ✿ Capacity planning ✿ Performance engineering ✿ Cost optimization ✿ Technology lifecycle management
 
 
 
