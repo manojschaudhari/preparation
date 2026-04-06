@@ -1,7 +1,7 @@
 <!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
 
 - [KEYWORDS](#keywords)
-- [NOTES](#notes)
+- [PATTERN NOTES](#notes)
 - [JAVA](#java)
 - [JAVA VERSION](#java-version)
 - [OBJECT ORIENTED](#object-oriented)
@@ -64,7 +64,7 @@
 - ENTERPRISE ARCHITECTURE
 
 <!-- TOC --><a name="notes"></a>
-## NOTES
+## PATTERN NOTES
 - RANDOM PATTERNS
 - SOA DESIGN PATTERNS (Service-Oriented Architecture)
 - MICROSERVICES PATTERNS
