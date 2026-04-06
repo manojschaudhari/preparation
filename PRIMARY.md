@@ -22,6 +22,7 @@
 - DEVOPS PATTERNS
 - SECURITY PATTERNS (Cross-Domain)
 - GOVERNANCE & ENTERPRISE PATTERNS
+- OO PATTERNS
 
 ## JAVA
 - <ins>**CORE JAVA BASICS**</ins> ✿ Java ✿ JDK / JRE / JVM ✿ Bytecode ✿ Platform Independence ✿ Write Once Run Anywhere (WORA) ✿ Class / Object / Method ✿ Main Method (`public static void main`) ✿ Package / Import ✿ Classpath / Modulepath ✿ Java Compilation Pipeline 
@@ -2511,3 +2512,39 @@
     - **Reducing Cognitive Load:** The primary goal is to reduce the cognitive load on development teams, allowing them to focus on business logic, not on managing infrastructure or wrestling with deployment tools.
     - **Self-Service Infrastructure:** Developers can provision environments, deploy applications, and access data services on-demand via the platform's UI or API, without needing to file tickets with an operations team.
     - **Product Mindset:** The platform itself is treated as a product, with a dedicated team that treats internal developers as its customers, focusing on usability, documentation, and continuous improvement.
+
+
+## OO PATTERNS
+
+### Creational Patterns (Object Creation)
+- **Singleton** – Ensures a class has only one instance and provides a global point of access to it.
+- **Factory Method** – Defines an interface for creating an object, but lets subclasses decide which class to instantiate.
+- **Abstract Factory** – Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+- **Builder** – Separates the construction of a complex object from its representation, allowing the same construction process to create different representations.
+- **Prototype** – Creates new objects by cloning an existing (prototype) instance, avoiding the cost of calling constructors.
+- **Object Pool** – Reuses objects from a pre-created pool instead of repeatedly creating and destroying them, improving performance.
+- **Lazy Initialization** – Delays the creation of an object or computation of a value until it is first needed.
+- **Dependency Injection** – Supplies an object with its dependencies from external sources rather than having the object create them itself.
+- **Service Locator** – Provides a central registry that returns necessary services when requested, abstracting their instantiation.
+### Structural Patterns (Object Structure)
+- **Adapter** – Converts the interface of a class into another interface that clients expect, enabling incompatible classes to work together.
+- **Bridge** – Decouples an abstraction from its implementation so that the two can vary independently.
+- **Composite** – Composes objects into tree structures to represent part-whole hierarchies, allowing clients to treat individual objects and compositions uniformly.
+- **Decorator** – Attaches additional responsibilities to an object dynamically, providing a flexible alternative to subclassing for extending functionality.
+- **Facade** – Provides a simplified, unified interface to a complex subsystem, making it easier to use.
+- **Flyweight** – Shares common parts of state between many fine-grained objects to reduce memory usage.
+- **Proxy** – Provides a surrogate or placeholder for another object to control access, add logging, lazy loading, etc.
+- **Wrapper** – Another name for the Adapter or Decorator pattern; wraps an object to modify or adapt its interface/behavior.
+- **Marker** – Uses an empty interface or attribute to tag a class with metadata (e.g., for runtime type checking or special processing).
+### Behavioral Patterns (Object Interaction)
+- **Observer** – Defines a one-to-many dependency so that when one object changes state, all its dependents are notified and updated automatically.
+- **Strategy** – Defines a family of interchangeable algorithms, encapsulates each one, and makes them selectable at runtime.
+- **Command** – Encapsulates a request as an object, thereby allowing parameterization of clients with queues, logs, and undoable operations.
+- **Chain of Responsibility** – Passes a request along a chain of handlers, each having the chance to process it or pass it to the next handler.
+- **State** – Allows an object to alter its behavior when its internal state changes, appearing to change its class.
+- **Template Method** – Defines the skeleton of an algorithm in a method, deferring some steps to subclasses without changing the algorithm’s structure.
+- **Mediator** – Reduces coupling between objects by making them communicate only through a central mediator object.
+- **Memento** – Captures and externalizes an object’s internal state so that the object can be restored to that state later.
+- **Visitor** – Represents an operation to be performed on elements of an object structure, allowing new operations to be added without modifying the elements’ classes.
+- **Interpreter** – Defines a grammar for a language and an interpreter that uses the grammar to interpret sentences in that language.
+- **Iterator** – Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
