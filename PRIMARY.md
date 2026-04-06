@@ -2516,35 +2516,154 @@
 
 ## OO PATTERNS
 
-### Creational Patterns (Object Creation)
-- **Singleton** – Ensures a class has only one instance and provides a global point of access to it.
-- **Factory Method** – Defines an interface for creating an object, but lets subclasses decide which class to instantiate.
-- **Abstract Factory** – Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
-- **Builder** – Separates the construction of a complex object from its representation, allowing the same construction process to create different representations.
-- **Prototype** – Creates new objects by cloning an existing (prototype) instance, avoiding the cost of calling constructors.
-- **Object Pool** – Reuses objects from a pre-created pool instead of repeatedly creating and destroying them, improving performance.
-- **Lazy Initialization** – Delays the creation of an object or computation of a value until it is first needed.
-- **Dependency Injection** – Supplies an object with its dependencies from external sources rather than having the object create them itself.
-- **Service Locator** – Provides a central registry that returns necessary services when requested, abstracting their instantiation.
-### Structural Patterns (Object Structure)
-- **Adapter** – Converts the interface of a class into another interface that clients expect, enabling incompatible classes to work together.
-- **Bridge** – Decouples an abstraction from its implementation so that the two can vary independently.
-- **Composite** – Composes objects into tree structures to represent part-whole hierarchies, allowing clients to treat individual objects and compositions uniformly.
-- **Decorator** – Attaches additional responsibilities to an object dynamically, providing a flexible alternative to subclassing for extending functionality.
-- **Facade** – Provides a simplified, unified interface to a complex subsystem, making it easier to use.
-- **Flyweight** – Shares common parts of state between many fine-grained objects to reduce memory usage.
-- **Proxy** – Provides a surrogate or placeholder for another object to control access, add logging, lazy loading, etc.
-- **Wrapper** – Another name for the Adapter or Decorator pattern; wraps an object to modify or adapt its interface/behavior.
-- **Marker** – Uses an empty interface or attribute to tag a class with metadata (e.g., for runtime type checking or special processing).
-### Behavioral Patterns (Object Interaction)
-- **Observer** – Defines a one-to-many dependency so that when one object changes state, all its dependents are notified and updated automatically.
-- **Strategy** – Defines a family of interchangeable algorithms, encapsulates each one, and makes them selectable at runtime.
-- **Command** – Encapsulates a request as an object, thereby allowing parameterization of clients with queues, logs, and undoable operations.
-- **Chain of Responsibility** – Passes a request along a chain of handlers, each having the chance to process it or pass it to the next handler.
-- **State** – Allows an object to alter its behavior when its internal state changes, appearing to change its class.
-- **Template Method** – Defines the skeleton of an algorithm in a method, deferring some steps to subclasses without changing the algorithm’s structure.
-- **Mediator** – Reduces coupling between objects by making them communicate only through a central mediator object.
-- **Memento** – Captures and externalizes an object’s internal state so that the object can be restored to that state later.
-- **Visitor** – Represents an operation to be performed on elements of an object structure, allowing new operations to be added without modifying the elements’ classes.
-- **Interpreter** – Defines a grammar for a language and an interpreter that uses the grammar to interpret sentences in that language.
-- **Iterator** – Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+### Creational Patterns
+
+**Singleton** – Ensures a class has only one instance and provides a global point of access to it.  
+JDK ::: `java.lang.Runtime#getRuntime()`, `java.awt.Desktop#getDesktop()` ::: returns the single system-wide instance  
+SPRING ::: `@Bean` with default singleton scope, `ApplicationContext` ::: each bean is a singleton per container  
+Java Basic Sample ::: `public class MySingleton { private static final MySingleton INSTANCE = new MySingleton(); private MySingleton(){} public static MySingleton getInstance(){ return INSTANCE; } }`
+
+**Factory Method** – Defines an interface for creating an object, but lets subclasses decide which class to instantiate.  
+JDK ::: `java.util.Collection#iterator()`, `java.util.EnumSet#of()` ::: each collection creates its own Iterator  
+SPRING ::: `FactoryBean<T>` interface, `ProxyFactoryBean` ::: custom object creation logic in `getObject()`  
+Java Basic Sample ::: `abstract class Dialog { abstract Button createButton(); } class WindowsDialog extends Dialog { Button createButton() { return new WindowsButton(); } }`
+
+**Abstract Factory** – Provides an interface for creating families of related or dependent objects without specifying their concrete classes.  
+JDK ::: `javax.xml.parsers.DocumentBuilderFactory`, `javax.xml.transform.TransformerFactory` ::: creates families of XML processors  
+SPRING ::: `BeanFactory` / `ApplicationContext` ::: creates beans of different types from configuration  
+Java Basic Sample ::: `interface GUIFactory { Button createButton(); Checkbox createCheckbox(); } class WinFactory implements GUIFactory { ... }`
+
+**Builder** – Separates the construction of a complex object from its representation, allowing the same construction process to create different representations.  
+JDK ::: `java.lang.StringBuilder`, `java.nio.ByteBuffer` ::: fluent method chaining to build objects  
+SPRING ::: `UriComponentsBuilder`, `RestTemplateBuilder` ::: builds URIs or customised RestTemplate  
+Java Basic Sample ::: `Pizza pizza = new Pizza.Builder().dough("thick").sauce("tomato").build();`
+
+**Prototype** – Creates new objects by cloning an existing (prototype) instance, avoiding the cost of calling constructors.  
+JDK ::: `java.lang.Cloneable` + `Object#clone()` ::: shallow copy mechanism  
+SPRING ::: prototype bean scope (`@Scope("prototype")`) ::: new instance returned each request  
+Java Basic Sample ::: `Sheep dolly = new Sheep("Dolly"); Sheep clone = (Sheep) dolly.clone();`
+
+**Object Pool** – Reuses objects from a pre-created pool instead of repeatedly creating and destroying them, improving performance.  
+JDK ::: `java.util.concurrent.ThreadPoolExecutor`, `javax.sql.ConnectionPoolDataSource` ::: pools threads / DB connections  
+SPRING ::: `CommonsPool2TargetSource`, `GenericObjectPool` (Spring Integration) ::: object pooling for stateless resources  
+Java Basic Sample ::: `ObjectPool<DBConnection> pool = new GenericObjectPool<>(new ConnectionFactory());`
+
+**Lazy Initialization** – Delays the creation of an object or computation of a value until it is first needed.  
+JDK ::: `java.util.concurrent.FutureTask`, `java.lang.ref.Proxy` ::: compute on demand  
+SPRING ::: `@Lazy` annotation, lazy-init bean attribute ::: bean created only when first requested  
+Java Basic Sample ::: `private Heavy heavy; public Heavy getHeavy() { if (heavy == null) heavy = new Heavy(); return heavy; }`
+
+**Dependency Injection** – Supplies an object with its dependencies from external sources rather than having the object create them themselves.  
+JDK ::: `java.util.ServiceLoader` (basic) ::: loads service implementations  
+SPRING ::: `@Autowired`, constructor injection, `ApplicationContext` ::: core of Spring IoC container  
+Java Basic Sample ::: `public class Car { private Engine e; public Car(Engine e) { this.e = e; } } // external assembler provides Engine`
+
+**Service Locator** – Provides a central registry that returns necessary services when requested, abstracting their instantiation.  
+JDK ::: `java.util.ServiceLoader`, `java.awt.Toolkit#getDefaultToolkit()` ::: centralised service lookup  
+SPRING ::: `ServiceLocatorFactoryBean` ::: creates factory beans that locate services by name  
+Java Basic Sample ::: `ServiceLocator.getService("logger");` (simplified registry)
+
+### Structural Patterns
+
+**Adapter** – Converts the interface of a class into another interface that clients expect, enabling incompatible classes to work together.  
+JDK ::: `java.io.InputStreamReader`, `java.util.Arrays#asList()` ::: adapts streams/arrays to Reader/List  
+SPRING ::: `HandlerAdapter` (Spring MVC) ::: adapts different controller types to unified execution  
+Java Basic Sample ::: `class SocketAdapter { public Volt get120Volt() { return new Volt(120); } }`
+
+**Bridge** – Decouples an abstraction from its implementation so that the two can vary independently.  
+JDK ::: `java.sql.DriverManager` ::: bridges JDBC API with vendor-specific drivers  
+SPRING ::: `PlatformTransactionManager` ::: abstraction over JPA, JDBC, JTA implementations  
+Java Basic Sample ::: `abstract class Shape { protected Color c; } class Circle extends Shape { ... }`
+
+**Composite** – Composes objects into tree structures to represent part-whole hierarchies, allowing clients to treat individual objects and compositions uniformly.  
+JDK ::: `java.awt.Container`, `javax.swing.JComponent` ::: components can contain other components  
+SPRING ::: `CompositeComponentDefinition`, `CompositeManagedResource` ::: nested resources  
+Java Basic Sample ::: `List<Graphic> children = new ArrayList<>(); children.add(new Circle()); children.add(new CompositeGraphic(children));`
+
+**Decorator** – Attaches additional responsibilities to an object dynamically, providing a flexible alternative to subclassing for extending functionality.  
+JDK ::: `java.io.BufferedInputStream`, `java.util.Collections#checkedCollection()` ::: wraps streams with extra behaviour  
+SPRING ::: `TransactionAwareCacheDecorator`, Spring AOP proxies ::: adds transaction/caching dynamically  
+Java Basic Sample ::: `Coffee coffee = new SimpleCoffee(); coffee = new MilkDecorator(coffee);`
+
+**Facade** – Provides a simplified, unified interface to a complex subsystem, making it easier to use.  
+JDK ::: `javax.faces.context.FacesContext`, `java.lang.Class` ::: simplifies low-level reflection/JSF internals  
+SPRING ::: `JdbcTemplate`, `RestTemplate` ::: simplifies JDBC / REST operations  
+Java Basic Sample ::: `class ComputerFacade { public void start() { cpu.start(); memory.load(); } }`
+
+**Flyweight** – Shares common parts of state between many fine-grained objects to reduce memory usage.  
+JDK ::: `java.lang.Integer#valueOf()` (caches -128..127), `java.lang.Boolean#valueOf()` ::: reuses immutable instances  
+SPRING ::: `BeanDefinition` caching, `StringUtils` shared char arrays ::: internal sharing  
+Java Basic Sample ::: `Map<String, Font> cache = new HashMap<>(); return cache.computeIfAbsent(name, Font::new);`
+
+**Proxy** – Provides a surrogate or placeholder for another object to control access, add logging, lazy loading, etc.  
+JDK ::: `java.lang.reflect.Proxy` (dynamic proxy), `java.rmi.server.RemoteObject` ::: intercepts method calls  
+SPRING ::: `CglibAopProxy`, `JdkDynamicAopProxy` ::: AOP proxies for transaction, security, caching  
+Java Basic Sample ::: `InvocationHandler handler = (proxy, method, args) -> { log(); return method.invoke(real, args); };`
+
+**Wrapper** – Another name for the Adapter or Decorator pattern; wraps an object to modify or adapt its interface/behavior.  
+JDK ::: `java.util.Collections` methods (`synchronizedXXX`, `unmodifiableXXX`) ::: wraps collections with sync/readonly  
+SPRING ::: `DelegatingDataSource`, `DelegatingConnection` ::: wraps JDBC objects for monitoring  
+Java Basic Sample ::: `List<String> list = Collections.synchronizedList(new ArrayList<>());`
+
+**Marker** – Uses an empty interface or attribute to tag a class with metadata (e.g., for runtime type checking or special processing).  
+JDK ::: `java.io.Serializable`, `java.lang.Cloneable`, `java.rmi.Remote` ::: tagging interfaces with no methods  
+SPRING ::: `@Repository`, `@Service`, `@Controller` (as type markers for component scanning) ::: metadata annotations  
+Java Basic Sample ::: `public interface Auditable {} // marker; then if (obj instanceof Auditable) { ... }`
+
+### Behavioral Patterns
+
+**Observer** – Defines a one-to-many dependency so that when one object changes state, all its dependents are notified and updated automatically.  
+JDK ::: `java.util.Observer` / `Observable` (deprecated since Java 9) ::: classic observer pattern  
+SPRING ::: `ApplicationListener`, `@EventListener` ::: event publishing and handling  
+Java Basic Sample ::: `propertyChangeSupport.firePropertyChange("temperature", old, new);`
+
+**Strategy** – Defines a family of interchangeable algorithms, encapsulates each one, and makes them selectable at runtime.  
+JDK ::: `java.util.Comparator` ::: passed to `Collections.sort()` to define ordering strategy  
+SPRING ::: `ResourceLoader` strategies, `PlatformTransactionManager` ::: pluggable transaction strategies  
+Java Basic Sample ::: `list.sort((a,b) -> a.compareTo(b));` (lambda as strategy)
+
+**Command** – Encapsulates a request as an object, thereby allowing parameterization of clients with queues, logs, and undoable operations.  
+JDK ::: `java.lang.Runnable`, `javax.swing.Action` ::: tasks that can be executed, queued, or undone  
+SPRING ::: `TaskExecutor`, `JdbcTemplate` (internal command pattern) ::: executes database commands  
+Java Basic Sample ::: `public class LightOnCommand implements Command { public void execute() { light.on(); } }`
+
+**Chain of Responsibility** – Passes a request along a chain of handlers, each having the chance to process it or pass it to the next handler.  
+JDK ::: `java.util.logging.Logger#log()` (handlers chain), `javax.servlet.Filter#doFilter()` ::: loggers / filters form a chain  
+SPRING ::: `HandlerInterceptor` chain, `Spring Security` filter chain ::: sequential processing of request  
+Java Basic Sample ::: `abstract class Handler { protected Handler next; public void handle(Request r) { if (canHandle(r)) process(r); else if (next != null) next.handle(r); } }`
+
+**State** – Allows an object to alter its behavior when its internal state changes, appearing to change its class.  
+JDK ::: `java.util.Iterator` (state changes as elements are traversed), `java.util.Calendar` ::: state influences behaviour  
+SPRING ::: `StateMachine` (Spring StateMachine project) ::: explicit state machine implementation  
+Java Basic Sample ::: `class Context { private State state; void request() { state.handle(this); } }`
+
+**Template Method** – Defines the skeleton of an algorithm in a method, deferring some steps to subclasses without changing the algorithm’s structure.  
+JDK ::: `java.util.AbstractList`, `java.io.InputStream` ::: subclasses implement abstract methods like `read()`  
+SPRING ::: `JdbcTemplate`, `RestTemplate`, `TransactionTemplate` ::: templates define algorithm, callbacks fill steps  
+Java Basic Sample ::: `abstract class DataProcessor { void process() { read(); processData(); write(); } abstract void read(); }`
+
+**Mediator** – Reduces coupling between objects by making them communicate only through a central mediator object.  
+JDK ::: `java.util.concurrent.Executor` / `ExecutorService` ::: mediates task submission and execution  
+SPRING ::: `DispatcherServlet`, `ApplicationEventMulticaster` ::: central dispatcher for HTTP requests / events  
+Java Basic Sample ::: `class ChatRoom { public static void showMessage(User u, String msg) { ... } }`
+
+**Memento** – Captures and externalizes an object’s internal state so that the object can be restored to that state later.  
+JDK ::: `java.io.Serializable` (serialization to byte array), `javax.swing.text.JTextComponent` (undo/redo support)  
+SPRING ::: `FlowExecution` (Spring Web Flow) ::: saves and restores conversation state  
+Java Basic Sample ::: `class Memento { private String state; } class Originator { public Memento save() { return new Memento(state); } public void restore(Memento m) { state = m.getState(); } }`
+
+**Visitor** – Represents an operation to be performed on elements of an object structure, allowing new operations to be added without modifying the elements’ classes.  
+JDK ::: `javax.lang.model.element.AnnotationValue` (accepts visitor), `java.nio.file.FileVisitor` ::: visits files in a tree  
+SPRING ::: `BeanDefinitionVisitor` (internal) ::: visits bean definitions to modify them  
+Java Basic Sample ::: `interface Element { void accept(Visitor v); } class Book implements Element { public void accept(Visitor v) { v.visit(this); } }`
+
+**Interpreter** – Defines a grammar for a language and an interpreter that uses the grammar to interpret sentences in that language.  
+JDK ::: `java.util.regex.Pattern`, `java.text.Format` ::: interprets regex patterns or date/number formats  
+SPRING ::: `SpelExpressionParser` (Spring Expression Language) ::: parses and evaluates expressions  
+Java Basic Sample ::: `ExpressionParser parser = new SpelExpressionParser(); Expression exp = parser.parseExpression("'Hello ' + 'World'");`
+
+**Iterator** – Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.  
+JDK ::: `java.util.Iterator`, `java.util.Enumeration` ::: standard way to traverse collections  
+SPRING ::: `CompositeIterator` (Spring Batch), `JdbcTemplate#queryForList()` returning iterable results ::: iteration over resources  
+Java Basic Sample ::: `for (String s : list) { System.out.println(s); }` (enhanced for uses iterator)
+
