@@ -266,3 +266,396 @@
 - **Square root decomposition**: Partition array into blocks of size √N. Precompute per-block aggregates. Queries combine blocks and partial edges. O(√N) per query.
 - **Heavy-light decomposition**: Decompose tree into heavy paths to support path queries (e.g., sum, max). Combine with segment tree. O(log^2 n) per query.
 - **Persistent data structures**: Allow access to previous versions. E.g., persistent segment tree (functional). Used in problems like K-th number in range.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Creational Patterns (Object Creation)
+
+### Singleton
+**Explanation:** Ensures a class has only one instance and provides a global access point.  
+**Java Sample:**
+```java
+public class Singleton {
+    private static Singleton instance;
+    private Singleton() {}
+    public static Singleton getInstance() {
+        if (instance == null) instance = new Singleton();
+        return instance;
+    }
+}
+```
+
+### Factory Method
+**Explanation:** Defines an interface for creating an object, but subclasses decide which class to instantiate.  
+**Java Sample:**
+```java
+interface Product { void doStuff(); }
+class ConcreteProduct implements Product { public void doStuff() { System.out.println("Product A"); } }
+abstract class Creator { abstract Product factoryMethod(); }
+class ConcreteCreator extends Creator { Product factoryMethod() { return new ConcreteProduct(); } }
+```
+
+### Abstract Factory
+**Explanation:** Provides an interface for creating families of related or dependent objects without specifying concrete classes.  
+**Java Sample:**
+```java
+interface Button { void render(); }
+interface Checkbox { void render(); }
+interface GUIFactory { Button createButton(); Checkbox createCheckbox(); }
+class WinButton implements Button { public void render() { System.out.println("Windows Button"); } }
+class WinFactory implements GUIFactory { public Button createButton() { return new WinButton(); } }
+```
+
+### Builder
+**Explanation:** Separates the construction of a complex object from its representation, allowing the same construction process to create different representations.  
+**Java Sample:**
+```java
+class Pizza {
+    private String dough; private String sauce;
+    private Pizza(Builder b) { dough = b.dough; sauce = b.sauce; }
+    static class Builder {
+        String dough, sauce;
+        Builder setDough(String d) { dough = d; return this; }
+        Builder setSauce(String s) { sauce = s; return this; }
+        Pizza build() { return new Pizza(this); }
+    }
+}
+// Usage: new Pizza.Builder().setDough("thick").setSauce("tomato").build();
+```
+
+### Prototype
+**Explanation:** Creates new objects by cloning an existing object (prototype) rather than calling constructors.  
+**Java Sample:**
+```java
+class Sheep implements Cloneable {
+    String name;
+    Sheep(String n) { name = n; }
+    public Sheep clone() { try { return (Sheep) super.clone(); } catch(CloneNotSupportedException e) { return null; } }
+}
+// Sheep dolly = new Sheep("Dolly").clone();
+```
+
+### Object Pool
+**Explanation:** Reuses objects that are expensive to create by keeping a pool of available instances.  
+**Java Sample:**
+```java
+import java.util.*;
+class Pool {
+    private List<Object> available = new ArrayList<>();
+    public Object acquire() { return available.isEmpty() ? new Object() : available.remove(0); }
+    public void release(Object o) { available.add(o); }
+}
+```
+
+### Lazy Initialization
+**Explanation:** Delays the creation of an object or computation until it is first needed.  
+**Java Sample:**
+```java
+class Heavy {
+    Heavy() { System.out.println("Creating heavy"); }
+}
+class Holder {
+    private Heavy heavy = null;
+    public Heavy getHeavy() {
+        if (heavy == null) heavy = new Heavy();
+        return heavy;
+    }
+}
+```
+
+### Dependency Injection
+**Explanation:** Passes dependencies (services/objects) to a client from the outside rather than having the client create them.  
+**Java Sample:**
+```java
+class Service { void serve() { System.out.println("Service"); } }
+class Client {
+    private Service service;
+    Client(Service s) { service = s; }  // constructor injection
+    void doWork() { service.serve(); }
+}
+// Client c = new Client(new Service());
+```
+
+### Service Locator
+**Explanation:** Provides a central registry that returns necessary services when asked, abstracting the lookup process.  
+**Java Sample:**
+```java
+class ServiceLocator {
+    private static Map<String, Object> services = new HashMap<>();
+    public static void register(String name, Object svc) { services.put(name, svc); }
+    public static Object lookup(String name) { return services.get(name); }
+}
+// ServiceLocator.register("logger", new Logger());
+```
+
+---
+
+## Structural Patterns (Object Structure)
+
+### Adapter
+**Explanation:** Allows incompatible interfaces to work together by wrapping an existing class with a new interface.  
+**Java Sample:**
+```java
+interface Target { void request(); }
+class Adaptee { void specificRequest() { System.out.println("Adaptee"); } }
+class Adapter implements Target {
+    private Adaptee adaptee = new Adaptee();
+    public void request() { adaptee.specificRequest(); }
+}
+```
+
+### Bridge
+**Explanation:** Decouples an abstraction from its implementation so that both can vary independently.  
+**Java Sample:**
+```java
+interface Device { void turnOn(); }
+class TV implements Device { public void turnOn() { System.out.println("TV on"); } }
+class Remote {
+    protected Device device;
+    Remote(Device d) { device = d; }
+    void pressPower() { device.turnOn(); }
+}
+```
+
+### Composite
+**Explanation:** Composes objects into tree structures to represent part-whole hierarchies, allowing clients to treat individual objects and compositions uniformly.  
+**Java Sample:**
+```java
+interface Component { void operation(); }
+class Leaf implements Component { public void operation() { System.out.println("Leaf"); } }
+class Composite implements Component {
+    List<Component> children = new ArrayList<>();
+    public void operation() { for(Component c : children) c.operation(); }
+    void add(Component c) { children.add(c); }
+}
+```
+
+### Decorator
+**Explanation:** Dynamically adds responsibilities to an object by wrapping it with one or more decorator classes.  
+**Java Sample:**
+```java
+interface Coffee { double cost(); }
+class SimpleCoffee implements Coffee { public double cost() { return 1.0; } }
+class MilkDecorator implements Coffee {
+    private Coffee coffee;
+    MilkDecorator(Coffee c) { coffee = c; }
+    public double cost() { return coffee.cost() + 0.5; }
+}
+// Coffee c = new MilkDecorator(new SimpleCoffee());
+```
+
+### Facade
+**Explanation:** Provides a simplified interface to a complex subsystem, hiding its internal complexity.  
+**Java Sample:**
+```java
+class CPU { void freeze() {} void jump(long pos) {} void execute() {} }
+class HardDrive { byte[] read(long lba, int size) { return new byte[size]; } }
+class ComputerFacade {
+    private CPU cpu = new CPU();
+    private HardDrive hd = new HardDrive();
+    void start() { cpu.freeze(); cpu.jump(0); cpu.execute(); }
+}
+```
+
+### Flyweight
+**Explanation:** Minimizes memory usage by sharing as much data as possible with similar objects (intrinsic state shared, extrinsic passed).  
+**Java Sample:**
+```java
+import java.util.*;
+class TreeType { String name, color; }  // intrinsic
+class TreeFactory {
+    static Map<String, TreeType> types = new HashMap<>();
+    static TreeType getType(String name, String color) {
+        String key = name + color;
+        if(!types.containsKey(key)) types.put(key, new TreeType(name, color));
+        return types.get(key);
+    }
+}
+```
+
+### Proxy
+**Explanation:** Provides a surrogate or placeholder for another object to control access, add logging, lazy loading, etc.  
+**Java Sample:**
+```java
+interface Image { void display(); }
+class RealImage implements Image { private String file; RealImage(String f) { file = f; load(); } void load() {} public void display() {} }
+class ProxyImage implements Image {
+    private RealImage real;
+    private String file;
+    ProxyImage(String f) { file = f; }
+    public void display() { if(real == null) real = new RealImage(file); real.display(); }
+}
+```
+
+### Wrapper
+**Explanation:** Wraps a primitive or object to add behavior or convert types; often used as a simple container.  
+**Java Sample:**
+```java
+class IntegerWrapper {
+    private int value;
+    IntegerWrapper(int v) { value = v; }
+    int getValue() { return value; }
+    void setValue(int v) { value = v; }
+}
+```
+
+### Marker
+**Explanation:** Uses an empty interface (marker interface) to signal a capability or type information to the compiler or runtime.  
+**Java Sample:**
+```java
+interface SerializableMarker {}  // empty marker
+class MyClass implements SerializableMarker { }
+// if(obj instanceof SerializableMarker) { ... }
+```
+
+---
+
+## Behavioral Patterns (Object Interaction)
+
+### Observer
+**Explanation:** Defines a one-to-many dependency so that when one object changes state, all its dependents are notified automatically.  
+**Java Sample:**
+```java
+import java.util.*;
+interface Observer { void update(String msg); }
+class ConcreteObserver implements Observer { public void update(String msg) { System.out.println(msg); } }
+class Subject {
+    List<Observer> observers = new ArrayList<>();
+    void attach(Observer o) { observers.add(o); }
+    void notify(String s) { for(Observer o : observers) o.update(s); }
+}
+```
+
+### Strategy
+**Explanation:** Defines a family of algorithms, encapsulates each, and makes them interchangeable at runtime.  
+**Java Sample:**
+```java
+interface Strategy { int doOperation(int a, int b); }
+class Add implements Strategy { public int doOperation(int a, int b) { return a+b; } }
+class Context {
+    private Strategy strategy;
+    Context(Strategy s) { strategy = s; }
+    int execute(int a, int b) { return strategy.doOperation(a,b); }
+}
+```
+
+### Command
+**Explanation:** Encapsulates a request as an object, thereby allowing parameterization, queuing, logging, and undoable operations.  
+**Java Sample:**
+```java
+interface Command { void execute(); }
+class LightOnCommand implements Command {
+    private Light light;
+    LightOnCommand(Light l) { light = l; }
+    public void execute() { light.on(); }
+}
+class Light { void on() { System.out.println("Light on"); } }
+```
+
+### Chain of Responsibility
+**Explanation:** Passes a request along a chain of handlers; each handler decides to process or pass to the next.  
+**Java Sample:**
+```java
+abstract class Handler {
+    protected Handler next;
+    void setNext(Handler n) { next = n; }
+    abstract void handle(int request);
+}
+class ConcreteHandler extends Handler {
+    void handle(int request) { if(request < 10) System.out.println("Handled"); else if(next != null) next.handle(request); }
+}
+```
+
+### State
+**Explanation:** Allows an object to alter its behavior when its internal state changes, appearing to change its class.  
+**Java Sample:**
+```java
+interface State { void doAction(Context ctx); }
+class StartState implements State { public void doAction(Context ctx) { System.out.println("Start"); ctx.setState(this); } }
+class Context { private State state; void setState(State s) { state = s; } void doAction() { state.doAction(this); } }
+```
+
+### Template Method
+**Explanation:** Defines the skeleton of an algorithm in a method, deferring some steps to subclasses.  
+**Java Sample:**
+```java
+abstract class Game {
+    abstract void initialize();
+    abstract void startPlay();
+    final void play() { initialize(); startPlay(); } // template method
+}
+class Cricket extends Game { void initialize() {} void startPlay() {} }
+```
+
+### Mediator
+**Explanation:** Defines an object that encapsulates how a set of objects interact, promoting loose coupling.  
+**Java Sample:**
+```java
+interface Mediator { void send(String msg, Colleague colleague); }
+class ConcreteMediator implements Mediator { public void send(String msg, Colleague c) { System.out.println(msg); } }
+abstract class Colleague { protected Mediator mediator; Colleague(Mediator m) { mediator = m; } }
+```
+
+### Memento
+**Explanation:** Captures and externalizes an object’s internal state so that the object can be restored later without violating encapsulation.  
+**Java Sample:**
+```java
+class Memento { private String state; Memento(String s) { state = s; } String getState() { return state; } }
+class Originator { private String state; void set(String s) { state = s; } Memento save() { return new Memento(state); } void restore(Memento m) { state = m.getState(); } }
+```
+
+### Visitor
+**Explanation:** Represents an operation to be performed on elements of an object structure, allowing new operations without changing the element classes.  
+**Java Sample:**
+```java
+interface Element { void accept(Visitor v); }
+class ConcreteElement implements Element { public void accept(Visitor v) { v.visit(this); } }
+interface Visitor { void visit(ConcreteElement e); }
+class ConcreteVisitor implements Visitor { public void visit(ConcreteElement e) { System.out.println("Visited"); } }
+```
+
+### Interpreter
+**Explanation:** Defines a grammar for a language and an interpreter to parse sentences in that language.  
+**Java Sample:**
+```java
+interface Expression { boolean interpret(String context); }
+class TerminalExpression implements Expression { private String data; TerminalExpression(String d) { data = d; } public boolean interpret(String ctx) { return ctx.contains(data); } }
+// Usage: Expression exp = new TerminalExpression("hello"); exp.interpret("hello world");
+```
+
+### Iterator
+**Explanation:** Provides a way to access elements of an aggregate object sequentially without exposing its underlying representation.  
+**Java Sample:**
+```java
+import java.util.*;
+class NameRepository {
+    String[] names = {"A","B"};
+    Iterator<String> getIterator() { return Arrays.asList(names).iterator(); }
+}
+// Iterator<String> it = new NameRepository().getIterator(); while(it.hasNext()) System.out.println(it.next());
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
