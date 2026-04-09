@@ -646,6 +646,22 @@ class NameRepository {
 }
 // Iterator<String> it = new NameRepository().getIterator(); while(it.hasNext()) System.out.println(it.next());
 ```
+## EVENT
+- **Core Architectural Paradigms** ✿ Event-Driven Architecture (EDA) ✿ Message-Driven Architecture (MDA) ✿ Reactive Architecture ✿ Streaming Architecture ✿ Asynchronous Architecture ✿ Distributed Systems ✿ Microservices Architecture ✿ Serverless Architecture ✿ Data-Driven Architecture ✿ Domain-Driven Design (DDD) ✿ CQRS (Command Query Responsibility Segregation) ✿ Event-Based Systems ✿ Flow-Based Programming 
+- **Event Streaming Keywords** ✿ Event Streaming ✿ Stream Processing ✿ Real-Time Data Pipelines ✿ Continuous Processing ✿ Data Streams ✿ Unbounded Data ✿ Stateful Stream Processing ✿ Stateless Processing ✿ Windowing (Tumbling, Sliding, Session) ✿ Event Time vs Processing Time ✿ Watermarks ✿ Backpressure ✿ Exactly-once Processing ✿ At-least-once Processing ✿ At-most-once Processing ✿ Stream Joins ✿ Stream Aggregation ✿ Log-based Streaming ✿ Distributed Log ✿ Immutable Log 
+- **Event Sourcing Keywords** ✿ Event Sourcing ✿ Event Store ✿ Append-only Log ✿ Immutable Events ✿ Event Replay ✿ Event Rehydration ✿ Snapshotting ✿ Aggregate ✿ Aggregate Root ✿ Domain Events ✿ Command Handling ✿ Event Versioning ✿ Event Schema Evolution ✿ Temporal Modeling ✿ Audit Log ✿ Change Data Capture (CDC) ✿ Write Model / Read Model ✿ Eventual Consistency 
+- **Event-Driven Architecture (EDA)** ✿ Event Producer ✿ Event Consumer ✿ Event Broker ✿ Event Bus ✿ Event Channel ✿ Event Notification ✿ Event Carried State Transfer ✿ Event Collaboration ✿ Loose Coupling ✿ Pub/Sub (Publish-Subscribe) ✿ Topic-based Routing ✿ Content-based Routing ✿ Event Filtering ✿ Event Transformation ✿ Event Enrichment ✿ Event Correlation ✿ Event Choreography ✿ Event Orchestration 
+- **Message-Driven Architecture (MDA)** ✿ Message Queue ✿ Message Broker ✿ Message Channel ✿ Message Handler ✿ Message Routing ✿ Message Transformation ✿ Message Translator ✿ Message Envelope ✿ Dead Letter Queue (DLQ) ✿ Message Acknowledgment ✿ Message Retry ✿ Idempotency ✿ Guaranteed Delivery ✿ Message Ordering ✿ FIFO / Priority Queue 
+- **Push-Based** ✿ Push Model ✿ Event Push ✿ Webhooks ✿ Server Push ✿ Publish-Subscribe ✿ Fan-out ✿ Reactive Push ✿ Observer Pattern 
+- **Pull-Based** ✿ Pull Model ✿ Polling ✿ Long Polling ✿ Consumer Pull ✿ Batch Processing ✿ Request-Response ✿ Data Fetching ✿ Lazy Loading 
+- **Hybrid Model** ✿ Push-Pull Hybrid ✿ Backpressure Control ✿ Consumer-driven Pull ✿ Reactive Streams 
+- **Patterns & Design Concepts**** ✿ Event Notification Pattern ✿ Event-Carried State Transfer Pattern ✿ Competing Consumers Pattern ✿ Saga Pattern (Orchestration / Choreography) ✿ Outbox Pattern ✿ Inbox Pattern ✿ Circuit Breaker ✿ Retry Pattern ✿ Bulkhead Pattern ✿ Idempotent Consumer ✿ Exactly-once Semantics ✿ Event Replay Pattern ✿ Dead Letter Handling ✿ Message Deduplication 
+- **Data & Consistency Concepts** ✿ Eventual Consistency ✿ Strong Consistency ✿ Distributed Transactions ✿ Two-Phase Commit (2PC) ✿ Saga Transactions ✿ Data Replication ✿ Data Partitioning ✿ Sharding ✿ Data Synchronization ✿ Consistency Models (CAP Theorem) 
+- **Integration & API Concepts** ✿ API Gateway ✿ Webhooks ✿ REST vs Events ✿ gRPC Streaming ✿ GraphQL Subscriptions ✿ Integration Patterns ✿ Enterprise Service Bus (ESB) ✿ Service Mesh ✿ Sidecar Pattern 
+- **Observability & Operations** ✿ Distributed Tracing ✿ Correlation ID ✿ Logging ✿ Metrics ✿ Monitoring ✿ Alerting ✿ Lag Monitoring (Consumer Lag) ✿ Throughput / Latency ✿ Backpressure Monitoring 
+- **Security & Governance** ✿ Event Schema Registry ✿ Schema Validation ✿ Data Contracts ✿ Encryption in Transit ✿ Encryption at Rest ✿ Authentication / Authorization ✿ Multi-Tenancy ✿ Data Governance 
+- **Advanced / Emerging Concepts** ✿ Data Mesh ✿ Streaming ETL ✿ Real-Time Analytics ✿ Event Mesh ✿ Digital Twin ✿ Edge Streaming ✿ AI/ML Streaming Pipelines ✿ Stateful Functions ✿ Serverless Streaming 
+- **Related Programming & Framework** ✿ Reactive Streams ✿ Project Reactor ✿ RxJava ✿ Akka Streams ✿ Spring WebFlux ✿ Kafka Streams ✿ Apache Flink ✿ Apache Spark Streaming ✿ Beam (Apache Beam) If you want, I can next: ✿ 🔥 Map these to interview Q&A (FAANG-level) ✿ 📊 Create a mindmap / architecture diagram ✿ 📄 Generate a downloadable PDF cheat sheet ✿ 🧠 Build system design scenarios (Netflix/Uber-style)
 
 
 
